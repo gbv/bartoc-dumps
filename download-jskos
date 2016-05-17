@@ -1,0 +1,32 @@
+#!/usr/bin/env perl
+use v5.14;
+use Catmandu -all;
+use HTTP::Tiny;
+use JSON;
+
+my $base = 'https://jskos-php-examples.herokuapp.com/BARTOC.php';
+my $delay = 1;
+
+my $http = HTTP::Tiny->new;
+my $json = JSON->new->utf8;
+
+my $exporter = exporter('JSON', 
+    pretty => 1, 
+    canonical => 1, 
+    file => 'bartoc-jskos.json' );
+
+importer('CSV', file => 'bartoc-uris.csv')->each(sub{
+    my $uri = $_[0]->{uri};
+    say $uri;
+    my $url = $base . '?'. $http->www_form_urlencode({uri => $uri});
+    my $res = $http->get($url);
+    if ($res->{success}) {
+        my $jskos = $json->decode($res->{content});
+        $exporter->add($jskos->[0]);
+    } else {
+        warn "Failed to access $url\n";
+    }
+    sleep $delay;
+});
+
+$exporter->commit;
