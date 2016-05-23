@@ -4,7 +4,7 @@ use Catmandu -all;
 use HTTP::Tiny;
 use JSON;
 
-my $base = 'https://jskos-php-examples.herokuapp.com/BARTOC.php';
+my $base = shift @ARGV || 'https://jskos-php-examples.herokuapp.com/BARTOC.php';
 my $delay = 1;
 
 my $http = HTTP::Tiny->new;
