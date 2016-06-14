@@ -9,13 +9,17 @@ my $delay = 1;
 
 my $http = HTTP::Tiny->new;
 my $json = JSON->new->utf8;
+my $exporter;
 
-my $exporter = exporter('JSON', 
-    pretty => 1, 
-    canonical => 1, 
-    file => 'bartoc-jskos.json' );
+$exporter = exporter('JSON', pretty => 1, canonical => 1, 
+    file => 'bartoc-schemes.json' );
+importer('CSV', file => 'bartoc-scheme-uris.csv')->each(&process);
 
-importer('CSV', file => 'bartoc-uris.csv')->each(sub{
+$exporter = exporter('JSON', pretty => 1, canonical => 1, 
+    file => 'bartoc-registries.json' );
+importer('CSV', file => 'bartoc-registry-uris.csv')->each(\&process);
+
+sub process {
     my $uri = $_[0]->{uri};
     say $uri;
     my $url = $base . '?'. $http->www_form_urlencode({uri => $uri});
@@ -27,6 +31,6 @@ importer('CSV', file => 'bartoc-uris.csv')->each(sub{
         warn "Failed to access $url\n";
     }
     sleep $delay;
-});
+};
 
 $exporter->commit;

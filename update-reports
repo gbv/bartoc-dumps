@@ -13,7 +13,7 @@ my $labelReport = exporter('TSV', file => 'reports/labels.tsv',
 );
 my $languageReport = exporter('TSV', file => 'reports/languages.tsv', fields => 'uri,language', header => 0);
 
-importer('JSON', file => 'bartoc-jskos.json')->each(sub {
+importer('JSON', file => 'bartoc-schemes.json')->each(sub {
     my $data = shift;
     my $uri = $data->{uri};
     
