@@ -13,7 +13,7 @@ my $exporter;
 
 $exporter = exporter('JSON', pretty => 1, canonical => 1, 
     file => 'bartoc-schemes.json' );
-importer('CSV', file => 'bartoc-scheme-uris.csv')->each(&process);
+importer('CSV', file => 'bartoc-scheme-uris.csv')->each(\&process);
 
 $exporter = exporter('JSON', pretty => 1, canonical => 1, 
     file => 'bartoc-registries.json' );
