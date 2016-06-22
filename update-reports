@@ -4,7 +4,7 @@ use Catmandu -all;
 use List::Util;
 
 my %missing;
-foreach (qw(url license created extent creator)) {
+foreach (qw(url license created extent creator scopeNote)) {
     $missing{$_} = exporter('TSV', header => 0, file => "reports/no-$_.tsv");
 }
 
