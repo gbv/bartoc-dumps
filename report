@@ -5,7 +5,7 @@ use List::Util;
 
 my %missing;
 foreach (qw(url license created extent creator scopeNote)) {
-    $missing{$_} = exporter('TSV', header => 0, file => "reports/no-$_.tsv");
+    $missing{$_} = exporter('TSV', header => 0, file => "reports/no-$_.txt");
 }
 
 my $labelReport = exporter('TSV', file => 'reports/labels.tsv',
@@ -18,12 +18,12 @@ foreach my $file (<scheme/*.json>) {
     my $data = shift;
     my $uri = $data->{uri};
     
-    # no-....tsv
+    # no-....txt
     foreach (keys %missing) {
         $missing{$_}->add({ uri => $uri }) unless $data->{$_};
     }
  
-    # labels.tsv
+    # labels.txt
     $data->{altLabel} //= {};
     $data->{prefLabel} //= {};
 
@@ -39,7 +39,7 @@ foreach my $file (<scheme/*.json>) {
 
     $labelReport->add($labels);
 
-    # languages.tsv
+    # languages.txt
     foreach (@{$data->{languages} // []}) {
         $languageReport->add({ uri => $uri, language => $_ });
     }
