@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://hetop.eu/hetop/"
+   ],
+   "prefLabel" : {
+      "en" : "HeTOP"
+   },
+   "uri" : "http://bartoc.org/en/node/1798"
+}

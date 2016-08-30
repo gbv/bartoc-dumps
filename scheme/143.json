@@ -1,0 +1,49 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Maori Subject Headings"
+      ],
+      "und" : [
+         "Nga Upoko Tukutuku"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/267016301"
+      }
+   ],
+   "languages" : [
+      "en",
+      "mi"
+   ],
+   "prefLabel" : {
+      "en" : "Maori Subject Headings"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "indigenous population"
+         },
+         "uri" : "http://eurovoc.europa.eu/5799"
+      },
+      {
+         "prefLabel" : {
+            "en" : "New Zealand"
+         },
+         "uri" : "http://eurovoc.europa.eu/2089"
+      },
+      {
+         "uri" : "http://dewey.info/class/305/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/993/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/143",
+   "url" : "http://mshupoko.natlib.govt.nz/mshupoko/"
+}

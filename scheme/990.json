@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro de Biología Animal",
+         "Tesauro ICYT de Biología Animal"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/157199298"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro ICYT de Biología Animal"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "animal life"
+         },
+         "uri" : "http://eurovoc.europa.eu/972"
+      },
+      {
+         "uri" : "http://dewey.info/class/590/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/990",
+   "url" : "http://thes.cindoc.csic.es/index_BIOL_esp.php"
+}

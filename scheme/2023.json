@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "MoEML Gazetteer of Early Modern London",
+         "Map of Early Modern London Gazetteer"
+      ]
+   },
+   "created" : "1997",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/146502862"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "license" : [
+      {
+         "uri" : "http://creativecommons.org/licenses/by-sa/3.0/"
+      }
+   ],
+   "prefLabel" : {
+      "en" : "Map of Early Modern London Gazetteer"
+   },
+   "subject" : [
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/39559"
+      },
+      {
+         "prefLabel" : {
+            "en" : "modern history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5664"
+      },
+      {
+         "uri" : "http://dewey.info/class/942/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#gazetteer",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/2023",
+   "url" : "https://mapoflondon.uvic.ca/gazetteer_a.htm"
+}

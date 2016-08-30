@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Thésaurus Héraclès",
+         "Thésaurus de la médiathèque INSEP"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/135581974"
+      }
+   ],
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus de la médiathèque INSEP"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "sport"
+         },
+         "uri" : "http://eurovoc.europa.eu/4245"
+      },
+      {
+         "uri" : "http://dewey.info/class/790/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/722",
+   "url" : "http://www.sportdocs.insep.fr/flora_insep/jsp/index.jsp"
+}

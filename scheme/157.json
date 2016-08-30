@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Association du Groupe de Recherche sur l'Autoformation Thésaurus",
+         "AGRAF Thésaurus"
+      ]
+   },
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "AGRAF Thésaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "learning"
+         },
+         "uri" : "http://eurovoc.europa.eu/5102"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/157",
+   "url" : "http://lllearning.free-h.net/A-GRAF/documents/biblio/thesaurus_af.htm"
+}

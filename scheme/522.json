@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/41993745"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Digital Spectral Classification Atlas"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "astronomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/3790"
+      },
+      {
+         "uri" : "http://dewey.info/class/523/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/522",
+   "url" : "http://ned.ipac.caltech.edu/level5/Gray/frames.html"
+}

@@ -1,0 +1,49 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148396178"
+      }
+   ],
+   "languages" : [
+      "ar",
+      "zh",
+      "en",
+      "fr",
+      "kk",
+      "pl",
+      "ru",
+      "sr",
+      "es",
+      "vi"
+   ],
+   "prefLabel" : {
+      "en" : "FAO Glossary of Biotechnology for Food and Agriculture"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "agronomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/685"
+      },
+      {
+         "prefLabel" : {
+            "en" : "biotechnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/3797"
+      },
+      {
+         "uri" : "http://dewey.info/class/630/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/660/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/979",
+   "url" : "http://www.fao.org/biotech/biotech-glossary/"
+}

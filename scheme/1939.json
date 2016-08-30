@@ -1,0 +1,30 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "OSC"
+   ],
+   "prefLabel" : {
+      "en" : "Open Shelves Classification",
+      "und" : "OSC"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "public library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4868"
+      },
+      {
+         "uri" : "http://dewey.info/class/027/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1939",
+   "url" : "https://www.librarything.com/wiki/index.php/Open_Shelves_Classification"
+}

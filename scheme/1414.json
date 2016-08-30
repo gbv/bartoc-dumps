@@ -1,0 +1,36 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "International Coastal Atlas Network Coastal Erosion Global Thesaurus",
+         "ICAN Coastal Erosion Global Thesaurus"
+      ]
+   },
+   "languages" : [
+      "en",
+      "fr",
+      "no",
+      "pt",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "ICAN Coastal Erosion Global Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "coastal region"
+         },
+         "uri" : "http://eurovoc.europa.eu/3043"
+      },
+      {
+         "uri" : "http://dewey.info/class/551/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1414",
+   "url" : "http://vocab.nerc.ac.uk/collection/A01/current/"
+}

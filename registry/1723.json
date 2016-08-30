@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://museum.zib.de/museumsvokabular/"
+   ],
+   "prefLabel" : {
+      "en" : "museumsvokabular.de"
+   },
+   "uri" : "http://bartoc.org/en/node/1723"
+}

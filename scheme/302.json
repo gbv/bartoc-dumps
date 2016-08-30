@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/159644055"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "TRT"
+   ],
+   "prefLabel" : {
+      "en" : "Transportation Research Thesaurus",
+      "und" : "TRT"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "organisation of transport"
+         },
+         "uri" : "http://eurovoc.europa.eu/2181"
+      },
+      {
+         "uri" : "http://dewey.info/class/380/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/302",
+   "url" : "http://trt.trb.org/trt.asp"
+}

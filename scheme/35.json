@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro ISOC de Urbanismo"
+      ],
+      "und" : [
+         "The CINDOC/CSIC Thesaurus for Urbanism"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/147551119"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "und" : "The CINDOC/CSIC Thesaurus for Urbanism"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "town planning"
+         },
+         "uri" : "http://eurovoc.europa.eu/4619"
+      },
+      {
+         "uri" : "http://dewey.info/class/710/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/35",
+   "url" : "http://digital.csic.es/bitstream/10261/35786/1/TesauroUrbanismo1992.pdf"
+}

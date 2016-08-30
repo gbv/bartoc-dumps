@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fi" : [
+         "Sosiaalisen median sanasto"
+      ],
+      "sv" : [
+         "Ordlista över sociala medier"
+      ],
+      "und" : [
+         "Social media vocabulary"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/295904651"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fi",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "Social media vocabulary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "means of communication"
+         },
+         "uri" : "http://eurovoc.europa.eu/2012"
+      },
+      {
+         "uri" : "http://dewey.info/class/302/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/855",
+   "url" : "http://www.tsk.fi/tsk/fi/sosiaalisen_median_sanasto_tsk_40-513.html"
+}

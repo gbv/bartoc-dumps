@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.taxonomywarehouse.com/"
+   ],
+   "prefLabel" : {
+      "en" : "Taxonomy Warehouse"
+   },
+   "uri" : "http://bartoc.org/en/node/1733"
+}

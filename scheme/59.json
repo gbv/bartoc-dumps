@@ -1,0 +1,55 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "English Heritage Monument Type Thesaurus",
+         "EH Monument Type Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145308002"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/308771733"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "EH Monument Type Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "architectural heritage"
+         },
+         "uri" : "http://eurovoc.europa.eu/4100"
+      },
+      {
+         "prefLabel" : {
+            "en" : "monument"
+         },
+         "uri" : "http://eurovoc.europa.eu/5747"
+      },
+      {
+         "prefLabel" : {
+            "en" : "archaeology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2453"
+      },
+      {
+         "uri" : "http://dewey.info/class/720/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/942/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/59",
+   "url" : "http://fishforum.weebly.com/download-fish-terminology.html"
+}

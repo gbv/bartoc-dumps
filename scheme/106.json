@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Telecommunications Object Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "telecommunications"
+         },
+         "uri" : "http://eurovoc.europa.eu/4424"
+      },
+      {
+         "uri" : "http://dewey.info/class/384/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/106",
+   "url" : "http://www.connected-earth.com/Thecollection/Thesaurus/"
+}

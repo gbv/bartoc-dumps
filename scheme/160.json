@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Banco Terminologógico Educativo"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "education"
+         },
+         "uri" : "http://eurovoc.europa.eu/668"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Uruguay"
+         },
+         "uri" : "http://eurovoc.europa.eu/4621"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/989/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/160",
+   "url" : "http://vocabularyserver.com/mercosur/uruguay/"
+}

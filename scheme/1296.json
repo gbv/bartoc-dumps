@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Classification for law"
+      ],
+      "fi" : [
+         "Oikeustieteen hyllyluokitus"
+      ],
+      "sv" : [
+         "Klassifikation för juridik"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126520961"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fi",
+      "sv"
+   ],
+   "prefLabel" : {
+      "en" : "Classification for law"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "legal science"
+         },
+         "uri" : "http://eurovoc.europa.eu/3935"
+      },
+      {
+         "uri" : "http://dewey.info/class/340/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1296",
+   "url" : "http://libraryguides.helsinki.fi/c.php?g=172710&p=1225501"
+}

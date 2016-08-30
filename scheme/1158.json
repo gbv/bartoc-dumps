@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Defence Technological and Scientific Thesaurus"
+      ],
+      "und" : [
+         "DEFTEST"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145936537"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "DEFTEST"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "natural and applied sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/100224"
+      },
+      {
+         "prefLabel" : {
+            "en" : "technology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4415"
+      },
+      {
+         "uri" : "http://dewey.info/class/500/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/620/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1158",
+   "url" : "http://www.dtic.mil/cgi-bin/GetTRDoc"
+}

@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "T.M.C. Asser Instituut Classification Scheme",
+         "T.M.C. Asser Institute Classification Scheme"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/152110145"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "T.M.C. Asser Institute Classification Scheme"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "international law"
+         },
+         "uri" : "http://eurovoc.europa.eu/565"
+      },
+      {
+         "uri" : "http://dewey.info/class/341/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1148",
+   "url" : "http://www.asser.nl/upload/pil-webroot/documents/cms_pil_2_1_classification.pdf"
+}

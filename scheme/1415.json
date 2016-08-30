@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Oregon Coastal Atlas Coastal Erosion Thesaurus Markup Terms",
+         "OCA Coastal Erosion markup terms"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "OCA Coastal Erosion markup terms"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "coastal region"
+         },
+         "uri" : "http://eurovoc.europa.eu/3043"
+      },
+      {
+         "uri" : "http://dewey.info/class/551/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1415",
+   "url" : "http://vocab.nerc.ac.uk/collection/A02/current/"
+}

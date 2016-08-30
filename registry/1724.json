@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.bodc.ac.uk/products/web_services/vocab/"
+   ],
+   "prefLabel" : {
+      "en" : "NERC Vocabulary Server"
+   },
+   "uri" : "http://bartoc.org/en/node/1724"
+}

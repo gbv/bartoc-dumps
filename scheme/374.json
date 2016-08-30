@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Anthropological Index Online Keywords",
+         "AIO Keywords"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/134857252"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "AIO Keywords"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "ethnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/892"
+      },
+      {
+         "uri" : "http://dewey.info/class/301/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/374",
+   "url" : "https://aio.equituk.net/aio.php"
+}

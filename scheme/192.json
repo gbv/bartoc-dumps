@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Schools Online Thesaurus"
+      ],
+      "und" : [
+         "ScOT"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "ScOT"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Oceania"
+         },
+         "uri" : "http://eurovoc.europa.eu/2113"
+      },
+      {
+         "prefLabel" : {
+            "en" : "educational institution"
+         },
+         "uri" : "http://eurovoc.europa.eu/873"
+      },
+      {
+         "uri" : "http://dewey.info/class/371/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/993/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/994/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/192",
+   "url" : "http://scot.curriculum.edu.au/"
+}

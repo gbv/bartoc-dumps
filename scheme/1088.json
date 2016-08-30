@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/155806043"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Standard Glossary of Terms used in Software Testing"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "software"
+         },
+         "uri" : "http://eurovoc.europa.eu/1696"
+      },
+      {
+         "uri" : "http://dewey.info/class/005/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1088",
+   "url" : "http://www.istqb.org/downloads/viewcategory/20.html"
+}

@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Klassifikation für Musikbibliotheken"
+      ],
+      "und" : [
+         "KfM"
+      ]
+   },
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "KfM"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "music"
+         },
+         "uri" : "http://eurovoc.europa.eu/2023"
+      },
+      {
+         "uri" : "http://dewey.info/class/780/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1941"
+}

@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.keep-totem.co.uk/"
+   ],
+   "prefLabel" : {
+      "en" : "TOTEM"
+   },
+   "uri" : "http://bartoc.org/en/node/1933"
+}

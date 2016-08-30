@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Classificació catalana de productes per activitats",
+         "CCPA-2014 (ca)"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/169416476"
+      }
+   ],
+   "languages" : [
+      "ca"
+   ],
+   "prefLabel" : {
+      "und" : "CCPA-2014 (ca)"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "primary product"
+         },
+         "uri" : "http://eurovoc.europa.eu/2748"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Catalonia"
+         },
+         "uri" : "http://eurovoc.europa.eu/5273"
+      },
+      {
+         "uri" : "http://dewey.info/class/381/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/994",
+   "url" : "http://www.idescat.cat/Classif/"
+}

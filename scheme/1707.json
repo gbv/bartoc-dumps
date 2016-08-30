@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/155781074"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik der Universitäts- und Landesbibliothek Bonn"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "higher education"
+         },
+         "uri" : "http://eurovoc.europa.eu/800"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1707",
+   "url" : "http://www.ulb.uni-bonn.de/literatursuche/Systematische%20Suche%20der%20ULB"
+}

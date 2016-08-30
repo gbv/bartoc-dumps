@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "2012",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148328332"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q36578"
+   ],
+   "languages" : [
+      "de"
+   ],
+   "license" : [
+      {
+         "uri" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      }
+   ],
+   "notation" : [
+      "GND"
+   ],
+   "prefLabel" : {
+      "de" : "Gemeinsame Normdatei",
+      "und" : "GND"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/430",
+   "url" : "http://www.dnb.de/gnd"
+}

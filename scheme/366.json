@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "pt" : [
+         "Thesaurus em Direito do Trabalho"
+      ],
+      "und" : [
+         "TeJuT"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/158299045"
+      }
+   ],
+   "languages" : [
+      "pt"
+   ],
+   "prefLabel" : {
+      "und" : "TeJuT"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "labour law"
+         },
+         "uri" : "http://eurovoc.europa.eu/557"
+      },
+      {
+         "uri" : "http://dewey.info/class/344/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/366",
+   "url" : "http://eprints.rclis.org/handle/10760/7552"
+}

@@ -1,0 +1,71 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q5610509"
+   ],
+   "languages" : [
+      "ar",
+      "zh",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "he",
+      "is",
+      "it",
+      "ja",
+      "ko",
+      "no",
+      "fa",
+      "pt",
+      "mo",
+      "ru",
+      "es",
+      "sv",
+      "th",
+      "tr"
+   ],
+   "notation" : [
+      "GMFCS"
+   ],
+   "prefLabel" : {
+      "und" : "Gross Motor Function Classification System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "child"
+         },
+         "uri" : "http://eurovoc.europa.eu/758"
+      },
+      {
+         "prefLabel" : {
+            "en" : "physically disabled"
+         },
+         "uri" : "http://eurovoc.europa.eu/3349"
+      },
+      {
+         "prefLabel" : {
+            "en" : "young person"
+         },
+         "uri" : "http://eurovoc.europa.eu/1528"
+      },
+      {
+         "uri" : "http://dewey.info/class/362/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/48032"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50337"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/254",
+   "url" : "https://canchild.ca/en/resources/42-gross-motor-function-classification-system-expanded-revised-gmfcs-e-r"
+}

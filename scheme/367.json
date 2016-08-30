@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Thesaurus of Economic, Social and Cultural Rights"
+      ],
+      "es" : [
+         "Tesauro de los Derechos Económicos, Sociales y Culturales"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/124775207"
+      }
+   ],
+   "languages" : [
+      "en",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro de los Derechos Económicos, Sociales y Culturales"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "human rights"
+         },
+         "uri" : "http://eurovoc.europa.eu/584"
+      },
+      {
+         "uri" : "http://dewey.info/class/323/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/367",
+   "url" : "http://ip.aaas.org/sthesaurus.nsf"
+}

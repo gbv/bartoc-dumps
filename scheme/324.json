@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Software Taxonomy",
+         "Taxonomy of Software Types",
+         "Taxonomy of Key Management Software Types or Categorizations"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Taxonomy of Key Management Software Types or Categorizations"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "software"
+         },
+         "uri" : "http://eurovoc.europa.eu/1696"
+      },
+      {
+         "uri" : "http://dewey.info/class/005/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/324",
+   "url" : "http://www.if4it.com/SYNTHESIZED/FRAMEWORKS/TAXONOMY/management_software_taxonomy.html"
+}

@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Finnish Ontology of Health and Welfare"
+      ],
+      "fi" : [
+         "Terveyden ja hyvinvoinnin ontologia"
+      ],
+      "sv" : [
+         "Ontologi för hälsa och välfärd"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126520961"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fi",
+      "sv"
+   ],
+   "notation" : [
+      "TERO"
+   ],
+   "prefLabel" : {
+      "en" : "Finnish Ontology of Health and Welfare"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "public health"
+         },
+         "uri" : "http://eurovoc.europa.eu/3885"
+      },
+      {
+         "uri" : "http://dewey.info/class/613/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/928",
+   "url" : "http://finto.fi/tero/fi/"
+}

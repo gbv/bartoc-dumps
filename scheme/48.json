@@ -1,0 +1,57 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "European Heritage Network Multilingual Thesaurus",
+         "HEREIN Thesaurus"
+      ]
+   },
+   "languages" : [
+      "bg",
+      "hr",
+      "nl",
+      "en",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "lt",
+      "no",
+      "pl",
+      "pt",
+      "mo",
+      "sr",
+      "sl",
+      "es"
+   ],
+   "prefLabel" : {
+      "und" : "HEREIN Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "cultural heritage"
+         },
+         "uri" : "http://eurovoc.europa.eu/2278"
+      },
+      {
+         "uri" : "http://dewey.info/class/720/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/930/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/49587"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/49389"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/48",
+   "url" : "http://www.herein-system.eu/thesaurus-presentation"
+}

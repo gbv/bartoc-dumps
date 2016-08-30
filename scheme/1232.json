@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Nomenclature 3.0 for Museum Cataloging",
+         "System for Classifying Man-Made Objects"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/91293835"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/2467243"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/106881327"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "System for Classifying Man-Made Objects"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "museum"
+         },
+         "uri" : "http://eurovoc.europa.eu/2022"
+      },
+      {
+         "uri" : "http://dewey.info/class/069/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/1232",
+   "url" : "http://books.google.ch/books/about/Nomenclature_3_0_for_Museum_Cataloging.html"
+}

@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "MAT"
+   ],
+   "prefLabel" : {
+      "en" : "Minimal Anatomy Terminology",
+      "und" : "MAT"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "anatomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/1859"
+      },
+      {
+         "uri" : "http://dewey.info/class/571/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/546",
+   "url" : "http://www.ebi.ac.uk/microarray-srv/mat/"
+}

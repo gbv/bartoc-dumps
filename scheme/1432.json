@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/142164535"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik Ethnologie"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "ethnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/892"
+      },
+      {
+         "uri" : "http://dewey.info/class/301/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1432",
+   "url" : "http://www.ub.uni-konstanz.de/fileadmin/Dateien/Fachreferenten/Heeg/systemstellen_atp.pdf"
+}

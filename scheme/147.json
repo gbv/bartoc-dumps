@@ -1,0 +1,34 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Brucellosis Ontology"
+      ],
+      "und" : [
+         "IDOBRU"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "IDOBRU"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "brucellosis"
+         },
+         "uri" : "http://eurovoc.europa.eu/5047"
+      },
+      {
+         "uri" : "http://dewey.info/class/616/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/147",
+   "url" : "http://www.phidias.us/bbp/idobru/"
+}

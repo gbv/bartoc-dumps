@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "2012",
+   "extent" : "2.200.00 ORCID IDs, 13.000.000 works (2016-05)",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q51044"
+   ],
+   "languages" : [
+      "zh",
+      "cs",
+      "en",
+      "fr",
+      "it",
+      "ja",
+      "pt",
+      "ru",
+      "es"
+   ],
+   "license" : [
+      {
+         "uri" : "http://creativecommons.org/publicdomain/zero/1.0/"
+      }
+   ],
+   "notation" : [
+      "ORCID"
+   ],
+   "prefLabel" : {
+      "en" : "Open Researcher and Contributor ID"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2914"
+      },
+      {
+         "uri" : "http://dewey.info/class/920/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/2021",
+   "url" : "http://orcid.org/"
+}

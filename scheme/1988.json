@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/233744054"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Sachsystematik der Nordrhein-Westfälischen Bibliographie "
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "North RhineWestphalia"
+         },
+         "uri" : "http://eurovoc.europa.eu/3711"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1988",
+   "url" : "http://193.30.112.134/F/Q5K1BS368IVP2BXG9XALC2LA3Y4IKBP2FJ66FLKT1TLGDVV1IX-14580?func=file&file_name=systematik_js&local_base=NWBIB"
+}

@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "New Zealand Standard Classification of Non–Profit Organisations"
+      ],
+      "und" : [
+         "NZSCNPO"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148067905"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "NZSCNPO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "nonprofit organisation"
+         },
+         "uri" : "http://eurovoc.europa.eu/4204"
+      },
+      {
+         "uri" : "http://dewey.info/class/346/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/361/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/746",
+   "url" : "http://www.stats.govt.nz/methods/classifications-and-standards/classification-related-stats-standards/non-profit-organisation.aspx"
+}

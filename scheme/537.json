@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "The International Classification of Non-profit Organizations"
+      ],
+      "fr" : [
+         "La Classification Internationale des Organismes Sans But Lucratif"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/132440675"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "notation" : [
+      "ICNPO"
+   ],
+   "prefLabel" : {
+      "fr" : "La Classification Internationale des Organismes Sans But Lucratif"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "nonprofit organisation"
+         },
+         "uri" : "http://eurovoc.europa.eu/4204"
+      },
+      {
+         "uri" : "http://dewey.info/class/346/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/361/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/537",
+   "url" : "http://www.statcan.gc.ca/pub/13-015-x/2009000/sect13-eng.htm"
+}

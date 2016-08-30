@@ -1,0 +1,53 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "1998",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/123050205"
+      }
+   ],
+   "extent" : "~100,000 terminological records (2016-08).",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q12257615"
+   ],
+   "languages" : [
+      "eu",
+      "en",
+      "fr",
+      "de",
+      "la",
+      "es"
+   ],
+   "prefLabel" : {
+      "de" : "Euskalterm"
+   },
+   "scopeNote" : {
+      "en" : [
+         "\"This covers all lexica and sections of vocabulary drawn up by UZEI, Basque Centre for Terminology and Lexicography. It currently holds more than 100,000 terminological records, with the equivalent terms in Spanish, French, English and Latin (in taxonomy). Terms are constantly updated according to the rules of Euskaltzaindia (Royal Academy of the Basque Language) and the proposals for terminology normalization (technical committees and Terminology Commission).\""
+      ]
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "language"
+         },
+         "uri" : "http://eurovoc.europa.eu/1580"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Basque Country"
+         },
+         "uri" : "http://eurovoc.europa.eu/2289"
+      },
+      {
+         "uri" : "http://dewey.info/class/499/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#dictionary",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/17728",
+   "url" : "http://www.euskara.euskadi.net/r59-euskalte/eu/q91EusTermWar/kontsultaJSP/q91aAction.do"
+}

@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "English Heritage Aircraft Type Thesaurus",
+         "EH Aircraft Type Thesaurus",
+         "EH Historic Aircraft Type Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145308002"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/308771733"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "EH Historic Aircraft Type Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "aircraft"
+         },
+         "uri" : "http://eurovoc.europa.eu/4438"
+      },
+      {
+         "uri" : "http://dewey.info/class/387/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/50",
+   "url" : "http://fishforum.weebly.com/download-fish-terminology.html"
+}

@@ -1,0 +1,30 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/144810222"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "SocINDEX Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "sociology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4205"
+      },
+      {
+         "uri" : "http://dewey.info/class/301/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/277"
+}

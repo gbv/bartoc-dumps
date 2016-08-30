@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "1967",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/284266261"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Elementary Sumerian Glossary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "language"
+         },
+         "uri" : "http://eurovoc.europa.eu/1580"
+      },
+      {
+         "uri" : "http://dewey.info/class/499/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/17712",
+   "url" : "http://gizidda.altervista.org/ebooks/Daniel-Foxvog-SumerianGlossary.pdf"
+}

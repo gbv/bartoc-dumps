@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro de Historia de las Mujeres",
+         "Tesaurus d'història de les dones"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/140556370"
+      }
+   ],
+   "languages" : [
+      "ca",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesaurus d'història de les dones"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "history"
+         },
+         "uri" : "http://eurovoc.europa.eu/1245"
+      },
+      {
+         "prefLabel" : {
+            "en" : "woman"
+         },
+         "uri" : "http://eurovoc.europa.eu/5280"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/900/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/68",
+   "url" : "http://www.ub.edu/duoda/diferencia/html/ca/tesauro.html"
+}

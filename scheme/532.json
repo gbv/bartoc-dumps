@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Verband Deutscher Prädikatsweingüter e. V. Klassifikationsmodell"
+      ],
+      "und" : [
+         "VDP Klassifikationsmodell",
+         "VDP Klassifikation"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/242756436"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "VDP Klassifikation"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "wine of superior quality"
+         },
+         "uri" : "http://eurovoc.europa.eu/4717"
+      },
+      {
+         "uri" : "http://dewey.info/class/641/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/532",
+   "url" : "http://www.vdp.de/de/der-vdp/klassifikation/"
+}

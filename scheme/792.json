@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Ethnicity New Zealand Standard Classification"
+      ],
+      "und" : [
+         "ETHNIC05"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148067905"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "ETHNIC05"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "New Zealand"
+         },
+         "uri" : "http://eurovoc.europa.eu/2089"
+      },
+      {
+         "prefLabel" : {
+            "en" : "ethnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/892"
+      },
+      {
+         "uri" : "http://dewey.info/class/301/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/792",
+   "url" : "http://www.stats.govt.nz/methods/classifications-and-standards/classification-related-stats-standards/ethnicity.aspx"
+}

@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "DTNSRDC Library Subject Thesaurus",
+         "David W. Taylor Naval Ship Research and Development Center Library Subject Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/132524554"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "David W. Taylor Naval Ship Research and Development Center Library Subject Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "maritime shipping"
+         },
+         "uri" : "http://eurovoc.europa.eu/2041"
+      },
+      {
+         "prefLabel" : {
+            "en" : "vessel"
+         },
+         "uri" : "http://eurovoc.europa.eu/4827"
+      },
+      {
+         "uri" : "http://dewey.info/class/623/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1154",
+   "url" : "http://www.dtic.mil/cgi-bin/GetTRDoc"
+}

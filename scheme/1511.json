@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "The Complete Plumbing Glossary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "building services"
+         },
+         "uri" : "http://eurovoc.europa.eu/4414"
+      },
+      {
+         "uri" : "http://dewey.info/class/628/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1511",
+   "url" : "http://www.wpjheating.co.uk/the-complete-plumbing-glossary/"
+}

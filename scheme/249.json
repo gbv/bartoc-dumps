@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "International Social Security Association Social Security Thesaurus",
+         "ISSA Social Security Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145033870"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "de",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "ISSA Social Security Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social security"
+         },
+         "uri" : "http://eurovoc.europa.eu/4050"
+      },
+      {
+         "uri" : "http://dewey.info/class/360/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/249",
+   "url" : "http://www.issa.int/content/download/135919/2764020/file/thesaurus-en.pdf"
+}

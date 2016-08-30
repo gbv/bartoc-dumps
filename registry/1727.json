@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.ontobee.org/"
+   ],
+   "prefLabel" : {
+      "en" : "Ontobee"
+   },
+   "uri" : "http://bartoc.org/en/node/1727"
+}

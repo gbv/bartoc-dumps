@@ -1,0 +1,78 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "1999",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/167896131"
+      }
+   ],
+   "extent" : "8.4 million terms, including approximately 540 000 abbreviations and 130 000 phrases (2016-06)",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q1520860"
+   ],
+   "languages" : [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "ga",
+      "it",
+      "la",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "mo",
+      "sk",
+      "sl",
+      "es",
+      "sv"
+   ],
+   "notation" : [
+      "IATE"
+   ],
+   "prefLabel" : {
+      "und" : "Inter-Active Terminology for Europe"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "European Union"
+         },
+         "uri" : "http://eurovoc.europa.eu/4060"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50220"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50430"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51043"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/49253"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50770"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/20",
+   "url" : "http://iate.europa.eu"
+}

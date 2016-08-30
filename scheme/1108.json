@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Thesaurus Centre Intégré de Gestion de l'Information",
+         "Thesaurus CIGI"
+      ]
+   },
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Thesaurus CIGI"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "disabled person"
+         },
+         "uri" : "http://eurovoc.europa.eu/1231"
+      },
+      {
+         "prefLabel" : {
+            "en" : "social integration"
+         },
+         "uri" : "http://eurovoc.europa.eu/1469"
+      },
+      {
+         "uri" : "http://dewey.info/class/362/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1108",
+   "url" : "http://www.cigi.irdpq.qc.ca/ListRecord.htm"
+}

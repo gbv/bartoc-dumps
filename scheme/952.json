@@ -1,0 +1,63 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Currencies Name Authority List",
+         "Currencies NAL"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/229069752"
+      }
+   ],
+   "languages" : [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "ga",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "mo",
+      "sk",
+      "sl",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "Currencies NAL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "money"
+         },
+         "uri" : "http://eurovoc.europa.eu/1969"
+      },
+      {
+         "uri" : "http://dewey.info/class/332/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51139"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/952",
+   "url" : "http://open-data.europa.eu/en/data/dataset/currency"
+}

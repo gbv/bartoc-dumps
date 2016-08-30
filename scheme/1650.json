@@ -1,0 +1,36 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/167996729"
+      }
+   ],
+   "languages" : [
+      "it"
+   ],
+   "prefLabel" : {
+      "it" : "Linguaggiodonna"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "women's movement"
+         },
+         "uri" : "http://eurovoc.europa.eu/2003"
+      },
+      {
+         "prefLabel" : {
+            "en" : "woman"
+         },
+         "uri" : "http://eurovoc.europa.eu/5280"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1650"
+}

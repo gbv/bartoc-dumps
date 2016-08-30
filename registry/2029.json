@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.csu.edu.au/faculty/educat/sis/student-resources/lists/information-organisation-element-sets"
+   ],
+   "prefLabel" : {
+      "en" : "Information Organisation Element Sets"
+   },
+   "uri" : "http://bartoc.org/en/node/2029"
+}

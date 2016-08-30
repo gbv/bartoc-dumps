@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/132283143/"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Psychologische Tests Klassifikation"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "psychology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2856"
+      },
+      {
+         "uri" : "http://dewey.info/class/150/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/2017",
+   "url" : "https://www.zpid.de/psychologie/testklassifikation.php"
+}

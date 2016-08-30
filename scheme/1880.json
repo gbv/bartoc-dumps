@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "pl"
+   ],
+   "notation" : [
+      "SKU"
+   ],
+   "prefLabel" : {
+      "pl" : "System Klasyfikacji Umiejętności",
+      "und" : "SKU"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "child"
+         },
+         "uri" : "http://eurovoc.europa.eu/758"
+      },
+      {
+         "prefLabel" : {
+            "en" : "leisure"
+         },
+         "uri" : "http://eurovoc.europa.eu/1700"
+      },
+      {
+         "prefLabel" : {
+            "en" : "young person"
+         },
+         "uri" : "http://eurovoc.europa.eu/1528"
+      },
+      {
+         "uri" : "http://dewey.info/class/790/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#categorization_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1880",
+   "url" : "http://www.edugracja.pl/system-klasyfikacji-umiejetnosci/"
+}

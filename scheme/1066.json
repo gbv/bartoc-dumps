@@ -1,0 +1,49 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Kontenrahmen und Funktionale Gliederung"
+      ],
+      "en" : [
+         "Chart of Accounts and Functional Classification"
+      ],
+      "fr" : [
+         "Plan comptable et Classification fonctionnelle"
+      ],
+      "it" : [
+         "Piano contabile generale e Classificazione funzionale"
+      ]
+   },
+   "languages" : [
+      "en",
+      "fr",
+      "de",
+      "it"
+   ],
+   "prefLabel" : {
+      "en" : "Chart of Accounts and Functional Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Switzerland"
+         },
+         "uri" : "http://eurovoc.europa.eu/4324"
+      },
+      {
+         "prefLabel" : {
+            "en" : "public accounting"
+         },
+         "uri" : "http://eurovoc.europa.eu/1018"
+      },
+      {
+         "uri" : "http://dewey.info/class/657/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1066",
+   "url" : "http://www.srs-cspcp.ch/srscspcp.nsf/vwBaseDocuments/PCSRS01"
+}

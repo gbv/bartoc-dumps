@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "nl",
+      "en",
+      "fi",
+      "fr",
+      "de",
+      "it",
+      "no",
+      "pt",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "en" : "CAB Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "life sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3941"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/630/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/211",
+   "url" : "http://www.cabi.org/cabthesaurus/"
+}

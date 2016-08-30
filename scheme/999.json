@@ -1,0 +1,56 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "IDRC Library Thesaurus"
+      ],
+      "fr" : [
+         "International Development Research Centre Library Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/128539272"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "IDRC Library Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "economic cooperation"
+         },
+         "uri" : "http://eurovoc.europa.eu/209"
+      },
+      {
+         "prefLabel" : {
+            "en" : "international cooperation"
+         },
+         "uri" : "http://eurovoc.europa.eu/216"
+      },
+      {
+         "prefLabel" : {
+            "en" : "economic development"
+         },
+         "uri" : "http://eurovoc.europa.eu/427"
+      },
+      {
+         "uri" : "http://dewey.info/class/327/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/337/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/999",
+   "url" : "http://idl-bnc.idrc.ca/dspace/bitstream/10625/837/1/IDL-837.pdf"
+}

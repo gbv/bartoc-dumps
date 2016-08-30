@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "notation" : [
+      "TAG"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus de l'Activité Gouvernementale du Québec"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Canada"
+         },
+         "uri" : "http://eurovoc.europa.eu/5100"
+      },
+      {
+         "prefLabel" : {
+            "en" : "government"
+         },
+         "uri" : "http://eurovoc.europa.eu/1172"
+      },
+      {
+         "uri" : "http://dewey.info/class/320/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/971/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/278",
+   "url" : "http://collections.banq.qc.ca/ark:/52327/bs39844"
+}

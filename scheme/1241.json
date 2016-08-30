@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/307290186"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik der Zentralbibliothek der Hochschule Hannover"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "higher education"
+         },
+         "uri" : "http://eurovoc.europa.eu/800"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1241",
+   "url" : "http://www.hs-hannover.de/bibl/literatursuche/systematiken/systematik-zentralbibliothek/"
+}

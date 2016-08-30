@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "SFI Coding and Classification System for Ship Information",
+         "SFI Codification System"
+      ],
+      "und" : [
+         "SFI Group System"
+      ]
+   },
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q7389960"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "SFI Group System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "maritime transport"
+         },
+         "uri" : "http://eurovoc.europa.eu/4522"
+      },
+      {
+         "prefLabel" : {
+            "en" : "vessel"
+         },
+         "uri" : "http://eurovoc.europa.eu/4827"
+      },
+      {
+         "uri" : "http://dewey.info/class/623/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1054",
+   "url" : "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA446592"
+}

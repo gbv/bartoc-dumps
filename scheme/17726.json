@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "2004",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/141837812"
+      }
+   ],
+   "extent" : "6000 entrées (2016-08).",
+   "languages" : [
+      "en",
+      "fr",
+      "es"
+   ],
+   "notation" : [
+      "DAMT"
+   ],
+   "prefLabel" : {
+      "fr" : "Dictionnaire analytique de la mondialisation et du travail"
+   },
+   "scopeNote" : {
+      "en" : [
+         "\"The DAMT is a unique multilingual dictionary grouping the concepts of globalization, economics and social issues pertaining to the field of Industrial Relations. This Dictionary was started in 2004 under Jeanne Dancette’s direction, professor at the Department of Linguistics and Translation, Université de Montréal. The aim is to provide better understanding of the concepts of globalization, economics and labour. This is why a typical entry contains a definition, a context and a descriptive summary of the concept referred to, as well as a list of associated terms. Thus, you can read them as mini encyclopaedic articles giving basic information about past and present realities. The definitions offered are general and consensual. The information presented results from our own synthesis of authorized texts written by experts in the field. The articles are written in English, French and Spanish. However, they are not translations; they differ according to the information found in each language, sometimes complementing each other. The DAMT is also a thesaurus. Its aim is to provide terminology in three different languages. The Dictionary features a system of semantic relations between terms—an innovative approach conceived to help unveil the nuances between concepts. Translators, students and researchers will find it useful.\""
+      ]
+   },
+   "subject" : [
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51174"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/330/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#dictionary",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/17726",
+   "url" : "http://damt-dico.rhcloud.com/"
+}

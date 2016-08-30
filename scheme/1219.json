@@ -1,0 +1,57 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Fakultät für Philologie, Fachbereichsbibliothek Skandinavistik Aufstellungssystematik"
+      ],
+      "und" : [
+         "Bibliothekssystematik der Sektion Skandinavistik"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133348453"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "Bibliothekssystematik der Sektion Skandinavistik"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "prefLabel" : {
+            "en" : "linguistics"
+         },
+         "uri" : "http://eurovoc.europa.eu/1670"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Northern Europe"
+         },
+         "uri" : "http://eurovoc.europa.eu/911"
+      },
+      {
+         "uri" : "http://dewey.info/class/439/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/839/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/948/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1219",
+   "url" : "http://www.ub.ruhr-uni-bochum.de/imperia/md/content/systematik_skand.pdf"
+}

@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Controlled Vocabularies for Use in Rare Book and Special Collections Cataloging"
+      ],
+      "und" : [
+         "RBMS Controlled Vocabularies"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/136098327"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/120688768"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "RBMS Controlled Vocabularies"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "book trade"
+         },
+         "uri" : "http://eurovoc.europa.eu/1392"
+      },
+      {
+         "uri" : "http://dewey.info/class/026/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/090/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/117",
+   "url" : "http://www.rbms.info/committees/bibliographic_standards/controlled_vocabularies/"
+}

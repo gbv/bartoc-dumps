@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Derwent World Patents Index Classification System"
+      ],
+      "und" : [
+         "DWPI Classification System"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/131744324"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "DWPI Classification System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "patent"
+         },
+         "uri" : "http://eurovoc.europa.eu/5042"
+      },
+      {
+         "prefLabel" : {
+            "en" : "technology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4415"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/508",
+   "url" : "http://ip-science.thomsonreuters.com/scientific/support/patents/dwpiref/reftools/classification/"
+}

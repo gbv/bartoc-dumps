@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Brasswind Terminology"
+      ],
+      "und" : [
+         "CIMCIM Terminology",
+         "Comité international pour les musées et collections d’instruments de musique Terminology"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/136944096"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Brasswind Terminology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "musical instrument"
+         },
+         "uri" : "http://eurovoc.europa.eu/1458"
+      },
+      {
+         "uri" : "http://dewey.info/class/784/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1202",
+   "url" : "http://www.homepages.ed.ac.uk/am/itt/ittb.html"
+}

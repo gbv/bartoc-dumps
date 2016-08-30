@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/123926298"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q1196964"
+   ],
+   "languages" : [
+      "zh",
+      "nl",
+      "en",
+      "fr",
+      "de",
+      "he",
+      "no",
+      "es",
+      "sv"
+   ],
+   "notation" : [
+      "LOM"
+   ],
+   "prefLabel" : {
+      "no" : "IEEE Standard for Learning Object Metadata"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "learning"
+         },
+         "uri" : "http://eurovoc.europa.eu/5102"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/848",
+   "url" : "http://biblio.educa.ch/sites/default/files/20130328/lom_1484_12_1_v1_final_draft_0.pdf"
+}

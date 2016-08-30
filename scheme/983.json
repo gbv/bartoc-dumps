@@ -1,0 +1,49 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro Instituto de Estudios sobre Desarrollo y Cooperación Internacional",
+         "Tesauro HEGOA"
+      ],
+      "und" : [
+         "Tesauro Nazioarteko Lankidetza eta Garapenari Buruzko Ikasketa Institutua"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/131975312"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro HEGOA"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "international cooperation"
+         },
+         "uri" : "http://eurovoc.europa.eu/216"
+      },
+      {
+         "prefLabel" : {
+            "en" : "economic development"
+         },
+         "uri" : "http://eurovoc.europa.eu/427"
+      },
+      {
+         "uri" : "http://dewey.info/class/327/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/337/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/983",
+   "url" : "http://biblioteca.hegoa.efaber.net/tesauro/tematico"
+}

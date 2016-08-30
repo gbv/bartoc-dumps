@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "English Heritage Defence Of Britain Thesaurus",
+         "EH Defence Of Britain Thesaurus"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "EH Defence Of Britain Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "defence"
+         },
+         "uri" : "http://eurovoc.europa.eu/100173"
+      },
+      {
+         "prefLabel" : {
+            "en" : "archaeology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2453"
+      },
+      {
+         "prefLabel" : {
+            "en" : "United Kingdom"
+         },
+         "uri" : "http://eurovoc.europa.eu/3774"
+      },
+      {
+         "uri" : "http://dewey.info/class/355/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/941/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/61",
+   "url" : "http://thesaurus.historicengland.org.uk/thesaurus.asp"
+}

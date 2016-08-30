@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/142164535"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematische Buchaufstellung Sportwissenschaft"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "sport"
+         },
+         "uri" : "http://eurovoc.europa.eu/4245"
+      },
+      {
+         "uri" : "http://dewey.info/class/790/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1433",
+   "url" : "http://www.ub.uni-konstanz.de/de/fi/sportwissenschaft/bibliotheksbenutzung/"
+}

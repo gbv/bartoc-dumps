@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "International Rice Research Institute Rice Thesaurus",
+         "IRRI Rice Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/155730678"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "IRRI Rice Thesaurus"
+   },
+   "subject" : [
+      {
+         "uri" : "http://dewey.info/class/633/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/457",
+   "url" : "http://agclass.nal.usda.gov/irri/rice_search.shtml"
+}

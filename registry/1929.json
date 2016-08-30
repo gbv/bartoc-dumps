@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://reep.refeds.org/"
+   ],
+   "prefLabel" : {
+      "en" : "REFEDS public metadata registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1929"
+}

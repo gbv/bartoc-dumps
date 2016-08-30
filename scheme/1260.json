@@ -1,0 +1,49 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "ISO 6196-10:1999/Cor 1:2004"
+      ],
+      "und" : [
+         "ISO 6196 Micrographics Vocabulary",
+         "ISO 6196-1:1993",
+         "ISO 6196-2:1993",
+         "ISO 6196-3:1997",
+         "ISO 6196-4:1998",
+         "ISO 6196-5:1987",
+         "ISO 6196-6:1992",
+         "ISO 6196-7:1992",
+         "ISO 6196-8:1998",
+         "ISO 6196-10:1999"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/149705257"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "en" : "ISO 6196-10:1999/Cor 1:2004"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "microform"
+         },
+         "uri" : "http://eurovoc.europa.eu/1902"
+      },
+      {
+         "uri" : "http://dewey.info/class/686/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1260",
+   "url" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm"
+}

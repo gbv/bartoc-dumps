@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "National Cancer Institute Metathesaurus"
+      ],
+      "und" : [
+         "NCI Metathesaurus",
+         "NCIm"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/158945649"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q6953141"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "NCIm"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "life sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3941"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/655",
+   "url" : "http://ncim.nci.nih.gov/ncimbrowser/"
+}

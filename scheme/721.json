@@ -1,0 +1,34 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Citation Typing Ontology"
+      ],
+      "und" : [
+         "CiTO"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "CiTO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "quote"
+         },
+         "uri" : "http://eurovoc.europa.eu/6765"
+      },
+      {
+         "uri" : "http://dewey.info/class/000/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/721",
+   "url" : "http://www.essepuntato.it/lode/http://purl.org/spar/cito"
+}

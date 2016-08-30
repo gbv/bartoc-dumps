@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/170120052"
+      }
+   ],
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Nomenclature thématique GéoBretagne"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "geography"
+         },
+         "uri" : "http://eurovoc.europa.eu/1148"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Brittany"
+         },
+         "uri" : "http://eurovoc.europa.eu/5041"
+      },
+      {
+         "uri" : "http://dewey.info/class/910/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1071",
+   "url" : "http://kartenn.region-bretagne.fr/wiki/doku.php"
+}

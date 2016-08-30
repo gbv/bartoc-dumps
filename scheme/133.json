@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/168831984"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "EURISLAM Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Europe"
+         },
+         "uri" : "http://eurovoc.europa.eu/909"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Islam"
+         },
+         "uri" : "http://eurovoc.europa.eu/1508"
+      },
+      {
+         "uri" : "http://dewey.info/class/297/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/940/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/133",
+   "url" : "http://www.misha.fr/sites_bdd.htm"
+}

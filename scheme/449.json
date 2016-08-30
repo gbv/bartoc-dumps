@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Anatomical Therapeutic Chemical Classification System",
+         "Anatomisch-therapeutisch-chemische Klassifikation"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/143984514"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q192093"
+   ],
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "notation" : [
+      "ATC"
+   ],
+   "prefLabel" : {
+      "en" : "Anatomisch-therapeutisch-chemische Klassifikation"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "pharmacology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2367"
+      },
+      {
+         "uri" : "http://dewey.info/class/615/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/449",
+   "url" : "http://www.dimdi.de/static/de/klassi/atcddd/"
+}

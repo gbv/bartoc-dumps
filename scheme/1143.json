@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/142471487"
+      }
+   ],
+   "languages" : [
+      "fr",
+      "de"
+   ],
+   "notation" : [
+      "MA"
+   ],
+   "prefLabel" : {
+      "fr" : "Classification Littérature Moyen-âge"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "prefLabel" : {
+            "en" : "medieval history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5663"
+      },
+      {
+         "uri" : "http://dewey.info/class/830/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1143",
+   "url" : "http://www.unige.ch/lettres/alman/index.php/download_file/view/40/244/"
+}

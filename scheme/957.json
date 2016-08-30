@@ -1,0 +1,57 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Harmonized Commodity Description and Coding System",
+         "Harmonized System"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/142733994"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q2294130"
+   ],
+   "languages" : [
+      "zh",
+      "cs",
+      "da",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "he",
+      "id",
+      "ja",
+      "ru",
+      "sl",
+      "es"
+   ],
+   "notation" : [
+      "HS"
+   ],
+   "prefLabel" : {
+      "und" : "HS"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "industrial production"
+         },
+         "uri" : "http://eurovoc.europa.eu/2720"
+      },
+      {
+         "uri" : "http://dewey.info/class/381/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/957",
+   "url" : "http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm"
+}

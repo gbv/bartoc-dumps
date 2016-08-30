@@ -1,0 +1,36 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "pt"
+   ],
+   "prefLabel" : {
+      "en" : "INA Web Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "professional qualifications"
+         },
+         "uri" : "http://eurovoc.europa.eu/2868"
+      },
+      {
+         "prefLabel" : {
+            "en" : "public administration"
+         },
+         "uri" : "http://eurovoc.europa.eu/77"
+      },
+      {
+         "uri" : "http://dewey.info/class/331/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/351/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1367",
+   "url" : "http://cedo.ina.pt/docbweb/thres.asp"
+}

@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Wolters Kluwer Deutschland Arbeitsrechtsthesaurus",
+         "WKD Arbeitsrechtsthesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/156221582"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "WKD Arbeitsrechtsthesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "labour law"
+         },
+         "uri" : "http://eurovoc.europa.eu/557"
+      },
+      {
+         "uri" : "http://dewey.info/class/344/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/678",
+   "url" : "http://vocabulary.wolterskluwer.de/arbeitsrecht.html"
+}

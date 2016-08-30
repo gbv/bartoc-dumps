@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/155670113"
+      }
+   ],
+   "languages" : [
+      "nl",
+      "en"
+   ],
+   "prefLabel" : {
+      "nl" : "Universiteitsbibliotheek Rijksuniversiteit Groningen Classificatieschema"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "higher education"
+         },
+         "uri" : "http://eurovoc.europa.eu/800"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1349",
+   "url" : "http://www.rug.nl/bibliotheek/services/bibgmw/collection/classification"
+}

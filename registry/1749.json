@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.jiscdigitalmedia.ac.uk/guide/controlling-your-language-links-to-metadata-vocabularies/"
+   ],
+   "prefLabel" : {
+      "en" : "JISC Directory of Metadata Vocabularies"
+   },
+   "uri" : "http://bartoc.org/en/node/1749"
+}

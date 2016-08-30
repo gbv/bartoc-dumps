@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148278720"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Nanotechnology Glossary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "nanotechnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/7931"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1516",
+   "url" : "http://www.foresight.org/UTF/Unbound_LBW/Glossary.html"
+}

@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Landscape Architecture Classification",
+         "Landscape architecture: a comprehensive classification scheme for books, plans, photographs, notes and other collected material"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/159764129"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Landscape architecture: a comprehensive classification scheme for books, plans, photographs, notes and other collected material"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "architecture"
+         },
+         "uri" : "http://eurovoc.europa.eu/2471"
+      },
+      {
+         "prefLabel" : {
+            "en" : "town and country planning"
+         },
+         "uri" : "http://eurovoc.europa.eu/5433"
+      },
+      {
+         "uri" : "http://dewey.info/class/710/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1150",
+   "url" : "http://libsysdigi.library.illinois.edu/oca/Books2008-06/landscapearchite00hubb/"
+}

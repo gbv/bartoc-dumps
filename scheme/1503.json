@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/125491886"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Glossary of Social Security Terms"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social security"
+         },
+         "uri" : "http://eurovoc.europa.eu/4050"
+      },
+      {
+         "uri" : "http://dewey.info/class/360/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1503",
+   "url" : "http://www.socialsecurity.gov/agency/glossary/"
+}

@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Vocabulario Controlado de la Biblioteca de la Facultad de Filosofía y Letras (UNCUYO)"
+      ],
+      "und" : [
+         "VOBIFYL"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/122582776"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "und" : "VOBIFYL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "humanities"
+         },
+         "uri" : "http://eurovoc.europa.eu/100225"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/43",
+   "url" : "http://intranetsid.uncu.edu.ar/ffyl/macro/vocab/index.php"
+}

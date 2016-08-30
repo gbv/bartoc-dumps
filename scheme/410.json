@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "EMWIS multilingual water thesaurus"
+      ],
+      "fr" : [
+         "SEMIDE Thesaurus",
+         "Thesaurus Multilangue de l'eau"
+      ]
+   },
+   "languages" : [
+      "ar",
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "en" : "EMWIS multilingual water thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "water"
+         },
+         "uri" : "http://eurovoc.europa.eu/597"
+      },
+      {
+         "uri" : "http://dewey.info/class/551/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/410",
+   "url" : "http://www.semide.net/portal_thesaurus/"
+}

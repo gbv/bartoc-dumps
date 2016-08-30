@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Australian Standard Classification of Cultural and Ethnic Groups",
+         "ASCCEG"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/169026530"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "ASCCEG"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Australia"
+         },
+         "uri" : "http://eurovoc.europa.eu/4160"
+      },
+      {
+         "prefLabel" : {
+            "en" : "ethnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/892"
+      },
+      {
+         "uri" : "http://dewey.info/class/301/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/361",
+   "url" : "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1249.0"
+}

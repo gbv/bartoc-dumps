@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/169030355"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Filmgenres und -gattungen "
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "film production"
+         },
+         "uri" : "http://eurovoc.europa.eu/5183"
+      },
+      {
+         "uri" : "http://dewey.info/class/791/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1494",
+   "url" : "http://www.udk-berlin.de/sites/universitaetsbibliothek/content/e286/e305/index_ger.html"
+}

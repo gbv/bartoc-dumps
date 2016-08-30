@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "pt" : [
+         "Plano de Classificação de Documentos da Universidade Federal do Rio Grande do Sul",
+         "Plano de Classificação de Documentos da UFRGS "
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/167942242"
+      }
+   ],
+   "languages" : [
+      "pt"
+   ],
+   "prefLabel" : {
+      "pt" : "Plano de Classificação de Documentos da UFRGS"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "higher education"
+         },
+         "uri" : "http://eurovoc.europa.eu/800"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1356",
+   "url" : "http://www.ufrgs.br/saaufrgs/Manuais/planocassificacao.pdf"
+}

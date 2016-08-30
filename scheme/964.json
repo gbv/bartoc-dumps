@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Finnish Social Science Data Archive Topic Classification",
+         "FSD Topic Classification"
+      ],
+      "fi" : [
+         "Tietoarkiston tieteenalaluokitus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/153868865"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fi",
+      "sv"
+   ],
+   "prefLabel" : {
+      "en" : "FSD Topic Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "scientific research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2924"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/964",
+   "url" : "http://www.fsd.uta.fi/fi/aineistot/arkistointi/FSD_topcClas.html"
+}

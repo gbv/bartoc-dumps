@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.proz.com/about/overview/terminology/"
+   ],
+   "prefLabel" : {
+      "en" : "ProZ.com"
+   },
+   "uri" : "http://bartoc.org/en/node/1762"
+}

@@ -1,0 +1,27 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "Joseph Wulf Mediothek Systematik"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "National Socialism"
+         },
+         "uri" : "http://eurovoc.europa.eu/2030"
+      },
+      {
+         "uri" : "http://dewey.info/class/943/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1251",
+   "url" : "http://www.ghwk-bibliothekskatalog.de/vufind/"
+}

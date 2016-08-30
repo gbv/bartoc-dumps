@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Water Quality Planning Bureau Library Thesaurus",
+         "Water Quality Planning Library Keyword Thesaurus",
+         "WQPB Library Thesaurus"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "WQPB Library Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "water analysis"
+         },
+         "uri" : "http://eurovoc.europa.eu/1741"
+      },
+      {
+         "uri" : "http://dewey.info/class/551/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/152",
+   "url" : "http://svc.mt.gov/deq/wqlibrarysearch/Thesaurus.pdf"
+}

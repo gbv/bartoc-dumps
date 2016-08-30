@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Thésaurus de la Bibliothèque du Centre de Recherches pour le Développement International",
+         "Thésaurus de la Bibliothèque du CRDI"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/128539272"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus de la Bibliothèque du CRDI"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "international cooperation"
+         },
+         "uri" : "http://eurovoc.europa.eu/216"
+      },
+      {
+         "uri" : "http://dewey.info/class/327/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/287",
+   "url" : "https://idl-bnc.idrc.ca/dspace/bitstream/10625/1008/1/IDL-1008.pdf"
+}

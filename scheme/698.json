@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Gemeinsame Normdatei Ontology",
+         "Gemeinsame Normdatei Ontologie"
+      ],
+      "en" : [
+         "GND Ontology",
+         "GND Ontologie"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148328332"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q36578"
+   ],
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Gemeinsame Normdatei Ontologie"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/698",
+   "url" : "http://d-nb.info/standards/elementset/gnd"
+}

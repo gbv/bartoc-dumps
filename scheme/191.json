@@ -1,0 +1,52 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/263212730"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "SCIS Subject Headings"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4865"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Oceania"
+         },
+         "uri" : "http://eurovoc.europa.eu/2113"
+      },
+      {
+         "prefLabel" : {
+            "en" : "educational institution"
+         },
+         "uri" : "http://eurovoc.europa.eu/873"
+      },
+      {
+         "uri" : "http://dewey.info/class/026/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/371/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/993/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/994/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/191",
+   "url" : "http://www2.curriculum.edu.au/scis/subject_headings.html"
+}

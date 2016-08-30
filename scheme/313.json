@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "1995",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145887731"
+      }
+   ],
+   "extent" : "Über 6.000 Schlagwörter, mehr als 20.000 Synonymverweise (2016-08).",
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "license" : [
+      {
+         "uri" : "http://www.opendatacommons.org/licenses/odbl/"
+      }
+   ],
+   "notation" : [
+      "STW"
+   ],
+   "prefLabel" : {
+      "en" : "Standard Thesaurus Wirtschaft"
+   },
+   "scopeNote" : {
+      "en" : [
+         "\"The STW Thesaurus for Economics is the world's most comprehensive bilingual thesaurus for representing and searching for economics-related content. With more than 6,000 subject headings in English and German and more than 20,000 synonyms it covers all economics-related subject areas and, on a broader level, the most important related subject fields. The STW is published and continuously further developed by the ZBW according to the latest changes in the economic terminology.\nAs a generally re-usable concept system it is used by universities, research institutes, public institutions and companies for knowledge organization and for research and development in computer and information science as well as in the area of Linked Data and Semantic Web technologies. It has been published as one of the first thesauri in the Linked Open Data Cloud and is linked to other vocabularies through mappings. The STW is part of cross-linked information environments and web services for processing and linking economic literature, research data, author profiles and educational material.\""
+      ]
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "economics"
+         },
+         "uri" : "http://eurovoc.europa.eu/3933"
+      },
+      {
+         "uri" : "http://dewey.info/class/330/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/313",
+   "url" : "http://zbw.eu/stw/versions/latest/"
+}

@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://alexandria-translation-resources.com/"
+   ],
+   "prefLabel" : {
+      "en" : "The Alexandria Library"
+   },
+   "uri" : "http://bartoc.org/en/node/1752"
+}

@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://onki.fi/"
+   ],
+   "prefLabel" : {
+      "en" : "ONKI"
+   },
+   "uri" : "http://bartoc.org/en/node/1726"
+}

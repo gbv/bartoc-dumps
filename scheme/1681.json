@@ -1,0 +1,30 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "da"
+   ],
+   "notation" : [
+      "DBK"
+   ],
+   "prefLabel" : {
+      "da" : "DBK-klassifikation",
+      "und" : "DBK"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "building industry"
+         },
+         "uri" : "http://eurovoc.europa.eu/3879"
+      },
+      {
+         "uri" : "http://dewey.info/class/690/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1681",
+   "url" : "http://bips.dk/v%C3%A6rkt%C3%B8jsemne/dbk-klassifikation"
+}

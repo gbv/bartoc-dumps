@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "PIRA Demonstration Classification Scheme"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "physical sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3946"
+      },
+      {
+         "uri" : "http://dewey.info/class/530/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/2013",
+   "url" : "http://physicslearning.colorado.edu/Bib"
+}

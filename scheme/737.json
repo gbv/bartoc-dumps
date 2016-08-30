@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Vocabulario Controlado FLACSO Argentina",
+         "Vocabulario Controlado Facultad Latinoamericana de Ciencias Sociales Argentina"
+      ]
+   },
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Vocabulario Controlado Facultad Latinoamericana de Ciencias Sociales Argentina"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3956"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/737",
+   "url" : "http://vocabularios.caicyt.gov.ar/portal/index.php?v=FLACSO"
+}

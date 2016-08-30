@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "English Heritage National Trust Thred Thesaurus",
+         "EH National Trust Thred Thesaurus"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "EH National Trust Thred Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "cultural heritage"
+         },
+         "uri" : "http://eurovoc.europa.eu/2278"
+      },
+      {
+         "uri" : "http://dewey.info/class/942/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/60",
+   "url" : "http://thesaurus.historicengland.org.uk/thesaurus.asp"
+}

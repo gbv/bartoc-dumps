@@ -1,0 +1,73 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148396178"
+      }
+   ],
+   "languages" : [
+      "ar",
+      "zh",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "fi",
+      "fr",
+      "de",
+      "hi",
+      "hu",
+      "it",
+      "ja",
+      "ko",
+      "lo",
+      "ms",
+      "no",
+      "fa",
+      "pl",
+      "pt",
+      "ru",
+      "sk",
+      "es",
+      "sv",
+      "te",
+      "th",
+      "tr",
+      "uk"
+   ],
+   "notation" : [
+      "GACS"
+   ],
+   "prefLabel" : {
+      "und" : "Global Agricultural Concept Scheme"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "agronomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/685"
+      },
+      {
+         "prefLabel" : {
+            "en" : "life sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3941"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/630/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/49297"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1409",
+   "url" : "http://tester-os-kktest.lib.helsinki.fi/gacsdemo/en/"
+}

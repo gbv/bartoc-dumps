@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://bioportal.bioontology.org/"
+   ],
+   "prefLabel" : {
+      "en" : "BioPortal"
+   },
+   "uri" : "http://bartoc.org/en/node/1713"
+}

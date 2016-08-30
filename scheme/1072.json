@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Thésaurus dph",
+         "Thésaurus des mots-clés Dph"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/141605253"
+      }
+   ],
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus des mots-clés Dph"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "national"
+         },
+         "uri" : "http://eurovoc.europa.eu/3521"
+      },
+      {
+         "uri" : "http://dewey.info/class/323/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#list"
+   ],
+   "uri" : "http://bartoc.org/en/node/1072",
+   "url" : "http://www.d-p-h.info/IMG/pdf/thesaurus_dph_fr.pdf"
+}

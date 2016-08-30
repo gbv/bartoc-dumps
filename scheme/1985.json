@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/158923653"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik Themen der Hamburg-Bibliographie"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Hamburg"
+         },
+         "uri" : "http://eurovoc.europa.eu/1230"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1985",
+   "url" : "http://www.sub.uni-hamburg.de/hamburg/hamburg-bibliographie.html"
+}

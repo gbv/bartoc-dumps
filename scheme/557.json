@@ -1,0 +1,68 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q723530"
+   ],
+   "languages" : [
+      "az",
+      "eu",
+      "ca",
+      "zh",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "he",
+      "hu",
+      "is",
+      "id",
+      "it",
+      "ja",
+      "mt",
+      "no",
+      "pl",
+      "pt",
+      "mo",
+      "ru",
+      "sr",
+      "sl",
+      "es",
+      "sv",
+      "tr",
+      "vi"
+   ],
+   "notation" : [
+      "ICPC"
+   ],
+   "prefLabel" : {
+      "und" : "International Classification of Primary Care"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "health care"
+         },
+         "uri" : "http://eurovoc.europa.eu/5899"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50337"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51132"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/557",
+   "url" : "http://www.kith.no/templates/kith_WebPage____1062.aspx"
+}

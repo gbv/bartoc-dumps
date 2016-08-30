@@ -1,0 +1,53 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/41145857822923021446"
+      }
+   ],
+   "extent" : "40'000 entries (2016-08).",
+   "languages" : [
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "it",
+      "la",
+      "no",
+      "pt",
+      "ru",
+      "es",
+      "sv"
+   ],
+   "notation" : [
+      "TEPA"
+   ],
+   "prefLabel" : {
+      "und" : "TEPA-termipankkiin"
+   },
+   "scopeNote" : {
+      "en" : [
+         "\"TEPA is a term bank compiled and maintained by the Finnish Terminology Centre TSK (Sanastokeskus TSK). It contains special language terms and their definitions which are displayed as multilingual terminological entries. TSK's own publications form the core of TEPA, but it also contains other special field vocabularies compiled by specialists. TEPA is implemented with Kielikone Ltd's MOT® dictionary software.\nTEPA vocabularies have been arranged into groups according to their source. The vocabulary groups are listed in the top left corner. The option All is selected by default, and it includes the whole term bank. You can also limit your search to specific vocabulary groups by selecting them from the list. TEPA consists of the Finnish Terminology Centre's own vocabularies (TSK's vocabularies), vocabularies of the Swedish Centre for Terminology (Terminologicentrum TNC) (TNC's vocabularies), vocabularies compiled at the Swedish Language Department of the Institute for the Languages of Finland (Kotus vocabularies) and Other vocabularies.\nThe Finnish Terminology Centre TSK maintains TEPA as free-of-charge with the financing provided by the Finnish Ministry of Education and Culture. The term bank renewal work was financed by a project subsidy granted by the Ministry of Education and Culture in 2006–2007.\""
+      ]
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "language"
+         },
+         "uri" : "http://eurovoc.europa.eu/1580"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/17736",
+   "url" : "http://www.tsk.fi/tepa/"
+}

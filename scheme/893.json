@@ -1,0 +1,50 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "中国图书馆分类法",
+         "Chinese Library Classification",
+         "Classification for Chinese Libraries"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126033716"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q5100524"
+   ],
+   "languages" : [
+      "zh"
+   ],
+   "notation" : [
+      "CCL"
+   ],
+   "prefLabel" : {
+      "und" : "CCL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "China"
+         },
+         "uri" : "http://eurovoc.europa.eu/5969"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/893",
+   "url" : "http://www.cnopt.com/tools/clc/"
+}

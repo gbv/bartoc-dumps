@@ -1,0 +1,51 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Main Means of Travel to Work – Standard Classification"
+      ],
+      "und" : [
+         "TRAVWORK"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148067905"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "TRAVWORK"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "organisation of transport"
+         },
+         "uri" : "http://eurovoc.europa.eu/2181"
+      },
+      {
+         "prefLabel" : {
+            "en" : "work"
+         },
+         "uri" : "http://eurovoc.europa.eu/4543"
+      },
+      {
+         "uri" : "http://dewey.info/class/386/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/387/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/388/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/811",
+   "url" : "http://www.stats.govt.nz/methods/classifications-and-standards/classification-related-stats-standards/main-means-of-travel-to-work.aspx"
+}

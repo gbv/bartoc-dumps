@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Thésaurus de la Haute école de travail social et de la santé Lausanne",
+         "Thésaurus de la EESP"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/156745099"
+      }
+   ],
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus de la EESP"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "education"
+         },
+         "uri" : "http://eurovoc.europa.eu/668"
+      },
+      {
+         "prefLabel" : {
+            "en" : "social work"
+         },
+         "uri" : "http://eurovoc.europa.eu/3360"
+      },
+      {
+         "uri" : "http://dewey.info/class/361/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/986",
+   "url" : "http://www.eesp.ch/homedirs/groups/6/Cdoc/thesaurus.pdf"
+}

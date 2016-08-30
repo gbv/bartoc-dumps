@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Number of children - Standard classification",
+         "NUMCHILD09"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148067905"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "NUMCHILD09"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "child"
+         },
+         "uri" : "http://eurovoc.europa.eu/758"
+      },
+      {
+         "prefLabel" : {
+            "en" : "demography"
+         },
+         "uri" : "http://eurovoc.europa.eu/385"
+      },
+      {
+         "uri" : "http://dewey.info/class/305/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/814",
+   "url" : "http://www.stats.govt.nz/methods/classifications-and-standards/classification-related-stats-standards/number-of-children.aspx"
+}

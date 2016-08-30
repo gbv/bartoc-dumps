@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Vocabulario Terminológico Sobre Cultura Infantil y Juvenil"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "child"
+         },
+         "uri" : "http://eurovoc.europa.eu/758"
+      },
+      {
+         "prefLabel" : {
+            "en" : "young person"
+         },
+         "uri" : "http://eurovoc.europa.eu/1528"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/808/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1790",
+   "url" : "http://www.bnm.me.gov.ar/vocabularios/lij/"
+}

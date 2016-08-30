@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://glossarissimo.wordpress.com/"
+   ],
+   "prefLabel" : {
+      "en" : "Glossarissimo!"
+   },
+   "uri" : "http://bartoc.org/en/node/2052"
+}

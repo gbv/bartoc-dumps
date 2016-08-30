@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Microtesauro en Prevención y Atención de Emergencias de Bogotá"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "industrial hazard"
+         },
+         "uri" : "http://eurovoc.europa.eu/4076"
+      },
+      {
+         "prefLabel" : {
+            "en" : "cindynics"
+         },
+         "uri" : "http://eurovoc.europa.eu/6715"
+      },
+      {
+         "prefLabel" : {
+            "en" : "natural hazard"
+         },
+         "uri" : "http://eurovoc.europa.eu/4075"
+      },
+      {
+         "uri" : "http://dewey.info/class/550/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/986/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/260",
+   "url" : "http://vocabularyserver.com/emergencias/"
+}

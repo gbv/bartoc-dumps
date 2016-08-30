@@ -1,0 +1,58 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Bibliothekssystematik Fachhochschule Nordwestschweiz Campus Olten"
+      ],
+      "und" : [
+         "Bibliothekssystematik FHNW Olten"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/167608494"
+      }
+   ],
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Bibliothekssystematik Fachhochschule Nordwestschweiz Campus Olten"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "psychology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2856"
+      },
+      {
+         "prefLabel" : {
+            "en" : "economics"
+         },
+         "uri" : "http://eurovoc.europa.eu/3933"
+      },
+      {
+         "prefLabel" : {
+            "en" : "social work"
+         },
+         "uri" : "http://eurovoc.europa.eu/3360"
+      },
+      {
+         "uri" : "http://dewey.info/class/158/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/330/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/360/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1272",
+   "url" : "http://www.fhnw.ch/campus-olten/bibliothek/bibliothekssystematik_ovr_20140618.pdf"
+}

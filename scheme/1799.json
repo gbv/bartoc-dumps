@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Open Research Glossary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "open access publishing"
+         },
+         "uri" : "http://eurovoc.europa.eu/435228"
+      },
+      {
+         "prefLabel" : {
+            "en" : "research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2914"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/005/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1799",
+   "url" : "http://bit.ly/OpenResearchGlossary"
+}

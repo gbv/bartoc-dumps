@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "British Education Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "education"
+         },
+         "uri" : "http://eurovoc.europa.eu/668"
+      },
+      {
+         "prefLabel" : {
+            "en" : "United Kingdom"
+         },
+         "uri" : "http://eurovoc.europa.eu/3774"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/941/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/164",
+   "url" : "http://www.leeds.ac.uk/bei/COLN/COLN_default.html"
+}

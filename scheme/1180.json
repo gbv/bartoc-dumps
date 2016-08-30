@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "New Jersey State Legislature Thesaurus",
+         "New Jersey Legislation Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/138366464"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "New Jersey Legislation Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "legislation"
+         },
+         "uri" : "http://eurovoc.europa.eu/1589"
+      },
+      {
+         "uri" : "http://dewey.info/class/328/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/1180",
+   "url" : "http://www.njleg.state.nj.us/bills/thes2000.asp"
+}

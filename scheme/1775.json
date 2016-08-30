@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Vitruvio"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "architecture"
+         },
+         "uri" : "http://eurovoc.europa.eu/2471"
+      },
+      {
+         "prefLabel" : {
+            "en" : "arts"
+         },
+         "uri" : "http://eurovoc.europa.eu/2688"
+      },
+      {
+         "uri" : "http://dewey.info/class/700/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1775",
+   "url" : "http://vocabularyserver.com/vitruvio/"
+}

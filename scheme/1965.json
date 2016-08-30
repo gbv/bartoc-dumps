@@ -1,0 +1,30 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "VERIS"
+   ],
+   "prefLabel" : {
+      "en" : "Vocabulary for Event Recording and Incident Sharing",
+      "und" : "VERIS"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "data protection"
+         },
+         "uri" : "http://eurovoc.europa.eu/5181"
+      },
+      {
+         "uri" : "http://dewey.info/class/005/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1965",
+   "url" : "http://veriscommunity.net/"
+}

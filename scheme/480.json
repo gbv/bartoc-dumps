@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/131715635"
+      }
+   ],
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Klassifikation Sozialwissenschaften"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3956"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/480",
+   "url" : "http://www.gesis.org/unser-angebot/recherchieren/thesauri-und-klassifikationen/klassifikation-sozialwissenschaften/#c28441"
+}

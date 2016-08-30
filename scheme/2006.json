@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/153324024"
+      }
+   ],
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "Thesaurus der Basler Afrika Bibliographien"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Southern Africa"
+         },
+         "uri" : "http://eurovoc.europa.eu/342"
+      },
+      {
+         "uri" : "http://dewey.info/class/968/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/2006",
+   "url" : "http://baslerafrikabibliographien.faust-web.de/dothes.FAU?sid=EA53B6461&dm=1&thes=1"
+}

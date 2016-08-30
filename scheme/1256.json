@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/149705257"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "en" : "ISO 5127:2001 Information and Documentation Vocabulary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "documentation"
+         },
+         "uri" : "http://eurovoc.europa.eu/494"
+      },
+      {
+         "uri" : "http://dewey.info/class/020/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1256",
+   "url" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm"
+}

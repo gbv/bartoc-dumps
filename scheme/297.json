@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/132747715"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q5128393"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "CIP"
+   ],
+   "prefLabel" : {
+      "en" : "Classification of Instructional Programs",
+      "und" : "CIP"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "higher education"
+         },
+         "uri" : "http://eurovoc.europa.eu/800"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/297",
+   "url" : "http://nces.ed.gov/ipeds/cipcode/"
+}

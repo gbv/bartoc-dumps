@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.records.nsw.gov.au/digitalarchives/metadata/"
+   ],
+   "prefLabel" : {
+      "en" : "Digital Archives Metadata Registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1928"
+}

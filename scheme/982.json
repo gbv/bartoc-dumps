@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Swiss Wildlife Information Service Schlagwortkataloge (Thesaurus)",
+         "SWIS Schlagwortkataloge (Thesaurus)"
+      ]
+   },
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "en" : "SWIS Schlagwortkataloge (Thesaurus)"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "animal life"
+         },
+         "uri" : "http://eurovoc.europa.eu/972"
+      },
+      {
+         "uri" : "http://dewey.info/class/590/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/982",
+   "url" : "http://www.wildtier.ch/index.php"
+}

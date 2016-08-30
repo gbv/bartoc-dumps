@@ -1,0 +1,54 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Canadian Immigration and Citizenship Indexing Terms"
+      ],
+      "fr" : [
+         "Termes d'indexation sur l'immigration et la citoyenneté au Canada"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/146521877"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Termes d'indexation sur l'immigration et la citoyenneté au Canada"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "immigration"
+         },
+         "uri" : "http://eurovoc.europa.eu/1302"
+      },
+      {
+         "prefLabel" : {
+            "en" : "nationality"
+         },
+         "uri" : "http://eurovoc.europa.eu/2034"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Canada"
+         },
+         "uri" : "http://eurovoc.europa.eu/5100"
+      },
+      {
+         "uri" : "http://dewey.info/class/323/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/971/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/212"
+}

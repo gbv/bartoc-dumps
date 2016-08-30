@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "English Heritage Main Building Materials Thesaurus",
+         "EH Main Building Materials Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145308002"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "EH Main Building Materials Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "building materials"
+         },
+         "uri" : "http://eurovoc.europa.eu/1826"
+      },
+      {
+         "prefLabel" : {
+            "en" : "archaeology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2453"
+      },
+      {
+         "uri" : "http://dewey.info/class/691/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/930/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/56",
+   "url" : "http://fishforum.weebly.com/download-fish-terminology.html"
+}

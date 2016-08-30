@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Canada School of Public Service Controlled Vocabulary",
+         "CSPS Controlled Vocabulary"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/144201854"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "CSPS Controlled Vocabulary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "public administration"
+         },
+         "uri" : "http://eurovoc.europa.eu/77"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/351/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/13",
+   "url" : "http://www.vocabularyserver.com/csps/"
+}

@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Australian Access Profile"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "teaching materials"
+         },
+         "uri" : "http://eurovoc.europa.eu/3278"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1782",
+   "url" : "http://vocabulary.curriculum.edu.au/access.html"
+}

@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Deutsches Zentralinstitut für soziale Fragen Thesaurus"
+      ],
+      "und" : [
+         "DZI Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/168593421"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "DZI Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social work"
+         },
+         "uri" : "http://eurovoc.europa.eu/3360"
+      },
+      {
+         "uri" : "http://dewey.info/class/360/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/230",
+   "url" : "http://www.dzi.de/wp-content/uploads/2010/05/Alphabetischer-Thesaurus-gesamt.pdf"
+}

@@ -1,0 +1,30 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "ECO"
+   ],
+   "prefLabel" : {
+      "en" : "Evidence Codes Ontology",
+      "und" : "ECO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "biology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4921"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/1028",
+   "url" : "http://code.google.com/p/evidenceontology/"
+}

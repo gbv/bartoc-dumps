@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/156706556"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q2494649"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "ULAN"
+   ],
+   "prefLabel" : {
+      "en" : "The Union List of Artist Names",
+      "und" : "ULAN"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "artistic profession"
+         },
+         "uri" : "http://eurovoc.europa.eu/3598"
+      },
+      {
+         "uri" : "http://dewey.info/class/709/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/118",
+   "url" : "http://www.getty.edu/research/tools/vocabularies/ulan/"
+}

@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://rd-alliance.github.io/metadata-directory/"
+   ],
+   "prefLabel" : {
+      "en" : "RDA Metadata Directory"
+   },
+   "uri" : "http://bartoc.org/en/node/1938"
+}

@@ -1,0 +1,52 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "European Classification System",
+         "Système de classification européenne",
+         "Europäisches Klassifikationssystem"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/134749902"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q11544935"
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "de"
+   ],
+   "notation" : [
+      "ECLA"
+   ],
+   "prefLabel" : {
+      "fr" : "Europäisches Klassifikationssystem"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "patent"
+         },
+         "uri" : "http://eurovoc.europa.eu/5042"
+      },
+      {
+         "prefLabel" : {
+            "en" : "technology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4415"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/490",
+   "url" : "http://www.epo.org/searching/essentials/classification/cpc.html"
+}

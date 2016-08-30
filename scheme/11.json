@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/122051864"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q5030602"
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "notation" : [
+      "CSH"
+   ],
+   "prefLabel" : {
+      "en" : "Canadian Subject Headings"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4865"
+      },
+      {
+         "uri" : "http://dewey.info/class/971/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/11",
+   "url" : "http://www.collectionscanada.gc.ca/csh-bin/search/"
+}

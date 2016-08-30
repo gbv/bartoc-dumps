@@ -1,0 +1,36 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "it"
+   ],
+   "prefLabel" : {
+      "en" : "PICO Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "culture"
+         },
+         "uri" : "http://eurovoc.europa.eu/317"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Italy"
+         },
+         "uri" : "http://eurovoc.europa.eu/1519"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/945/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/28",
+   "url" : "http://www.culturaitalia.it/pico/thesaurus/4.3/thesaurus_4.3.0.skos.xml"
+}

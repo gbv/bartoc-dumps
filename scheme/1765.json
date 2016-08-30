@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Structure of Observed Learning Outcome Taxonomy"
+      ],
+      "und" : [
+         "SOLO Taxonomy"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/80563800"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/39495299"
+      }
+   ],
+   "languages" : [
+      "zh",
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Structure of Observed Learning Outcome Taxonomy"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "learning"
+         },
+         "uri" : "http://eurovoc.europa.eu/5102"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/1765",
+   "url" : "http://www.johnbiggs.com.au/academic/solo-taxonomy/"
+}

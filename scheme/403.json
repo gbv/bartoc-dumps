@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Transportation of Dangerous Goods Regulations Classification",
+         "TDG Regulations Classification",
+         "Règlement sur le TMD Classification",
+         "Règlement sur le Transport des Marchandises Dangereuses Classification"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/141816005"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Règlement sur le Transport des Marchandises Dangereuses Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "transport of dangerous goods"
+         },
+         "uri" : "http://eurovoc.europa.eu/3681"
+      },
+      {
+         "uri" : "http://dewey.info/class/388/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/403",
+   "url" : "http://www.tc.gc.ca/eng/tdg/clear-part2-339.htm"
+}

@@ -1,0 +1,66 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Interinstitutional procedures Name Authority List ",
+         "Interinstitutional procedures NAL"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/229069752"
+      }
+   ],
+   "languages" : [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "ga",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "mo",
+      "sk",
+      "sl",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "Interinstitutional procedures NAL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "interinstitutional relations (EU)"
+         },
+         "uri" : "http://eurovoc.europa.eu/5854"
+      },
+      {
+         "uri" : "http://dewey.info/class/341/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51138"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50770"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/942",
+   "url" : "http://open-data.europa.eu/en/data/dataset/procedure"
+}

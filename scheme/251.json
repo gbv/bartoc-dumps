@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "es"
+   ],
+   "notation" : [
+      "KEMLU"
+   ],
+   "prefLabel" : {
+      "es" : "Vocabulario de Estudios Sociales de la Ciencia",
+      "und" : "KEMLU"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "humanities"
+         },
+         "uri" : "http://eurovoc.europa.eu/100225"
+      },
+      {
+         "prefLabel" : {
+            "en" : "natural and applied sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/100224"
+      },
+      {
+         "prefLabel" : {
+            "en" : "social analysis"
+         },
+         "uri" : "http://eurovoc.europa.eu/1820"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/500/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/251",
+   "url" : "http://vocabularyserver.com/kemlu/"
+}

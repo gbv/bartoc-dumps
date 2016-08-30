@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "La Médiathèque du sport Magglingen Plan de classement"
+      ],
+      "und" : [
+         "Sportmediathek Magglingen Systematik",
+         "Mediateca dello sport Sistematica"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/135778868"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q15848220"
+   ],
+   "languages" : [
+      "fr",
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "Mediateca dello sport Sistematica"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "sport"
+         },
+         "uri" : "http://eurovoc.europa.eu/4245"
+      },
+      {
+         "uri" : "http://dewey.info/class/790/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/697",
+   "url" : "http://www.baspo.admin.ch/internet/baspo/de/home/dienstleistungen/bildung/sportmediathek.parsys.3647.downloadList.19540.DownloadFile.tmp/systematik.pdf"
+}

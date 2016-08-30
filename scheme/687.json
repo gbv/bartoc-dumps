@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro del Administración Nacional de la Seguridad Social",
+         "Tesauro del ANSES"
+      ]
+   },
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro del ANSES"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social security"
+         },
+         "uri" : "http://eurovoc.europa.eu/4050"
+      },
+      {
+         "uri" : "http://dewey.info/class/360/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/687",
+   "url" : "http://tcda.infojus.gov.ar/index.php"
+}

@@ -1,0 +1,69 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Treaties Name Authority List ",
+         "Treaties NAL"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/229069752"
+      }
+   ],
+   "languages" : [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "ga",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "mo",
+      "sk",
+      "sl",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "Treaties NAL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "European treaties"
+         },
+         "uri" : "http://eurovoc.europa.eu/4479"
+      },
+      {
+         "uri" : "http://dewey.info/class/341/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50770"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51043"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51138"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/945",
+   "url" : "http://open-data.europa.eu/en/data/dataset/treaty"
+}

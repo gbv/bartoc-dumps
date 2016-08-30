@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/131335921"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "EEO-1 Job Classification Guide"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "employment"
+         },
+         "uri" : "http://eurovoc.europa.eu/100232"
+      },
+      {
+         "uri" : "http://dewey.info/class/331/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/477",
+   "url" : "http://www.eeoc.gov/employers/eeo1survey/jobclassguide.cfm"
+}

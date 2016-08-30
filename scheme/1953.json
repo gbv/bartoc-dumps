@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "AtoM-Places"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "geography"
+         },
+         "uri" : "http://eurovoc.europa.eu/1148"
+      },
+      {
+         "prefLabel" : {
+            "en" : "ancient history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5661"
+      },
+      {
+         "prefLabel" : {
+            "en" : "medieval history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5663"
+      },
+      {
+         "uri" : "http://dewey.info/class/910/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/930/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/1953",
+   "url" : "http://koronis.at/tematres/vocab/"
+}

@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://lov.okfn.org/dataset/lov/"
+   ],
+   "prefLabel" : {
+      "en" : "Linked Open Vocabularies (LOV)"
+   },
+   "uri" : "http://bartoc.org/en/node/1721"
+}

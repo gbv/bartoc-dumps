@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://obofoundry.github.io/"
+   ],
+   "prefLabel" : {
+      "en" : "The OBO Foundry"
+   },
+   "uri" : "http://bartoc.org/en/node/1737"
+}

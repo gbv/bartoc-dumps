@@ -1,0 +1,34 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "pt" : [
+         "Plano de Classificação e Tabela de Temporalidade de Documentos Administrativos e Judiciais do Tribunal Superior do Trabalho"
+      ],
+      "und" : [
+         "PCTTDAJ-TST"
+      ]
+   },
+   "languages" : [
+      "pt"
+   ],
+   "prefLabel" : {
+      "und" : "PCTTDAJ-TST"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "labour law"
+         },
+         "uri" : "http://eurovoc.europa.eu/557"
+      },
+      {
+         "uri" : "http://dewey.info/class/344/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1358",
+   "url" : "http://www.csjt.jus.br/c/document_library/get_file?uuid=fba76fff-2c20-4c99-ad09-1fe2433c43e1&groupId=955023"
+}

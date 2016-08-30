@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Thesaurus Ethik in den Biowissenschaften"
+      ],
+      "en" : [
+         "Thesaurus Ethics in the Life Sciences"
+      ],
+      "fr" : [
+         "Thesaurus d’éthique des sciences de la vie"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145942806"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "de"
+   ],
+   "prefLabel" : {
+      "fr" : "Thesaurus d’éthique des sciences de la vie"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "bioethics"
+         },
+         "uri" : "http://eurovoc.europa.eu/5169"
+      },
+      {
+         "uri" : "http://dewey.info/class/170/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/153",
+   "url" : "http://www.drze.de/thesaurus"
+}

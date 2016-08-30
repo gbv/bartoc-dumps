@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://www.clarin.eu/ccr"
+   ],
+   "prefLabel" : {
+      "en" : "CLARIN Concept Registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1901"
+}

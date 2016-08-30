@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Fachklassifikation Digitale Bibliothek",
+         "FKDigBib"
+      ]
+   },
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "FKDigBib"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "virtual library"
+         },
+         "uri" : "http://eurovoc.europa.eu/6067"
+      },
+      {
+         "uri" : "http://dewey.info/class/025/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1699",
+   "url" : "http://fkdigbib.de/"
+}

@@ -1,0 +1,51 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "TNM Classification of Malignant Tumors",
+         "TNM Staging System"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/141924494"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q668115"
+   ],
+   "languages" : [
+      "ar",
+      "zh",
+      "cs",
+      "fr",
+      "de",
+      "it",
+      "ja",
+      "lv",
+      "pl",
+      "pt",
+      "ru",
+      "tr"
+   ],
+   "prefLabel" : {
+      "und" : "TNM Staging System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "cancer"
+         },
+         "uri" : "http://eurovoc.europa.eu/5104"
+      },
+      {
+         "uri" : "http://dewey.info/class/616/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1667",
+   "url" : "http://www.uicc.org/resources/tnm"
+}

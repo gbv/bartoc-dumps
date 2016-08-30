@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.ebi.ac.uk/pride/archive/"
+   ],
+   "prefLabel" : {
+      "en" : "PRIDE Archive - proteomics data repository"
+   },
+   "uri" : "http://bartoc.org/en/node/1729"
+}

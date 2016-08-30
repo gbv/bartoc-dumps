@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "ASGC"
+   ],
+   "prefLabel" : {
+      "en" : "ASGC"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "geography"
+         },
+         "uri" : "http://eurovoc.europa.eu/1148"
+      },
+      {
+         "uri" : "http://dewey.info/class/910/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/994/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/397",
+   "url" : "http://www.abs.gov.au/websitedbs/D3310114.nsf/home/Australian+Standard+Geographical+Classification+%28ASGC%29"
+}

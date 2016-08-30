@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Mechanical & Transportation Engineering Abstracts Classification Codes"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "civil engineering"
+         },
+         "uri" : "http://eurovoc.europa.eu/1145"
+      },
+      {
+         "prefLabel" : {
+            "en" : "mechanical engineering"
+         },
+         "uri" : "http://eurovoc.europa.eu/1410"
+      },
+      {
+         "uri" : "http://dewey.info/class/624/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/715"
+}

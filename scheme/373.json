@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fi" : [
+         "Musiikin asiasanasto"
+      ],
+      "sv" : [
+         "Specialtesaurus för musik"
+      ],
+      "und" : [
+         "Finnish Music Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/141305098"
+      }
+   ],
+   "languages" : [
+      "fi",
+      "sv"
+   ],
+   "notation" : [
+      "CILLA"
+   ],
+   "prefLabel" : {
+      "fi" : "CILLA"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "music"
+         },
+         "uri" : "http://eurovoc.europa.eu/2023"
+      },
+      {
+         "uri" : "http://dewey.info/class/780/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/373",
+   "url" : "http://vesa.lib.helsinki.fi/musa/index.html"
+}

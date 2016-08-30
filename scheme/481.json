@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "International Union for Conservation of Nature and Natural Resources Red List of Threatened Species Classification Schemes",
+         "IUCN Red List of Threatened Species Classification Schemes"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/312763236"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "IUCN Red List of Threatened Species Classification Schemes"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "environmental protection"
+         },
+         "uri" : "http://eurovoc.europa.eu/2825"
+      },
+      {
+         "uri" : "http://dewey.info/class/639/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/481",
+   "url" : "http://www.iucnredlist.org/technical-documents/classification-schemes"
+}

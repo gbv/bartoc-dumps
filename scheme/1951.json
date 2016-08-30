@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/153968709"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "EUTCT"
+   ],
+   "prefLabel" : {
+      "en" : "European Union Telematics Controlled Terms",
+      "und" : "EUTCT"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "pharmaceutical industry"
+         },
+         "uri" : "http://eurovoc.europa.eu/1415"
+      },
+      {
+         "prefLabel" : {
+            "en" : "medicine"
+         },
+         "uri" : "http://eurovoc.europa.eu/1852"
+      },
+      {
+         "uri" : "http://dewey.info/class/338/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#dictionary",
+      "http://w3id.org/nkos/nkostype#glossary",
+      "http://w3id.org/nkos/nkostype#list",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1951",
+   "url" : "http://eutct.ema.europa.eu/eutct/"
+}

@@ -1,0 +1,66 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Formation of the Court Name Authority List",
+         "Formation of the Court NAL"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/229069752"
+      }
+   ],
+   "languages" : [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "ga",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "mo",
+      "sk",
+      "sl",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "Formation of the Court NAL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Court of Justice of the European Union"
+         },
+         "uri" : "http://eurovoc.europa.eu/255"
+      },
+      {
+         "uri" : "http://dewey.info/class/341/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50770"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50535"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/943",
+   "url" : "http://open-data.europa.eu/en/data/dataset/formjug"
+}

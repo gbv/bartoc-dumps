@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Archives in London and the M25 Area Thesaurus",
+         "AIM25 Thesaurus"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "AIM25 Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "humanities"
+         },
+         "uri" : "http://eurovoc.europa.eu/100225"
+      },
+      {
+         "prefLabel" : {
+            "en" : "social sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3956"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/9",
+   "url" : "http://www.aim25.ac.uk/browse.htm"
+}

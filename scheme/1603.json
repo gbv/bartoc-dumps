@@ -1,0 +1,34 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/136700347"
+      }
+   ],
+   "languages" : [
+      "ca",
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "fr" : "Diccionari de motociclisme  "
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "sport"
+         },
+         "uri" : "http://eurovoc.europa.eu/4245"
+      },
+      {
+         "uri" : "http://dewey.info/class/796/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1603",
+   "url" : "http://www.termcat.cat/ca/Diccionaris_En_Linia/7"
+}

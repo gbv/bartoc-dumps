@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Library of Avalon Classification System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "psychology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2856"
+      },
+      {
+         "prefLabel" : {
+            "en" : "philosophy"
+         },
+         "uri" : "http://eurovoc.europa.eu/2369"
+      },
+      {
+         "prefLabel" : {
+            "en" : "religion"
+         },
+         "uri" : "http://eurovoc.europa.eu/3257"
+      },
+      {
+         "uri" : "http://dewey.info/class/130/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/2014",
+   "url" : "http://libraryofavalon.org.uk/old-website/classification.htm"
+}

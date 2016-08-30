@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://vocabs.ands.org.au/"
+   ],
+   "prefLabel" : {
+      "en" : "Research Vocabularies Australia"
+   },
+   "uri" : "http://bartoc.org/en/node/1730"
+}

@@ -1,0 +1,27 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "la"
+   ],
+   "prefLabel" : {
+      "la" : "FishBase Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "fish"
+         },
+         "uri" : "http://eurovoc.europa.eu/2435"
+      },
+      {
+         "uri" : "http://dewey.info/class/597/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/336",
+   "url" : "http://fishbase.sinica.edu.tw/tools/Classification/ClassificationList.php"
+}

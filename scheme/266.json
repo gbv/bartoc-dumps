@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Population Multilingual Thesaurus",
+         "POPIN Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/168557359"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "POPIN Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "demography"
+         },
+         "uri" : "http://eurovoc.europa.eu/385"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/266",
+   "url" : "http://www.cicred.org/OLD2004/thesaurus/INTEGRAL/"
+}

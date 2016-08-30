@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "National Land Cover Data Classification Schemes",
+         "NLCD Classification Schemes"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/241267692"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "NLCD Classification Schemes"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "earth sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3952"
+      },
+      {
+         "prefLabel" : {
+            "en" : "United States"
+         },
+         "uri" : "http://eurovoc.europa.eu/888"
+      },
+      {
+         "uri" : "http://dewey.info/class/557/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/478",
+   "url" : "http://www.epa.gov/mrlc/classification.html"
+}

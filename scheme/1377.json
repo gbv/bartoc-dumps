@@ -1,0 +1,52 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/127190967"
+      }
+   ],
+   "languages" : [
+      "pt"
+   ],
+   "prefLabel" : {
+      "pt" : "Código de Classificação de Documentos de Arquivo da Fundação Oswaldo Cruz"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "cultural heritage"
+         },
+         "uri" : "http://eurovoc.europa.eu/2278"
+      },
+      {
+         "prefLabel" : {
+            "en" : "health"
+         },
+         "uri" : "http://eurovoc.europa.eu/100215"
+      },
+      {
+         "prefLabel" : {
+            "en" : "medicine"
+         },
+         "uri" : "http://eurovoc.europa.eu/1852"
+      },
+      {
+         "prefLabel" : {
+            "en" : "biology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4921"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1377",
+   "url" : "http://www.dirad.fiocruz.br/upload/uploads/CodClass2007.pdf"
+}

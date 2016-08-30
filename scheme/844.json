@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Vocabulary of Real Estate Business"
+      ],
+      "fi" : [
+         "Kiinteistöliiketoiminnan sanasto"
+      ]
+   },
+   "languages" : [
+      "en",
+      "fi"
+   ],
+   "prefLabel" : {
+      "en" : "Vocabulary of Real Estate Business"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "real estate business"
+         },
+         "uri" : "http://eurovoc.europa.eu/823"
+      },
+      {
+         "uri" : "http://dewey.info/class/330/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/844",
+   "url" : "http://www.tsk.fi/tiedostot/pdf/Kiinteistoliiketoiminnan_sanasto2.pdf"
+}

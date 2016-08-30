@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/19831453"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Data Science Glossary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "computer systems"
+         },
+         "uri" : "http://eurovoc.europa.eu/1426"
+      },
+      {
+         "uri" : "http://dewey.info/class/004/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1773",
+   "url" : "http://www.datascienceglossary.org/"
+}

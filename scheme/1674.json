@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "2005",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q830106"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "license" : [
+      {
+         "uri" : "http://creativecommons.org/licenses/by/3.0/"
+      }
+   ],
+   "prefLabel" : {
+      "en" : "GeoNames"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "geography"
+         },
+         "uri" : "http://eurovoc.europa.eu/1148"
+      },
+      {
+         "uri" : "http://dewey.info/class/910/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/1674",
+   "url" : "http://www.geonames.org/"
+}

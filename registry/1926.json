@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.who.int/gho/indicator_registry/"
+   ],
+   "prefLabel" : {
+      "en" : "WHO indicator registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1926"
+}

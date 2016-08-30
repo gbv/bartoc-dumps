@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Minerals ordered according to Strunz Mineralogical Tables 8th edition "
+      ],
+      "und" : [
+         "Mineral Lists"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Minerals ordered according to Strunz Mineralogical Tables 8th edition"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "mineralogy"
+         },
+         "uri" : "http://eurovoc.europa.eu/1936"
+      },
+      {
+         "uri" : "http://dewey.info/class/549/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://w3id.org/nkos/nkostype#list"
+   ],
+   "uri" : "http://bartoc.org/en/node/398",
+   "url" : "http://athena.unige.ch/athena/mineral/min_lists.html"
+}

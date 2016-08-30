@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro toponímico de la Provincia de Alicante ",
+         "Tesauro geográfico de la Provincia de Alicante"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/124870526"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro geográfico de la Provincia de Alicante"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "geography"
+         },
+         "uri" : "http://eurovoc.europa.eu/1148"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Community of Valencia"
+         },
+         "uri" : "http://eurovoc.europa.eu/3391"
+      },
+      {
+         "uri" : "http://dewey.info/class/914/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/736",
+   "url" : "http://www.archivo.diputacionalicante.es/tesauro.htm"
+}

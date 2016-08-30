@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/261344431"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "SRS Research Information System Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3956"
+      },
+      {
+         "uri" : "http://dewey.info/class/302/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1097",
+   "url" : "http://catalog.hathitrust.org/Record/000008746"
+}

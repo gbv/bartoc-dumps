@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "EDAM"
+   ],
+   "prefLabel" : {
+      "en" : "EMBRACE Data and Methods",
+      "und" : "EDAM"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "computer systems"
+         },
+         "uri" : "http://eurovoc.europa.eu/1426"
+      },
+      {
+         "prefLabel" : {
+            "en" : "life sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3941"
+      },
+      {
+         "uri" : "http://dewey.info/class/004/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/163",
+   "url" : "http://www.edamontology.org/"
+}

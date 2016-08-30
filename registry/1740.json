@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://www.nlm.nih.gov/research/umls/"
+   ],
+   "prefLabel" : {
+      "en" : "Unified Medical Language System (UMLS)"
+   },
+   "uri" : "http://bartoc.org/en/node/1740"
+}

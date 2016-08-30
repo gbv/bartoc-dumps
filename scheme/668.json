@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Forum on Information Standards in Heritage Manner of Loss",
+         "FISH Manner of Loss"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/308771733"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "FISH Manner of Loss"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "aircraft"
+         },
+         "uri" : "http://eurovoc.europa.eu/4438"
+      },
+      {
+         "prefLabel" : {
+            "en" : "vessel"
+         },
+         "uri" : "http://eurovoc.europa.eu/4827"
+      },
+      {
+         "uri" : "http://dewey.info/class/387/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/668",
+   "url" : "http://fishforum.weebly.com/download-fish-terminology.html"
+}

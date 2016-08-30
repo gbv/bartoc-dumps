@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "International Labour Organization Taxonomy"
+      ],
+      "und" : [
+         "ILO Taxonomy"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133287293"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "und" : "ILO Taxonomy"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "work"
+         },
+         "uri" : "http://eurovoc.europa.eu/4543"
+      },
+      {
+         "uri" : "http://dewey.info/class/330/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/244",
+   "url" : "http://www.ilo.org/public/english/support/lib/tools/taxonomy.htm"
+}

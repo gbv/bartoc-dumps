@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Referativni Zhurnal Classification Scheme",
+         "Реферати́вный журна́л Classification Scheme"
+      ]
+   },
+   "languages" : [
+      "en",
+      "ru"
+   ],
+   "prefLabel" : {
+      "en" : "Реферати́вный журна́л Classification Scheme"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "mathematics"
+         },
+         "uri" : "http://eurovoc.europa.eu/1835"
+      },
+      {
+         "uri" : "http://dewey.info/class/510/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1914",
+   "url" : "http://www.mathontheweb.org/mathweb/Classif/RZhClassification.html"
+}

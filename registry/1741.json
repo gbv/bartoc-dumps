@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://aims.fao.org/vest-registry"
+   ],
+   "prefLabel" : {
+      "en" : "VEST Directory"
+   },
+   "uri" : "http://bartoc.org/en/node/1741"
+}

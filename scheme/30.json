@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Publishing and Depository Services Program Subject Thesaurus",
+         "PDS Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/131618815"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "en" : "PDS Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "public administration"
+         },
+         "uri" : "http://eurovoc.europa.eu/77"
+      },
+      {
+         "uri" : "http://dewey.info/class/351/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/971/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/30",
+   "url" : "http://publications.gc.ca/collections/collection_2010/tpsgc-pwgsc/P109-1-2010-eng.pdf"
+}

@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Catàleg d’autoritats de noms i títols de Catalunya",
+         "CANTIC"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/140206267"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q8342938"
+   ],
+   "languages" : [
+      "ca"
+   ],
+   "prefLabel" : {
+      "und" : "CANTIC"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Catalonia"
+         },
+         "uri" : "http://eurovoc.europa.eu/5273"
+      },
+      {
+         "uri" : "http://dewey.info/class/929/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/2004",
+   "url" : "http://cantic.bnc.cat/"
+}

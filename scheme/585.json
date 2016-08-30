@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Kinetic Simulation Algorithm Ontology"
+      ],
+      "und" : [
+         "KiSAO"
+      ]
+   },
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q17062520"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "KiSAO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "data processing"
+         },
+         "uri" : "http://eurovoc.europa.eu/4488"
+      },
+      {
+         "prefLabel" : {
+            "en" : "simulation"
+         },
+         "uri" : "http://eurovoc.europa.eu/6267"
+      },
+      {
+         "uri" : "http://dewey.info/class/004/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/585",
+   "url" : "http://biomodels.net/kisao/"
+}

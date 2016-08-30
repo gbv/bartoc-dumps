@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Systematik der Musikinstrumente"
+      ],
+      "fi" : [
+         "Hornbostel-Sachs-Systematik"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/51816018"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/46802025"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q496327"
+   ],
+   "languages" : [
+      "fi",
+      "fr",
+      "de",
+      "es"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik der Musikinstrumente"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "musical instrument"
+         },
+         "uri" : "http://eurovoc.europa.eu/1458"
+      },
+      {
+         "uri" : "http://dewey.info/class/784/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1048",
+   "url" : "http://www.mimo-international.com/documents/Hornbostel%20Sachs.pdf"
+}

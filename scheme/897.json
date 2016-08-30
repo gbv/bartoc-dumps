@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Religious Affiliation – New Zealand Standard Classification"
+      ],
+      "und" : [
+         "RELIGAFF"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/148067905"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "RELIGAFF"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "New Zealand"
+         },
+         "uri" : "http://eurovoc.europa.eu/2089"
+      },
+      {
+         "prefLabel" : {
+            "en" : "religious group"
+         },
+         "uri" : "http://eurovoc.europa.eu/3486"
+      },
+      {
+         "uri" : "http://dewey.info/class/200/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/993/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/897",
+   "url" : "http://www.stats.govt.nz/methods/classifications-and-standards/classification-related-stats-standards/religious-affiliation.aspx"
+}

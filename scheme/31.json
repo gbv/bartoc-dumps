@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Subjects of New Zealand Thesaurus",
+         "SONZ Thesaurus"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "SONZ Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "New Zealand"
+         },
+         "uri" : "http://eurovoc.europa.eu/2089"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/993/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/31",
+   "url" : "http://www.vocabularyserver.com/sonz/"
+}

@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "RI Thesaurus"
+      ],
+      "und" : [
+         "Regesta Imperii Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/130896172"
+      }
+   ],
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "en" : "RI Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "prefLabel" : {
+            "en" : "medieval history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5663"
+      },
+      {
+         "uri" : "http://dewey.info/class/800/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/127",
+   "url" : "http://opac.regesta-imperii.de/lang_de/thesaurus.php"
+}

@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Global InVitro Diagnostic Classification",
+         "GIVD Classification",
+         "EDMA IVD Classification"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "EDMA IVD Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "medical device"
+         },
+         "uri" : "http://eurovoc.europa.eu/3844"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/448",
+   "url" : "http://www.dimdi.de/dynamic/de/klassi/downloadcenter/umdns-gmdn/edma/"
+}

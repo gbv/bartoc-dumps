@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Umwelt-Thesaurus",
+         "UMTHES"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/261213806"
+      }
+   ],
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "en" : "UMTHES"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "ecology"
+         },
+         "uri" : "http://eurovoc.europa.eu/632"
+      },
+      {
+         "uri" : "http://dewey.info/class/577/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/179",
+   "url" : "http://sns.uba.de/umthes/"
+}

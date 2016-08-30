@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/122576638"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Aufstellungssystematik Mittlere und Neuere Geschichte"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "history"
+         },
+         "uri" : "http://eurovoc.europa.eu/1245"
+      },
+      {
+         "uri" : "http://dewey.info/class/900/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1833",
+   "url" : "https://www.uni-trier.de/index.php?id=6251"
+}

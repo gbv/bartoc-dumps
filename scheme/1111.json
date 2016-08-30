@@ -1,0 +1,36 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Star Wars Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "prefLabel" : {
+            "en" : "film production"
+         },
+         "uri" : "http://eurovoc.europa.eu/5183"
+      },
+      {
+         "uri" : "http://dewey.info/class/791/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/800/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1111",
+   "url" : "http://files.eric.ed.gov/fulltext/ED413911.pdf"
+}

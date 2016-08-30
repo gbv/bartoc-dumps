@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.if4it.com/taxonomy.html"
+   ],
+   "prefLabel" : {
+      "en" : "IF4IT Inventory of Taxonomies"
+   },
+   "uri" : "http://bartoc.org/en/node/1921"
+}

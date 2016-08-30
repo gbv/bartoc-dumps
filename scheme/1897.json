@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133385655"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q502480"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "LOINC"
+   ],
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "medical examination"
+         },
+         "uri" : "http://eurovoc.europa.eu/5307"
+      },
+      {
+         "uri" : "http://dewey.info/class/616/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1897",
+   "url" : "http://loinc.org/"
+}

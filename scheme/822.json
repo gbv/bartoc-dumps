@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/134731533"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Schema for the description of research data repositories"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "data collection"
+         },
+         "uri" : "http://eurovoc.europa.eu/6030"
+      },
+      {
+         "prefLabel" : {
+            "en" : "research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2914"
+      },
+      {
+         "uri" : "http://dewey.info/class/004/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/822",
+   "url" : "http://www.re3data.org/schema/"
+}

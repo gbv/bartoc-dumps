@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Peacekeeping File Classification Scheme"
+      ],
+      "und" : [
+         "PK FCS"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/159746960"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "PK FCS"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "peacekeeping"
+         },
+         "uri" : "http://eurovoc.europa.eu/1743"
+      },
+      {
+         "uri" : "http://dewey.info/class/303/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/341/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1064",
+   "url" : "https://archives.un.org/sites/archives.un.org/files/files/Policy_Guideline/File%20Classification/FCS_Guidance_withAnnexes.pdf"
+}

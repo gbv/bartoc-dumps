@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/61708118"
+      }
+   ],
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus pour la Fiction"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "uri" : "http://dewey.info/class/800/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/141",
+   "url" : "http://dompnier.nicolas.free.fr/Fiction/thesaurus/2003.pdf"
+}

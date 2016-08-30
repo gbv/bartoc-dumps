@@ -1,0 +1,55 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Systematik Medienwissenschaft, Darstellende Kunst, Theater, Tanz, Artistik, Film, Rundfunk, Hörfunk, Fernsehen",
+         "Neue Systematik Medienwissenschaft"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/142164535"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Neue Systematik Medienwissenschaft"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "performing arts"
+         },
+         "uri" : "http://eurovoc.europa.eu/2810"
+      },
+      {
+         "prefLabel" : {
+            "en" : "film production"
+         },
+         "uri" : "http://eurovoc.europa.eu/5183"
+      },
+      {
+         "prefLabel" : {
+            "en" : "mass media"
+         },
+         "uri" : "http://eurovoc.europa.eu/2013"
+      },
+      {
+         "uri" : "http://dewey.info/class/790/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/791/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/792/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1419",
+   "url" : "http://www.ub.uni-konstanz.de/fi/medienwissenschaft-theater-film/bibliotheksbenutzung/buchaufstellung-medienwissenschaft.html"
+}

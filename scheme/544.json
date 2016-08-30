@@ -1,0 +1,30 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "CPO"
+   ],
+   "prefLabel" : {
+      "en" : "Cell Phenotype Ontology",
+      "und" : "CPO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "cytology"
+         },
+         "uri" : "http://eurovoc.europa.eu/5303"
+      },
+      {
+         "uri" : "http://dewey.info/class/571/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/544",
+   "url" : "https://code.google.com/p/cell-phenotype/downloads/list"
+}

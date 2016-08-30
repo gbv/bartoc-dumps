@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "nl" : [
+         "Gemeenschappelijke Thesaurus Audiovisuele Archieven"
+      ],
+      "und" : [
+         "Common Thesaurus of Audiovisual Archives "
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/140565798"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q19366588"
+   ],
+   "languages" : [
+      "nl"
+   ],
+   "notation" : [
+      "GTAA"
+   ],
+   "prefLabel" : {
+      "und" : "GTAA"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "audiovisual document"
+         },
+         "uri" : "http://eurovoc.europa.eu/487"
+      },
+      {
+         "uri" : "http://dewey.info/class/026/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/384/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1684",
+   "url" : "http://gtaa.beeldengeluid.nl/"
+}

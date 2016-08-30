@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Arbitration Documentation and Information Center Systematik der Bibliothek",
+         "Dokumentations- und Informationszentrum für Schiedsgerichtsbarkeit Systematik der Bibliothek"
+      ]
+   },
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Dokumentations- und Informationszentrum für Schiedsgerichtsbarkeit Systematik der Bibliothek"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "arbitration"
+         },
+         "uri" : "http://eurovoc.europa.eu/6617"
+      },
+      {
+         "uri" : "http://dewey.info/class/347/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1252",
+   "url" : "http://www.adic-germany.de//Material/Bibliothekssystematik.pdf"
+}

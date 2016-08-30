@@ -1,0 +1,69 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Corporate bodies Name Authority List",
+         "Corporate bodies NAL"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/229069752"
+      }
+   ],
+   "languages" : [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "ga",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "mo",
+      "sk",
+      "sl",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "Corporate bodies NAL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "European Union"
+         },
+         "uri" : "http://eurovoc.europa.eu/4060"
+      },
+      {
+         "prefLabel" : {
+            "en" : "public administration"
+         },
+         "uri" : "http://eurovoc.europa.eu/77"
+      },
+      {
+         "uri" : "http://dewey.info/class/353/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50770"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/954",
+   "url" : "http://open-data.europa.eu/en/data/dataset/corporate-body"
+}

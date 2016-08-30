@@ -1,0 +1,49 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Macrothesaurus for Information Processing in the Field of Economic and Social Development",
+         "OECD Macrothesaurus",
+         "Organisation for Economic Co-operation and Development Macrothesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/149776292"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "Organisation for Economic Co-operation and Development Macrothesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "economic cooperation"
+         },
+         "uri" : "http://eurovoc.europa.eu/209"
+      },
+      {
+         "prefLabel" : {
+            "en" : "economic development"
+         },
+         "uri" : "http://eurovoc.europa.eu/427"
+      },
+      {
+         "uri" : "http://dewey.info/class/327/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/337/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/311",
+   "url" : "http://www.oecd-ilibrary.org/development/macrothesaurus-for-information-processing-in-the-field-of-economic-and-social-development_9789264162990-en"
+}

@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "NewsIndexer"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "mass media"
+         },
+         "uri" : "http://eurovoc.europa.eu/2013"
+      },
+      {
+         "uri" : "http://dewey.info/class/070/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/783",
+   "url" : "http://www.newsindexer.com/"
+}

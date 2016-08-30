@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "NosoBase Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "infectious disease"
+         },
+         "uri" : "http://eurovoc.europa.eu/1759"
+      },
+      {
+         "prefLabel" : {
+            "en" : "medical institution"
+         },
+         "uri" : "http://eurovoc.europa.eu/876"
+      },
+      {
+         "uri" : "http://dewey.info/class/616/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/423",
+   "url" : "http://nosobase.chu-lyon.fr/Base/thesaurus.html"
+}

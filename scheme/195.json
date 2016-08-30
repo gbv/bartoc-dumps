@@ -1,0 +1,69 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Thesaurus Europäischer Bildungssysteme",
+         "Thesaurus for Education Systems in Europe"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/156994070"
+      }
+   ],
+   "languages" : [
+      "cs",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "it",
+      "lt",
+      "pl",
+      "pt",
+      "mo",
+      "es",
+      "tr"
+   ],
+   "notation" : [
+      "TESE"
+   ],
+   "prefLabel" : {
+      "und" : "TESE"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "education policy"
+         },
+         "uri" : "http://eurovoc.europa.eu/2467"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Europe"
+         },
+         "uri" : "http://eurovoc.europa.eu/909"
+      },
+      {
+         "uri" : "http://dewey.info/class/379/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/940/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50309"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50770"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/195",
+   "url" : "http://eacea.ec.europa.eu/education/eurydice/tese_de.php"
+}

@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "TOP-Thesaurus",
+         "Thesaurus of Plant Features for Ecology and Evolution"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/131941908"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Thesaurus of Plant Features for Ecology and Evolution"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "botany"
+         },
+         "uri" : "http://eurovoc.europa.eu/5028"
+      },
+      {
+         "prefLabel" : {
+            "en" : "ecology"
+         },
+         "uri" : "http://eurovoc.europa.eu/632"
+      },
+      {
+         "uri" : "http://dewey.info/class/577/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/580/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1686",
+   "url" : "http://top-thesaurus.org/"
+}

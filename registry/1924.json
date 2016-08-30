@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://aristotle-metadata-registry.readthedocs.org"
+   ],
+   "prefLabel" : {
+      "en" : "Aristotle MetaData Registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1924"
+}

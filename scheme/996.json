@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "it" : [
+         "Tesauro italiano di bioetica"
+      ],
+      "und" : [
+         "Italian bioethics thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/143699479"
+      }
+   ],
+   "languages" : [
+      "it"
+   ],
+   "prefLabel" : {
+      "und" : "Italian bioethics thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "bioethics"
+         },
+         "uri" : "http://eurovoc.europa.eu/5169"
+      },
+      {
+         "uri" : "http://dewey.info/class/170/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/996",
+   "url" : "http://www.iss.it/binary/sibi/cont/thesa.1151313180.pdf"
+}

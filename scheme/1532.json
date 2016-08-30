@@ -1,0 +1,27 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "Glossary of Art Terms & Definitions"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "arts"
+         },
+         "uri" : "http://eurovoc.europa.eu/2688"
+      },
+      {
+         "uri" : "http://dewey.info/class/700/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1532",
+   "url" : "http://babel-linguistics.com/wp-content/uploads/2013/08/Glossary-Art.pdf"
+}

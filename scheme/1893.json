@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Meteorite Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "astronomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/3790"
+      },
+      {
+         "uri" : "http://dewey.info/class/523/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1893",
+   "url" : "http://www.meteorite.fr/en/classification/"
+}

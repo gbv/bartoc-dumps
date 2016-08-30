@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://code.google.com/p/hive-mrc/"
+   ],
+   "prefLabel" : {
+      "en" : "HIVE"
+   },
+   "uri" : "http://bartoc.org/en/node/1717"
+}

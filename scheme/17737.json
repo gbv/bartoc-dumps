@@ -1,0 +1,56 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "created" : "2016",
+   "languages" : [
+      "bg",
+      "hr",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "hu",
+      "it",
+      "lv",
+      "lt",
+      "mt",
+      "pl",
+      "pt",
+      "mo",
+      "sk",
+      "sl",
+      "es",
+      "sv",
+      "cy"
+   ],
+   "prefLabel" : {
+      "und" : "I•ATE"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "nutrition"
+         },
+         "uri" : "http://eurovoc.europa.eu/1268"
+      },
+      {
+         "prefLabel" : {
+            "en" : "catering industry"
+         },
+         "uri" : "http://eurovoc.europa.eu/1373"
+      },
+      {
+         "uri" : "http://dewey.info/class/641/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/17737",
+   "url" : "http://termcoord.eu/i-ate/"
+}

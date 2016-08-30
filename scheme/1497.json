@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Buzz Words and Catch Phrases",
+         "A Glossary for Our Changing World"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "A Glossary for Our Changing World"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "United States"
+         },
+         "uri" : "http://eurovoc.europa.eu/888"
+      },
+      {
+         "prefLabel" : {
+            "en" : "contemporary history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5662"
+      },
+      {
+         "uri" : "http://dewey.info/class/973/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1497",
+   "url" : "http://www.newslab.org/resources/terrorgloss.htm"
+}

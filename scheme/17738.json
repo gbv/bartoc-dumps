@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "An English-Spanish Glossary of Terminology used in Forestry, Range, Wildlife, Fishery, Soils, and Botany"
+      ],
+      "es" : [
+         "Glosario en Inglés-Espoñol de Terminología usado en Forestales, Pastizales, Fauna Silvestre, Pesquería, Suelos, y Botánica "
+      ]
+   },
+   "created" : "1988",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/134395541"
+      }
+   ],
+   "languages" : [
+      "en",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Glosario en Inglés-Espoñol de Terminología usado en Forestales, Pastizales, Fauna Silvestre, Pesquería, Suelos, y Botánica"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "agronomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/685"
+      },
+      {
+         "uri" : "http://dewey.info/class/630/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/17738",
+   "url" : "http://www.fs.fed.us/rm/pubs_rm/rm_gtr152.pdf"
+}

@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "British Columbia First Nations Subject Headings",
+         "BC First Nations Subject Headings"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "BC First Nations Subject Headings"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "indigenous population"
+         },
+         "uri" : "http://eurovoc.europa.eu/5799"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Canada"
+         },
+         "uri" : "http://eurovoc.europa.eu/5100"
+      },
+      {
+         "uri" : "http://dewey.info/class/305/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/971/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#subject_heading_scheme"
+   ],
+   "uri" : "http://bartoc.org/en/node/1003",
+   "url" : "http://xwi7xwa.library.ubc.ca/files/2011/09/bcfn.pdf"
+}

@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133287293"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q1233766"
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "it",
+      "es"
+   ],
+   "notation" : [
+      "ISCO"
+   ],
+   "prefLabel" : {
+      "en" : "International Standard Classification of Occupations"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "work"
+         },
+         "uri" : "http://eurovoc.europa.eu/4543"
+      },
+      {
+         "uri" : "http://dewey.info/class/330/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/970",
+   "url" : "http://www.ilo.org/public/english/bureau/stat/isco/"
+}

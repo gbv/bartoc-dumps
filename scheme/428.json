@@ -1,0 +1,54 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Central European Flood Risk Assessment and Management in Centrope Thesaurus",
+         "CEframe Thesaurus"
+      ]
+   },
+   "languages" : [
+      "cs",
+      "en",
+      "de",
+      "hu",
+      "sk"
+   ],
+   "prefLabel" : {
+      "en" : "CEframe Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "flood"
+         },
+         "uri" : "http://eurovoc.europa.eu/1440"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Eastern Europe"
+         },
+         "uri" : "http://eurovoc.europa.eu/914"
+      },
+      {
+         "uri" : "http://dewey.info/class/363/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/551/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/45894"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50414"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/46984"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/428",
+   "url" : "http://www.ceframe.eu/thesaurus/"
+}

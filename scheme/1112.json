@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/151784820"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Thesaurus of Development Communication"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "development aid"
+         },
+         "uri" : "http://eurovoc.europa.eu/3077"
+      },
+      {
+         "prefLabel" : {
+            "en" : "social development"
+         },
+         "uri" : "http://eurovoc.europa.eu/432"
+      },
+      {
+         "uri" : "http://dewey.info/class/303/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1112",
+   "url" : "http://eric.ed.gov/"
+}

@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Classification for orthodox church and theology"
+      ],
+      "fi" : [
+         "Ortodoksisen kirkon ja teologian hyllyluokitus"
+      ],
+      "sv" : [
+         "Klassifikation för den ortodoxa kyrkan och teologi"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126520961"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fi",
+      "sv"
+   ],
+   "prefLabel" : {
+      "en" : "Classification for orthodox church and theology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Orthodoxy"
+         },
+         "uri" : "http://eurovoc.europa.eu/5164"
+      },
+      {
+         "uri" : "http://dewey.info/class/281/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1302",
+   "url" : "http://libraryguides.helsinki.fi/c.php?g=172710&p=1281066"
+}

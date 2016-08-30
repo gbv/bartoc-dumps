@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/28356615"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/90658637"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/159353881"
+      }
+   ],
+   "languages" : [
+      "ca",
+      "en",
+      "fr",
+      "de",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Una taula dels temps geològics"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "earth sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3952"
+      },
+      {
+         "uri" : "http://dewey.info/class/550/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1008",
+   "url" : "http://cit.iec.cat/obresx.asp"
+}

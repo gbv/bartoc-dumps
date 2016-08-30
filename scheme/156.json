@@ -1,0 +1,52 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "BioPAX",
+         "Biological Pathways Exchange"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/262410463"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/130333233"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q4914639"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "Biological Pathways Exchange"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "computer systems"
+         },
+         "uri" : "http://eurovoc.europa.eu/1426"
+      },
+      {
+         "prefLabel" : {
+            "en" : "life sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3941"
+      },
+      {
+         "uri" : "http://dewey.info/class/004/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/570/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/156",
+   "url" : "http://www.biopax.org/"
+}

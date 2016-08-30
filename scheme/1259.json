@@ -1,0 +1,44 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "ISO 5138 Office Machines Vocabulary"
+      ],
+      "und" : [
+         "ISO 5138-1:1978",
+         "ISO 5138-2:1980",
+         "ISO 5138-3:1981",
+         "ISO 5138-4:1981"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/149705257"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "und" : "ISO 5138-4:1981"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "office equipment"
+         },
+         "uri" : "http://eurovoc.europa.eu/1720"
+      },
+      {
+         "uri" : "http://dewey.info/class/651/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1259",
+   "url" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm"
+}

@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "American Society of Anesthesiologists Physical Status Classification System"
+      ],
+      "und" : [
+         "ASA Physical Status Classification System",
+         "PS Classification System",
+         "Anesthesia Physical Classification System"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/154226932"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q297199"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "Anesthesia Physical Classification System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "surgery"
+         },
+         "uri" : "http://eurovoc.europa.eu/5970"
+      },
+      {
+         "uri" : "http://dewey.info/class/613/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/617/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/968",
+   "url" : "http://www.asahq.org/resources/clinical-information/asa-physical-status-classification-system"
+}

@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fi" : [
+         "Muotoilun ja viestinnän asiasanasto",
+         "Käsi- ja taideteollisuuden asiasanasto"
+      ]
+   },
+   "languages" : [
+      "fi"
+   ],
+   "prefLabel" : {
+      "fi" : "Käsi- ja taideteollisuuden asiasanasto"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "mass communications"
+         },
+         "uri" : "http://eurovoc.europa.eu/29"
+      },
+      {
+         "prefLabel" : {
+            "en" : "handicrafts"
+         },
+         "uri" : "http://eurovoc.europa.eu/3619"
+      },
+      {
+         "prefLabel" : {
+            "en" : "product design"
+         },
+         "uri" : "http://eurovoc.europa.eu/71"
+      },
+      {
+         "uri" : "http://dewey.info/class/700/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/376"
+}

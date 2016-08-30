@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://openmdr.org/"
+   ],
+   "prefLabel" : {
+      "en" : "openMDR"
+   },
+   "uri" : "http://bartoc.org/en/node/1931"
+}

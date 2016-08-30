@@ -1,0 +1,52 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Deutsches Historisches Institut Warschau Bibliothekssystematik"
+      ],
+      "pl" : [
+         "Niemiecki Instytut Historyczny w Warszawie "
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/125495003"
+      }
+   ],
+   "languages" : [
+      "de",
+      "pl"
+   ],
+   "prefLabel" : {
+      "pl" : "Niemiecki Instytut Historyczny w Warszawie"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Germany"
+         },
+         "uri" : "http://eurovoc.europa.eu/1318"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Poland"
+         },
+         "uri" : "http://eurovoc.europa.eu/2543"
+      },
+      {
+         "prefLabel" : {
+            "en" : "history"
+         },
+         "uri" : "http://eurovoc.europa.eu/1245"
+      },
+      {
+         "uri" : "http://dewey.info/class/943/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1314",
+   "url" : "http://www.dhi.waw.pl/de/bibliothek/sammelprofil/systematik.html"
+}

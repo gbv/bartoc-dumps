@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Legislative Indexing Vocabulary",
+         "CRS Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/151962300"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "LIV"
+   ],
+   "prefLabel" : {
+      "en" : "CRS Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "legislation"
+         },
+         "uri" : "http://eurovoc.europa.eu/1589"
+      },
+      {
+         "prefLabel" : {
+            "en" : "public policy"
+         },
+         "uri" : "http://eurovoc.europa.eu/8466"
+      },
+      {
+         "uri" : "http://dewey.info/class/328/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/346",
+   "url" : "http://www.loc.gov/lexico/servlet/lexico"
+}

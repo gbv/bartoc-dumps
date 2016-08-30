@@ -1,0 +1,37 @@
+#!/usr/bin/env perl
+use v5.14;
+use LWP::UserAgent;
+use Catmandu -all;
+use JSON;
+
+#
+# download and store JSKOS records
+#
+
+my $api = ($ARGV[0] // '') =~ /^http/ ? shift @ARGV 
+        : 'https://jskos-php-examples.herokuapp.com/BARTOC.php';
+
+my $dir = shift @ARGV;
+-d $dir or die "please provide a target directory";
+
+my $ua = LWP::UserAgent->new( ssl_opts => { verify_hostname => 0 } );
+
+# read BARTOC IDs from STDIN
+while (<>) {
+    chomp;
+    my $url  = "$api?uri=http://bartoc.org/en/node/$_"; # TODO: use unique=1
+    my $file = "$dir/$_.json";
+    my $res= $ua->get($url);
+    if ($res->is_success) {
+        my $json = decode_json($res->decoded_content);
+        if (@$json == 1) {
+            exporter('JSON', pretty => 1, canonical => 1, array => 0, file => $file)->add_many($json);
+            say $file;
+        } else {
+            say STDERR $url . " - empty or multiple";
+        }
+    } else {        
+        say STDERR $url . " - " . $res->status_line;
+    }
+}
+

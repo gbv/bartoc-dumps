@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "UK Standard Library Categories"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4865"
+      },
+      {
+         "uri" : "http://dewey.info/class/020/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1044",
+   "url" : "http://www.bic.org.uk/51/UK-Standard-Library-Categories/"
+}

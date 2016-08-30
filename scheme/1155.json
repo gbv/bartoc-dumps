@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "PCA Cement and Concrete Thesaurus",
+         "Portland Cement Association Cement and Concrete Thesaurus",
+         "PCA-ACI Cement and Concrete Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/143728026"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "PCA-ACI Cement and Concrete Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "building materials"
+         },
+         "uri" : "http://eurovoc.europa.eu/1826"
+      },
+      {
+         "uri" : "http://dewey.info/class/553/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/624/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1155",
+   "url" : "http://www.cement.org/for-concrete-books-learning/library/pca-cement-and-concrete-thesaurus"
+}

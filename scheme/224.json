@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "International Classification of adult underweight, overweight and obesity according to BMI"
+      ],
+      "und" : [
+         "BMI Classification"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/135618969"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q131191"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "BMI Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "nutrition"
+         },
+         "uri" : "http://eurovoc.europa.eu/1268"
+      },
+      {
+         "uri" : "http://dewey.info/class/613/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/224",
+   "url" : "http://apps.who.int/bmi/index.jsp"
+}

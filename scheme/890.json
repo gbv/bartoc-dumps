@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro de Gestión"
+      ],
+      "fr" : [
+         "Thésaurus du Management",
+         "Management Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/263540684"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro de Gestión"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "management"
+         },
+         "uri" : "http://eurovoc.europa.eu/1154"
+      },
+      {
+         "uri" : "http://dewey.info/class/658/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/890",
+   "url" : "http://bibliotheque.tbs-education.fr/thesaurus/thesaurus.html"
+}

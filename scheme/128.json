@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "es"
+   ],
+   "notation" : [
+      "TELL"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro de Lengua y Literatura",
+      "und" : "TELL"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "prefLabel" : {
+            "en" : "linguistics"
+         },
+         "uri" : "http://eurovoc.europa.eu/1670"
+      },
+      {
+         "uri" : "http://dewey.info/class/400/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/800/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/128",
+   "url" : "http://doteine.uc3m.es/tesauros/lengua/index.php"
+}

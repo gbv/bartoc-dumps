@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/149705257"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "ISO 4885:1996 Ferrous Products - Heat Treatments Vocabulary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "iron product"
+         },
+         "uri" : "http://eurovoc.europa.eu/3828"
+      },
+      {
+         "uri" : "http://dewey.info/class/672/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1258",
+   "url" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm"
+}

@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/146003198"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik Geschichte"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "history"
+         },
+         "uri" : "http://eurovoc.europa.eu/1245"
+      },
+      {
+         "uri" : "http://dewey.info/class/900/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1385",
+   "url" : "http://www.ub.uni-kl.de/fileadmin/ub/pdf/Systematiken/SysGes.pdf"
+}

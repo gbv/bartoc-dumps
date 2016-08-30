@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Clasificación CONICET por áreas y tecnologías",
+         "Clasificación Centro Argentino de Información Científica y Tecnológica por áreas y tecnologías"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/141907521"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Clasificación Centro Argentino de Información Científica y Tecnológica por áreas y tecnologías"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "scientific research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2924"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/740",
+   "url" : "http://vocabularios.caicyt.gov.ar/portal/index.php?v=CNTCLS"
+}

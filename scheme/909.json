@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "fi"
+   ],
+   "prefLabel" : {
+      "fi" : "Lapponica"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "arts"
+         },
+         "uri" : "http://eurovoc.europa.eu/2688"
+      },
+      {
+         "prefLabel" : {
+            "en" : "culture"
+         },
+         "uri" : "http://eurovoc.europa.eu/317"
+      },
+      {
+         "prefLabel" : {
+            "en" : "indigenous population"
+         },
+         "uri" : "http://eurovoc.europa.eu/5799"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Lapland"
+         },
+         "uri" : "http://eurovoc.europa.eu/6249"
+      },
+      {
+         "uri" : "http://dewey.info/class/305/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/948/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/909",
+   "url" : "http://finto.fi/lapponica/fi/"
+}

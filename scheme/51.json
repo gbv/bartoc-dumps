@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "English Heritage Archaeological Sciences Thesaurus",
+         "EH Archaeological Sciences Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/145308002"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "EH Archaeological Sciences Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "archaeology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2453"
+      },
+      {
+         "uri" : "http://dewey.info/class/930/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/51",
+   "url" : "http://www.heritagedata.org/blog/vocabularies-provided/"
+}

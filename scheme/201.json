@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Thesaurus of Environmental Education Terms"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "environmental education"
+         },
+         "uri" : "http://eurovoc.europa.eu/6397"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/577/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/639/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/201",
+   "url" : "http://pdf.thepdfportal.net//"
+}

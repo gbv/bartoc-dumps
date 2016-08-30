@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.oclc.org/research/themes/data-science/termservices.html"
+   ],
+   "prefLabel" : {
+      "en" : "OCLC Terminology Services"
+   },
+   "uri" : "http://bartoc.org/en/node/1725"
+}

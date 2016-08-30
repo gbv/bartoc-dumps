@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Institut National de la Jeunesse et de l'Education Populaire Thésaurus",
+         "INJEP Thésaurus",
+         "Télémaque",
+         "Thésaurus de la jeunesse"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/157951846"
+      }
+   ],
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus de la jeunesse"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "mass education"
+         },
+         "uri" : "http://eurovoc.europa.eu/673"
+      },
+      {
+         "prefLabel" : {
+            "en" : "young person"
+         },
+         "uri" : "http://eurovoc.europa.eu/1528"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/184",
+   "url" : "http://telemaque.injep.fr/ListRecord.htm"
+}

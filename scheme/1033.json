@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Systematische Übersicht über den Katalog der Dissertationen, Programme und Broschüren",
+         "Systematik Strumpfbandkatalog für Dissertationen, Programme und Broschüren"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126192308"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik Strumpfbandkatalog für Dissertationen, Programme und Broschüren"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "scientific library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4869"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/027/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1033",
+   "url" : "http://www.ub.uni-heidelberg.de/wir/geschichte/Strumpfbandkatalog.pdf"
+}

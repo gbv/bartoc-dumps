@@ -1,0 +1,58 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Australian and New Zealand Standard Research Classification",
+         "ANZSRC"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/169026530"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q4824842"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "ANZSRC"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Australia"
+         },
+         "uri" : "http://eurovoc.europa.eu/4160"
+      },
+      {
+         "prefLabel" : {
+            "en" : "New Zealand"
+         },
+         "uri" : "http://eurovoc.europa.eu/2089"
+      },
+      {
+         "prefLabel" : {
+            "en" : "research and development"
+         },
+         "uri" : "http://eurovoc.europa.eu/5237"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/993/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/994/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/519",
+   "url" : "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1297.0"
+}

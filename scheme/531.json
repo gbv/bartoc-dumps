@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Vocabulary of Basic Terms for Cataloguing Costume"
+      ],
+      "fr" : [
+         "Vocabulaire de base pour les fichiers de costume"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/154101369"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "de"
+   ],
+   "prefLabel" : {
+      "fr" : "Vocabulaire de base pour les fichiers de costume"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "clothing"
+         },
+         "uri" : "http://eurovoc.europa.eu/4680"
+      },
+      {
+         "uri" : "http://dewey.info/class/391/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/646/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/687/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/531",
+   "url" : "http://www.collectionslink.org.uk/assets/thesaurus_icombts/vbt00e.htm"
+}

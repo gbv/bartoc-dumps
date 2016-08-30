@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "pt" : [
+         "Thesaurus Brasileiro da Educação"
+      ],
+      "und" : [
+         "Thesaurus Brased"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/140590059"
+      }
+   ],
+   "languages" : [
+      "pt"
+   ],
+   "prefLabel" : {
+      "und" : "Thesaurus Brased"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "education"
+         },
+         "uri" : "http://eurovoc.europa.eu/668"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Brazil"
+         },
+         "uri" : "http://eurovoc.europa.eu/5040"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/981/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/198",
+   "url" : "http://pergamum.inep.gov.br/pergamum/biblioteca/pesquisa_thesauro.php"
+}

@@ -1,0 +1,52 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "Thésaurus juridique belge",
+         "Universele Thesaurus Universel"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/252145714"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/11163100"
+      }
+   ],
+   "languages" : [
+      "nl",
+      "fr"
+   ],
+   "notation" : [
+      "UTU"
+   ],
+   "prefLabel" : {
+      "und" : "UTU"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "legal science"
+         },
+         "uri" : "http://eurovoc.europa.eu/3935"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Belgium"
+         },
+         "uri" : "http://eurovoc.europa.eu/4839"
+      },
+      {
+         "uri" : "http://dewey.info/class/340/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/949/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/369"
+}

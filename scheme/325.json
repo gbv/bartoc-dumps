@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "AIRS/211 LA County Taxonomy of Human Services"
+      ],
+      "fr" : [
+         "Taxonomie des services humains"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133719616"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Taxonomie des services humains"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social security"
+         },
+         "uri" : "http://eurovoc.europa.eu/4050"
+      },
+      {
+         "uri" : "http://dewey.info/class/360/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/325",
+   "url" : "http://www.211taxonomy.org/"
+}

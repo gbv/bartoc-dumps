@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.iso.org/iso/home/search.htm?qt=vocabulary&sort=rel&type=simple&published=on"
+   ],
+   "prefLabel" : {
+      "en" : "International Organization for Standardization (ISO)"
+   },
+   "uri" : "http://bartoc.org/en/node/1746"
+}

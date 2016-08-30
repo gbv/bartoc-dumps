@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Leeds University Library Classification Scheme",
+         "University of Leeds Classification of Books"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/132805884"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "University of Leeds Classification of Books"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "scientific research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2924"
+      },
+      {
+         "prefLabel" : {
+            "en" : "higher education"
+         },
+         "uri" : "http://eurovoc.europa.eu/800"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1182",
+   "url" : "https://library.leeds.ac.uk/downloads/270/download/38/library_classification_scheme"
+}

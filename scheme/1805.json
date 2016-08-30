@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Poesía Medieval Castellana"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "prefLabel" : {
+            "en" : "CastileLa Mancha"
+         },
+         "uri" : "http://eurovoc.europa.eu/3384"
+      },
+      {
+         "prefLabel" : {
+            "en" : "CastileLeon"
+         },
+         "uri" : "http://eurovoc.europa.eu/3382"
+      },
+      {
+         "prefLabel" : {
+            "en" : "medieval history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5663"
+      },
+      {
+         "uri" : "http://dewey.info/class/861/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://w3id.org/nkos/nkostype#list"
+   ],
+   "uri" : "http://bartoc.org/en/node/1805",
+   "url" : "http://vocabularios.caicyt.gov.ar/pmc/"
+}

@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "System des Real-Katalogs der Universitätsbibliothek zu Heidelberg"
+      ],
+      "und" : [
+         "Zangemeister-Signaturen"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/10006731"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "Zangemeister-Signaturen"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "scientific library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4869"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/027/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1032",
+   "url" : "http://nbn-resolving.de/urn:nbn:de:bsz:16-diglit-21531"
+}

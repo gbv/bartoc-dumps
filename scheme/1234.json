@@ -1,0 +1,48 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Canadian Race Relations Foundation Glossary of Terms",
+         "CRRF Glossary of Terms"
+      ],
+      "fr" : [
+         "Fondation canadienne des relations raciales Glossaire ",
+         "Glossaire de la FCRR"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/158226240"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Glossaire de la FCRR"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "antidiscriminatory measure"
+         },
+         "uri" : "http://eurovoc.europa.eu/3908"
+      },
+      {
+         "prefLabel" : {
+            "en" : "equal treatment"
+         },
+         "uri" : "http://eurovoc.europa.eu/688"
+      },
+      {
+         "uri" : "http://dewey.info/class/302/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1234",
+   "url" : "http://www.crr.ca/en/library-a-clearinghouse/glossary-a-terms-en-gb-1"
+}

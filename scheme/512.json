@@ -1,0 +1,61 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/312772555"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q1667423"
+   ],
+   "languages" : [
+      "zh",
+      "cs",
+      "nl",
+      "en",
+      "et",
+      "fr",
+      "de",
+      "ja",
+      "ko",
+      "pl",
+      "pt",
+      "sk",
+      "es"
+   ],
+   "notation" : [
+      "IPC"
+   ],
+   "prefLabel" : {
+      "und" : "International Patent Classification"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "patent"
+         },
+         "uri" : "http://eurovoc.europa.eu/5042"
+      },
+      {
+         "prefLabel" : {
+            "en" : "technology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4415"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/49377"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/49389"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/512",
+   "url" : "http://www.wipo.int/classifications/ipc/en/"
+}

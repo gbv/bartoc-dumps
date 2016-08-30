@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "European Committee for Homeopathy Homeopathic Thesaurus",
+         "ECH Homeopathic Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/124410489"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "de",
+      "it"
+   ],
+   "prefLabel" : {
+      "en" : "ECH Homeopathic Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "alternative medicine"
+         },
+         "uri" : "http://eurovoc.europa.eu/3289"
+      },
+      {
+         "uri" : "http://dewey.info/class/615/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1001",
+   "url" : "http://www.homeopathyeurope.org/publications/thesaurus/homeothesaurusmulti.pdf/view"
+}

@@ -1,0 +1,55 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "New Zealand Threat Classification System",
+         "NZ Threat Classification System"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/152943959"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q17055563"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "NZ Threat Classification System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "animal life"
+         },
+         "uri" : "http://eurovoc.europa.eu/972"
+      },
+      {
+         "prefLabel" : {
+            "en" : "New Zealand"
+         },
+         "uri" : "http://eurovoc.europa.eu/2089"
+      },
+      {
+         "prefLabel" : {
+            "en" : "botany"
+         },
+         "uri" : "http://eurovoc.europa.eu/5028"
+      },
+      {
+         "uri" : "http://dewey.info/class/580/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/590/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/966",
+   "url" : "http://www.doc.govt.nz/publications/conservation/nz-threat-classification-system/"
+}

@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "DIMOC Controlled Vocabulary",
+         "Defense Imagery Management Operations Center Controlled Vocabulary"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/128989241"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Defense Imagery Management Operations Center Controlled Vocabulary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "defence"
+         },
+         "uri" : "http://eurovoc.europa.eu/100173"
+      },
+      {
+         "uri" : "http://dewey.info/class/355/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/2015",
+   "url" : "http://dimoc.synaptica.net/pvs/browse.asp"
+}

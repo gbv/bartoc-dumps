@@ -1,0 +1,63 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Systematik für Bibliotheken"
+      ],
+      "und" : [
+         "SfB"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/144893230"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/149402680"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/143721423"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/152141373"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/135773066"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q2377005"
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "SfB"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "public library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4868"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/020/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/335",
+   "url" : "http://www.sfb-online.de"
+}

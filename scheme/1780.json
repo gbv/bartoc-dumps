@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/138858559"
+      }
+   ],
+   "languages" : [
+      "nl"
+   ],
+   "prefLabel" : {
+      "nl" : "Trefwoordenthesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "public library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4868"
+      },
+      {
+         "uri" : "http://dewey.info/class/027/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1780",
+   "url" : "http://www.nbdbiblion.nl/product/abonnement-trefwoordenthesaurus"
+}

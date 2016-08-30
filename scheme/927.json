@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fi" : [
+         "Kasvien suomenkieliset nimet",
+         "Kasvien suomenkieliset nimet ­-ontologia"
+      ],
+      "und" : [
+         "Kassu"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/127685171"
+      }
+   ],
+   "languages" : [
+      "fi"
+   ],
+   "prefLabel" : {
+      "fi" : "Kasvien suomenkieliset nimet ­-ontologia"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "botany"
+         },
+         "uri" : "http://eurovoc.europa.eu/5028"
+      },
+      {
+         "uri" : "http://dewey.info/class/580/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/927",
+   "url" : "http://finto.fi/kassu/fi/"
+}

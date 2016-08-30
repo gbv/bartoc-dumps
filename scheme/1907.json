@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/142544190"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Aufstellungssystematik der Landtagsbibliothek Rheinland-Pfalz"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "politics"
+         },
+         "uri" : "http://eurovoc.europa.eu/4704"
+      },
+      {
+         "uri" : "http://dewey.info/class/320/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1907",
+   "url" : "http://www.landtag.rlp.de/icc/Internet-DE/med/601/6017b063-e613-e319-1989-54286d35f8f4,11111111-1111-1111-1111-111111111111"
+}

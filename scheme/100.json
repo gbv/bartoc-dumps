@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "The Institute of Electrical and Electronics Engineers Thesaurus",
+         "IEEE Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/123926298"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "IEEE Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "electrotechnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/710"
+      },
+      {
+         "uri" : "http://dewey.info/class/537/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/100",
+   "url" : "http://www.ieee.org/publications_standards/publications/services/thesaurus_access_page.html"
+}

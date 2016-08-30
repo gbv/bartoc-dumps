@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "en" : "Klassifikation proficl@ss"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "building industry"
+         },
+         "uri" : "http://eurovoc.europa.eu/3879"
+      },
+      {
+         "prefLabel" : {
+            "en" : "industrial production"
+         },
+         "uri" : "http://eurovoc.europa.eu/2720"
+      },
+      {
+         "prefLabel" : {
+            "en" : "technology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4415"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1698",
+   "url" : "http://www.proficlass.de/front_content.php?idcat=6"
+}

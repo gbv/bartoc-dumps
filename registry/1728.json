@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://metadataregistry.org/"
+   ],
+   "prefLabel" : {
+      "en" : "Open Metadata Registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1728"
+}

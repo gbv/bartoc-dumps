@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/123150810"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Wisconsin Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "United States"
+         },
+         "uri" : "http://eurovoc.europa.eu/888"
+      },
+      {
+         "prefLabel" : {
+            "en" : "local government"
+         },
+         "uri" : "http://eurovoc.europa.eu/68"
+      },
+      {
+         "uri" : "http://dewey.info/class/320/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/977/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/46",
+   "url" : "http://www.readbag.com/wiscsaurus-badgerlink-wicv"
+}

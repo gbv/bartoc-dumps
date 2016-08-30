@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus Myobase"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "disease of the nervous system"
+         },
+         "uri" : "http://eurovoc.europa.eu/5719"
+      },
+      {
+         "uri" : "http://dewey.info/class/616/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/851",
+   "url" : "http://www.myobase.org/opac/"
+}

@@ -1,0 +1,53 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Canada Revenue Agency Controlled Subject Vocabulary"
+      ],
+      "fr" : [
+         "Vocabulaire contrôlé des sujets de l'Agence du revenu du Canada"
+      ],
+      "und" : [
+         "VCSARC",
+         "CRACSV"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/123110924"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "und" : "CRACSV"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Canada"
+         },
+         "uri" : "http://eurovoc.europa.eu/5100"
+      },
+      {
+         "prefLabel" : {
+            "en" : "tax"
+         },
+         "uri" : "http://eurovoc.europa.eu/1310"
+      },
+      {
+         "uri" : "http://dewey.info/class/336/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/971/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/309",
+   "url" : "http://www.cra-arc.gc.ca/csv_vcs/english/menu-e.html"
+}

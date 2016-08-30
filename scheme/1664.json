@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "KOS Relation-Type Vocabulary"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "information science"
+         },
+         "uri" : "http://eurovoc.europa.eu/3925"
+      },
+      {
+         "uri" : "http://dewey.info/class/020/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1664",
+   "url" : "http://wiki.dublincore.org/index.php/NKOS_Vocabularies"
+}

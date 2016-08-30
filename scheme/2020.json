@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Nature Publishing Group Subject Ontology",
+         "NPG Subject Ontology",
+         "Nature.com Subject Ontology"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/261152914"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Nature.com Subject Ontology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "scientific research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2924"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/2020",
+   "url" : "http://www.nature.com/developers/hacks/#1"
+}

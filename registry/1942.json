@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.realiter.net/"
+   ],
+   "prefLabel" : {
+      "en" : "Realiter"
+   },
+   "uri" : "http://bartoc.org/en/node/1942"
+}

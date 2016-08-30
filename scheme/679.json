@@ -1,0 +1,37 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Wolters Kluwer Deutschland Gerichtsthesaurus",
+         "WKD Gerichtsthesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/156221582"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "WKD Gerichtsthesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "jurisdiction"
+         },
+         "uri" : "http://eurovoc.europa.eu/42"
+      },
+      {
+         "uri" : "http://dewey.info/class/348/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/679",
+   "url" : "http://vocabulary.wolterskluwer.de/court.html"
+}

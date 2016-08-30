@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fr" : [
+         "EPRA Phonothèque Thésaurus",
+         "Echanges et Productions Radiophoniques Phonothèque Thésaurus"
+      ]
+   },
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Echanges et Productions Radiophoniques Phonothèque Thésaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "audiovisual document"
+         },
+         "uri" : "http://eurovoc.europa.eu/487"
+      },
+      {
+         "uri" : "http://dewey.info/class/020/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/827",
+   "url" : "http://www.asso-epra.fr/phonotheque"
+}

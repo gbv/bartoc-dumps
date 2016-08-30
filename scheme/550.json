@@ -1,0 +1,36 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "NPO"
+   ],
+   "prefLabel" : {
+      "en" : "NanoParticle Ontology for Cancer Nanotechnology Research",
+      "und" : "NPO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "cancer"
+         },
+         "uri" : "http://eurovoc.europa.eu/5104"
+      },
+      {
+         "prefLabel" : {
+            "en" : "nanotechnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/7931"
+      },
+      {
+         "uri" : "http://dewey.info/class/616/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/550",
+   "url" : "http://www.nano-ontology.org/"
+}

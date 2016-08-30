@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Illinois Researcher Information Service Keyword Thesaurus",
+         "IRIS Keyword Thesaurus"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "IRIS Keyword Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "financing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1000"
+      },
+      {
+         "prefLabel" : {
+            "en" : "research"
+         },
+         "uri" : "http://eurovoc.europa.eu/2914"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/24",
+   "url" : "http://grantforward.com/"
+}

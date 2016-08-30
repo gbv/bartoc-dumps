@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Atlas of Stellar Spectra"
+      ],
+      "und" : [
+         "MK Spectral Classification System"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/230900984"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/104697070"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/278369659"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "MK Spectral Classification System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "astronomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/3790"
+      },
+      {
+         "uri" : "http://dewey.info/class/523/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/523",
+   "url" : "http://ned.ipac.caltech.edu/level5/ASS_Atlas/frames.html"
+}

@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro de Tecnología Industrial y Ciencias Aplicadas",
+         "Tesauro de Tecnología Industrial "
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/129004047"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Tesauro de Tecnología Industrial"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "industrial production"
+         },
+         "uri" : "http://eurovoc.europa.eu/2720"
+      },
+      {
+         "prefLabel" : {
+            "en" : "natural and applied sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/100224"
+      },
+      {
+         "uri" : "http://dewey.info/class/338/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/670/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/988",
+   "url" : "http://www-biblio.inti.gov.ar/index.php"
+}

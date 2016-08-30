@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Bloom's Taxonomy",
+         "Taxonomy of Educational Objectives"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/79397188"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q1774565"
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "it",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "Taxonomy of Educational Objectives"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "learning"
+         },
+         "uri" : "http://eurovoc.europa.eu/5102"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/1766",
+   "url" : "http://www.learningandteaching.info/learning/bloomtax.htm"
+}

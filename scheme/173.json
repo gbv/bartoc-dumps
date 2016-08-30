@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "European Dictionary of Skills and Competences Thesaurus",
+         "DISCO Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/213728962"
+      }
+   ],
+   "languages" : [
+      "cs",
+      "en",
+      "fr",
+      "de",
+      "hu",
+      "it",
+      "lt",
+      "sk",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "en" : "DISCO Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "professional qualifications"
+         },
+         "uri" : "http://eurovoc.europa.eu/2868"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/173",
+   "url" : "http://disco-tools.eu/disco2_portal/"
+}

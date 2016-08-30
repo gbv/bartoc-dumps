@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.termcat.cat/ca/El_TERMCAT/Centre_De_Terminologia/"
+   ],
+   "prefLabel" : {
+      "en" : "TERMCAT"
+   },
+   "uri" : "http://bartoc.org/en/node/1747"
+}

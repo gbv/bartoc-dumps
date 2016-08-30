@@ -1,0 +1,53 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126085739"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/122365087"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/87697422"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q24577251"
+   ],
+   "languages" : [
+      "en",
+      "la"
+   ],
+   "notation" : [
+      "CRRO"
+   ],
+   "prefLabel" : {
+      "en" : "Coinage of the Roman Republic Online"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "money"
+         },
+         "uri" : "http://eurovoc.europa.eu/1969"
+      },
+      {
+         "prefLabel" : {
+            "en" : "ancient history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5661"
+      },
+      {
+         "uri" : "http://dewey.info/class/737/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/937/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list"
+   ],
+   "uri" : "http://bartoc.org/en/node/1788",
+   "url" : "http://numismatics.org/crro/"
+}

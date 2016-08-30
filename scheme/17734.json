@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/249403163"
+      }
+   ],
+   "extent" : "4,000,000 terms (2016-08).",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q3518487"
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "pt",
+      "es"
+   ],
+   "prefLabel" : {
+      "pt" : "TERMIUM Plus®"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "linguistics"
+         },
+         "uri" : "http://eurovoc.europa.eu/1670"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/17734",
+   "url" : "http://www.btb.termiumplus.gc.ca/"
+}

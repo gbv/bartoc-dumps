@@ -1,0 +1,67 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Info-Muse Classification System for Ethnology, History and Historical Archaeology Museums"
+      ],
+      "fr" : [
+         "Système de classification Info-Muse pour les musées d'ethnologie, d'histoire et d'archéologie historique"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/142942715"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Système de classification Info-Muse pour les musées d'ethnologie, d'histoire et d'archéologie historique"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "archaeology"
+         },
+         "uri" : "http://eurovoc.europa.eu/2453"
+      },
+      {
+         "prefLabel" : {
+            "en" : "museum"
+         },
+         "uri" : "http://eurovoc.europa.eu/2022"
+      },
+      {
+         "prefLabel" : {
+            "en" : "ethnology"
+         },
+         "uri" : "http://eurovoc.europa.eu/892"
+      },
+      {
+         "prefLabel" : {
+            "en" : "history"
+         },
+         "uri" : "http://eurovoc.europa.eu/1245"
+      },
+      {
+         "uri" : "http://dewey.info/class/069/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/301/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/900/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/930/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/894",
+   "url" : "http://www.smq.qc.ca/publicsspec/guidesel/doccoll/en/classificationethno/"
+}

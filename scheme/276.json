@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Stockholm International Peace Research Institute Library Thesaurus",
+         "SIPRI Library Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/152575951"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "SIPRI Library Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "international security"
+         },
+         "uri" : "http://eurovoc.europa.eu/3450"
+      },
+      {
+         "prefLabel" : {
+            "en" : "peace"
+         },
+         "uri" : "http://eurovoc.europa.eu/6722"
+      },
+      {
+         "uri" : "http://dewey.info/class/327/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/276",
+   "url" : "http://www.sipri.org/library/thesaurus/thesaurus.html/"
+}

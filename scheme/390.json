@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Alexandria Digital Library Feature Type Thesaurus",
+         "ADL Feature Type Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133925236"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "ADL Feature Type Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "cartography"
+         },
+         "uri" : "http://eurovoc.europa.eu/5269"
+      },
+      {
+         "uri" : "http://dewey.info/class/912/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/390",
+   "url" : "http://www.usgs.gov/science/about/thesaurus-full.php"
+}

@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Thesaurus of women's terminology "
+      ],
+      "hr" : [
+         "Pojmovnik zenske terminologije"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/23928641"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/76243691"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/73782523"
+      }
+   ],
+   "languages" : [
+      "hr",
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Thesaurus of women's terminology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "woman"
+         },
+         "uri" : "http://eurovoc.europa.eu/5280"
+      },
+      {
+         "uri" : "http://dewey.info/class/305/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1764"
+}

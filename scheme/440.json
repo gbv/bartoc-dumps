@@ -1,0 +1,38 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Terminosaurus Rex",
+         "T-Rex"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/132688093"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "T-Rex"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "information science"
+         },
+         "uri" : "http://eurovoc.europa.eu/3925"
+      },
+      {
+         "uri" : "http://dewey.info/class/020/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/440",
+   "url" : "http://server02.is.uni-sb.de/trex/"
+}

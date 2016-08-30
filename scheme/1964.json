@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q7832459"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "TLP"
+   ],
+   "prefLabel" : {
+      "en" : "Traffic Light Protocol",
+      "und" : "TLP"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "data protection"
+         },
+         "uri" : "http://eurovoc.europa.eu/5181"
+      },
+      {
+         "uri" : "http://dewey.info/class/005/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1964",
+   "url" : "https://github.com/MISP/misp-taxonomies/tree/master/tlp"
+}

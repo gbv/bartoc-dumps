@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Glossary on Assisted Reproductive Technology Terminology",
+         "Glossary on ART Terminology"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/135618969"
+      }
+   ],
+   "languages" : [
+      "nl",
+      "en",
+      "ru",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "Glossary on ART Terminology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "artificial reproduction"
+         },
+         "uri" : "http://eurovoc.europa.eu/3307"
+      },
+      {
+         "uri" : "http://dewey.info/class/618/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1960",
+   "url" : "http://signsandsymptomsoftranslation.com/2015/02/11/who-infertility-glossary/"
+}

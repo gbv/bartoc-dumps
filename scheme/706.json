@@ -1,0 +1,33 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q21159923"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "TEDDY"
+   ],
+   "prefLabel" : {
+      "en" : "TErminology for the Description of DYnamics",
+      "und" : "TEDDY"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "life sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3941"
+      },
+      {
+         "uri" : "http://dewey.info/class/572/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/706",
+   "url" : "http://co.mbine.org/standards/teddy/"
+}

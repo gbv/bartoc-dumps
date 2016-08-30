@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "ANASTASIA Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "social sciences"
+         },
+         "uri" : "http://eurovoc.europa.eu/3956"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1100",
+   "url" : "http://anastasia.province.namur.be/ListRecord.htm"
+}

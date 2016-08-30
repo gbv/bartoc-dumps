@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/136700347"
+      }
+   ],
+   "languages" : [
+      "ca",
+      "en",
+      "fr",
+      "de",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Terminologia de ciències de la salut"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "health"
+         },
+         "uri" : "http://eurovoc.europa.eu/100215"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1557",
+   "url" : "http://www.termcat.cat/ca/Diccionaris_En_Linia/198"
+}

@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/159293211"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Bibliothekssystematik der Bibliothek des Studienzentrums der Finanzverwaltung und Justiz Rotenburg a.d. Fulda"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "legal science"
+         },
+         "uri" : "http://eurovoc.europa.eu/3935"
+      },
+      {
+         "prefLabel" : {
+            "en" : "public finance"
+         },
+         "uri" : "http://eurovoc.europa.eu/1018"
+      },
+      {
+         "uri" : "http://dewey.info/class/332/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/340/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1243",
+   "url" : "http://studienzentrum-rotenburg.bibliotheca-open.de/%c3%9cberuns/Bibliothekssystematik.aspx"
+}

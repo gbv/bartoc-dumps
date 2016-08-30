@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.octagonresearch.com/quantum-mdr"
+   ],
+   "prefLabel" : {
+      "en" : "Quantum MDR metadata registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1932"
+}

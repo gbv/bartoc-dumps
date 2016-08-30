@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://termcoord.eu/home/terminology-toolbox/"
+   ],
+   "prefLabel" : {
+      "en" : "Terminology Coordination"
+   },
+   "uri" : "http://bartoc.org/en/node/1735"
+}

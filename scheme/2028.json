@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.csu.edu.au/faculty/educat/sis/student-resources/lists/information-organisation-vocabularies"
+   ],
+   "prefLabel" : {
+      "en" : "Information Organisation Vocabularies"
+   },
+   "uri" : "http://bartoc.org/en/node/2028"
+}

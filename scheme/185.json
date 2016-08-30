@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Learning Activities"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "learning"
+         },
+         "uri" : "http://eurovoc.europa.eu/5102"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/185",
+   "url" : "http://vocabularyserver.com/conole/"
+}

@@ -1,0 +1,51 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fi" : [
+         "Yleinen suomalainen asiasanasto"
+      ],
+      "und" : [
+         "Finnish General Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126520961"
+      }
+   ],
+   "languages" : [
+      "fi"
+   ],
+   "notation" : [
+      "YSA"
+   ],
+   "prefLabel" : {
+      "und" : "Finnish General Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Finland"
+         },
+         "uri" : "http://eurovoc.europa.eu/1019"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/948/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/372",
+   "url" : "http://vesa.lib.helsinki.fi/ysa/"
+}

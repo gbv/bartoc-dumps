@@ -1,0 +1,29 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "zh",
+      "en",
+      "ru",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Solar System SKOS Ontology Model"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "astronomy"
+         },
+         "uri" : "http://eurovoc.europa.eu/3790"
+      },
+      {
+         "uri" : "http://dewey.info/class/520/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/682",
+   "url" : "http://vocabulary.semantic-web.at/SolarSystemSKOSOntologyModel"
+}

@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/2594700"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q1636316"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Roget's Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "language"
+         },
+         "uri" : "http://eurovoc.europa.eu/1580"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://w3id.org/nkos/nkostype#semantic_network"
+   ],
+   "uri" : "http://bartoc.org/en/node/1743",
+   "url" : "http://www.gutenberg.org/ebooks/10681"
+}

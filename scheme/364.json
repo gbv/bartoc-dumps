@@ -1,0 +1,58 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Australian and New Zealand Standard Industrial Classification",
+         "ANZSIC"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/169026530"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q4824846"
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "ANZSIC"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "industrial structures"
+         },
+         "uri" : "http://eurovoc.europa.eu/4303"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Australia"
+         },
+         "uri" : "http://eurovoc.europa.eu/4160"
+      },
+      {
+         "prefLabel" : {
+            "en" : "New Zealand"
+         },
+         "uri" : "http://eurovoc.europa.eu/2089"
+      },
+      {
+         "uri" : "http://dewey.info/class/338/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/993/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/994/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/364",
+   "url" : "http://www.abs.gov.au/ausstats/abs@.nsf/mf/1292.0"
+}

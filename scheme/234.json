@@ -1,0 +1,72 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Learning Resource Exchange Thesaurus",
+         "LRE Thesaurus"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126568922"
+      }
+   ],
+   "languages" : [
+      "sq",
+      "ar",
+      "ca",
+      "cs",
+      "da",
+      "nl",
+      "en",
+      "et",
+      "fi",
+      "fr",
+      "fur",
+      "de",
+      "el",
+      "he",
+      "hu",
+      "it",
+      "pl",
+      "pt",
+      "sl",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "LRE Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "educational system"
+         },
+         "uri" : "http://eurovoc.europa.eu/4357"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Europe"
+         },
+         "uri" : "http://eurovoc.europa.eu/909"
+      },
+      {
+         "uri" : "http://dewey.info/class/370/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/940/e23/"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/50309"
+      },
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/46984"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/234",
+   "url" : "http://lreforschools.eun.org/web/guest/lre-thesaurus"
+}

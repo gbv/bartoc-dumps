@@ -1,0 +1,43 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Europar Batasunaren thesaurus eleaniztuna",
+         "EuroVoc"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/141283127"
+      }
+   ],
+   "languages" : [
+      "eu"
+   ],
+   "prefLabel" : {
+      "und" : "EuroVoc"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Basque Country"
+         },
+         "uri" : "http://eurovoc.europa.eu/2289"
+      },
+      {
+         "prefLabel" : {
+            "en" : "politics"
+         },
+         "uri" : "http://eurovoc.europa.eu/4704"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1005",
+   "url" : "http://www.bizkaia.net/kultura/eurovoc/index.asp"
+}

@@ -1,0 +1,51 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "es" : [
+         "Tesauro de Política Criminal Latinoamericana"
+      ],
+      "und" : [
+         "TEPOCRILA"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/151859317"
+      }
+   ],
+   "languages" : [
+      "es"
+   ],
+   "prefLabel" : {
+      "und" : "TEPOCRILA"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "criminology"
+         },
+         "uri" : "http://eurovoc.europa.eu/307"
+      },
+      {
+         "prefLabel" : {
+            "en" : "criminal law"
+         },
+         "uri" : "http://eurovoc.europa.eu/573"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Latin America"
+         },
+         "uri" : "http://eurovoc.europa.eu/1632"
+      },
+      {
+         "uri" : "http://dewey.info/class/364/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1978",
+   "url" : "http://www.metabase.net/metarecursos/control/tesauro_criminal.pdf"
+}

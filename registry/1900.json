@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.isocat.org/"
+   ],
+   "prefLabel" : {
+      "en" : "ISOcat"
+   },
+   "uri" : "http://bartoc.org/en/node/1900"
+}

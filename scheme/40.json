@@ -1,0 +1,52 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "United Nations Educational, Scientific and Cultural Organization Thesaurus"
+      ],
+      "fr" : [
+         "UNESCO Thesaurus"
+      ]
+   },
+   "created" : "1977",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/139500314"
+      }
+   ],
+   "extent" : "4414 concepts (preferred terms) (2016-06)",
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q2467479"
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "ru",
+      "es"
+   ],
+   "license" : [
+      {
+         "uri" : "http://creativecommons.org/licenses/by-sa/3.0/"
+      }
+   ],
+   "prefLabel" : {
+      "en" : "United Nations Educational, Scientific and Cultural Organization Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "UNESCO"
+         },
+         "uri" : "http://eurovoc.europa.eu/4595"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/40",
+   "url" : "http://vocabularies.unesco.org/browser/thesaurus/en/"
+}

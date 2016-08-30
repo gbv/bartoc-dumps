@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.termsciences.fr/"
+   ],
+   "prefLabel" : {
+      "en" : "TermSciences"
+   },
+   "uri" : "http://bartoc.org/en/node/1887"
+}

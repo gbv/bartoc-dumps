@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.cendi.gov/projects/proj_terminology.html"
+   ],
+   "prefLabel" : {
+      "en" : "CENDI Agency Terminology Resources"
+   },
+   "uri" : "http://bartoc.org/en/node/1714"
+}

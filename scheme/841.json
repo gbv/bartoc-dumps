@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "fi" : [
+         "Sosiaalihuollon taloudellisten luokitusten sanasto"
+      ],
+      "und" : [
+         "Vocabulary of Economic Classifications in Social Welfare",
+         "Ordlista för ekonomiska klassifikationer inom socialvården"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/168388915"
+      }
+   ],
+   "languages" : [
+      "fi"
+   ],
+   "prefLabel" : {
+      "und" : "Ordlista för ekonomiska klassifikationer inom socialvården"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "economy"
+         },
+         "uri" : "http://eurovoc.europa.eu/637"
+      },
+      {
+         "prefLabel" : {
+            "en" : "welfare"
+         },
+         "uri" : "http://eurovoc.europa.eu/1004"
+      },
+      {
+         "uri" : "http://dewey.info/class/360/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/841",
+   "url" : "http://www.tsk.fi/tsk/fi/sosiaalihuollon_taloudellisten_luokitusten_sanasto-845.html"
+}

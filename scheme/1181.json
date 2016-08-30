@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Thesaurus Wirtschaftsverwaltung (Handwerkskammer)"
+      ],
+      "und" : [
+         "Thesaurus Handwerk",
+         "HWK-Thesaurus"
+      ]
+   },
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "HWK-Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "handicrafts"
+         },
+         "uri" : "http://eurovoc.europa.eu/3619"
+      },
+      {
+         "uri" : "http://dewey.info/class/680/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1181",
+   "url" : "http://www.physiologus.de/thes/thes-frm.htm"
+}

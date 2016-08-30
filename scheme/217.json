@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "ATMO"
+   ],
+   "prefLabel" : {
+      "en" : "African Traditional Medicine Ontology",
+      "und" : "ATMO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "medicine"
+         },
+         "uri" : "http://eurovoc.europa.eu/1852"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Africa"
+         },
+         "uri" : "http://eurovoc.europa.eu/281"
+      },
+      {
+         "uri" : "http://dewey.info/class/610/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/960/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/217",
+   "url" : "http://purl.bioontology.org/ontology/ATMO"
+}

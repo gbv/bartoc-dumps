@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "International Psychoanalytic University Bibliothekssystematik",
+         "Systematik der IPU Bibliothek"
+      ]
+   },
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "Systematik der IPU Bibliothek"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "psychoanalysis"
+         },
+         "uri" : "http://eurovoc.europa.eu/4094"
+      },
+      {
+         "uri" : "http://dewey.info/class/150/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1310",
+   "url" : "http://www.ipu-berlin.de/bibliothek/literatur/systematik.html"
+}

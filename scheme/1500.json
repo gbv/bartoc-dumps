@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Glossary of Library & Information Science"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "library"
+         },
+         "uri" : "http://eurovoc.europa.eu/4865"
+      },
+      {
+         "prefLabel" : {
+            "en" : "information science"
+         },
+         "uri" : "http://eurovoc.europa.eu/3925"
+      },
+      {
+         "uri" : "http://dewey.info/class/020/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1500",
+   "url" : "http://librarianshipstudies.blogspot.ch/2015/04/glossary-of-library-information-science.html"
+}

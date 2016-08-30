@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Kontrolliertes Vokabular für die Indexierung von Material und Technik bei der Katalogisierung von Zeichnungen, Druckgraphik und Fotografien"
+      ],
+      "und" : [
+         "Graphik-Vokabular",
+         "Graphikvokabular"
+      ]
+   },
+   "created" : "2011",
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "Graphikvokabular"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "fine arts"
+         },
+         "uri" : "http://eurovoc.europa.eu/4837"
+      },
+      {
+         "uri" : "http://dewey.info/class/741/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/760/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/779/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/2032",
+   "url" : "http://www.arthistoricum.net/netzwerke/graphik-vernetzt/kontrolliertes-vokabular/"
+}

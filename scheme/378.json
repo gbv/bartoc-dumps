@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/267681620"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fr",
+      "de",
+      "it"
+   ],
+   "notation" : [
+      "TDS"
+   ],
+   "prefLabel" : {
+      "fr" : "Thésaurus de Droit Suisse"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "legal science"
+         },
+         "uri" : "http://eurovoc.europa.eu/3935"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Switzerland"
+         },
+         "uri" : "http://eurovoc.europa.eu/4324"
+      },
+      {
+         "uri" : "http://dewey.info/class/340/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/949/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/378",
+   "url" : "http://tds.eurospider.com/TDS/"
+}

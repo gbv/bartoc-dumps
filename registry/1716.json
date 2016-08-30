@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://vocab.deri.ie/"
+   ],
+   "prefLabel" : {
+      "en" : "DERI Vocabularies"
+   },
+   "uri" : "http://bartoc.org/en/node/1716"
+}

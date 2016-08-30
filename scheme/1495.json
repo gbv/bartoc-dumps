@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Cinema Optics Terminology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "film production"
+         },
+         "uri" : "http://eurovoc.europa.eu/5183"
+      },
+      {
+         "prefLabel" : {
+            "en" : "optics"
+         },
+         "uri" : "http://eurovoc.europa.eu/3292"
+      },
+      {
+         "uri" : "http://dewey.info/class/791/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1495",
+   "url" : "http://www.cinematographydb.com/2015/04/cinema-optics-terminology/"
+}

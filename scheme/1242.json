@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/140528626"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Klassifikation Bibliothek Stadtarchiv Werne"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "archives"
+         },
+         "uri" : "http://eurovoc.europa.eu/2492"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1242",
+   "url" : "http://www.werne.de/index.php?id=429"
+}

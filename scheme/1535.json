@@ -1,0 +1,27 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "de"
+   ],
+   "prefLabel" : {
+      "en" : "Glossary of Translation & Interpreting Terms & Definitions"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "translation"
+         },
+         "uri" : "http://eurovoc.europa.eu/4478"
+      },
+      {
+         "uri" : "http://dewey.info/class/418/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1535",
+   "url" : "http://babel-linguistics.com/wp-content/uploads/2013/08/Glossary-Translation.pdf"
+}

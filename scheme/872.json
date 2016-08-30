@@ -1,0 +1,46 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Nigerian Local Government Area Geodemographic Classification System and Profiler "
+      ],
+      "und" : [
+         "NIGECS"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "NIGECS"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "demography"
+         },
+         "uri" : "http://eurovoc.europa.eu/385"
+      },
+      {
+         "prefLabel" : {
+            "en" : "geography"
+         },
+         "uri" : "http://eurovoc.europa.eu/1148"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Nigeria"
+         },
+         "uri" : "http://eurovoc.europa.eu/2058"
+      },
+      {
+         "uri" : "http://dewey.info/class/300/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/872",
+   "url" : "http://www.nigerianlgaclassification.com/"
+}

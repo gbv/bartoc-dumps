@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "JGSGB Library Classification Code",
+         "Jewish Genealogical Society of Great Britain Library Classification Code"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/134690458"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Jewish Genealogical Society of Great Britain Library Classification Code"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "Judaism"
+         },
+         "uri" : "http://eurovoc.europa.eu/1536"
+      },
+      {
+         "uri" : "http://dewey.info/class/296/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/920/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1210",
+   "url" : "http://www.jgsgb.org.uk/jgsgb-library-classification-code"
+}

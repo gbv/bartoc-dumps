@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "A Taxonomy of David Bowie’s Many Personas and Their Many Imitators"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "music"
+         },
+         "uri" : "http://eurovoc.europa.eu/2023"
+      },
+      {
+         "uri" : "http://dewey.info/class/782/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/1905",
+   "url" : "http://www.vulture.com/2015/12/david-bowie-personas-imitators.html"
+}

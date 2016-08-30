@@ -1,0 +1,30 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "notation" : [
+      "IVOAT"
+   ],
+   "prefLabel" : {
+      "en" : "International Virtual Observatory Alliance Thesaurus",
+      "und" : "IVOAT"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "space science"
+         },
+         "uri" : "http://eurovoc.europa.eu/6382"
+      },
+      {
+         "uri" : "http://dewey.info/class/520/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/381",
+   "url" : "http://www.ivoa.net/rdf/Vocabularies/vocabularies-20091007/IVOAT/"
+}

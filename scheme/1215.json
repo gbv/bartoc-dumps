@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Arbeitsstelle Studium und Beruf Bibliothekssystematik"
+      ],
+      "und" : [
+         "AStuB Bibliothekssystematik"
+      ]
+   },
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "AStuB Bibliothekssystematik"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "labour market"
+         },
+         "uri" : "http://eurovoc.europa.eu/1802"
+      },
+      {
+         "prefLabel" : {
+            "en" : "higher education"
+         },
+         "uri" : "http://eurovoc.europa.eu/800"
+      },
+      {
+         "uri" : "http://dewey.info/class/378/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1215",
+   "url" : "https://www1.slm.uni-hamburg.de/astub/service/bibliothek/systematik.html"
+}

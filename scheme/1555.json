@@ -1,0 +1,42 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/154320238"
+      }
+   ],
+   "languages" : [
+      "zh",
+      "en",
+      "fr",
+      "de",
+      "hu",
+      "it",
+      "ja",
+      "pl",
+      "pt",
+      "mo",
+      "es",
+      "sv"
+   ],
+   "prefLabel" : {
+      "und" : "SilvaVoc Terminology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "forest"
+         },
+         "uri" : "http://eurovoc.europa.eu/1063"
+      },
+      {
+         "uri" : "http://dewey.info/class/634/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1555",
+   "url" : "http://www.iufro.org/science/special/silvavoc/silvaterm/query-silvaterm-database/"
+}

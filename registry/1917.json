@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "https://www.dgiwg.org/Terminology/"
+   ],
+   "prefLabel" : {
+      "en" : "DGIWG Terminology Registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1917"
+}

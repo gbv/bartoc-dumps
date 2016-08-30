@@ -1,0 +1,41 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "eu",
+      "en",
+      "fr",
+      "es"
+   ],
+   "prefLabel" : {
+      "es" : "Murallas de Pamplona Glosario"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "monument"
+         },
+         "uri" : "http://eurovoc.europa.eu/5747"
+      },
+      {
+         "prefLabel" : {
+            "en" : "defence"
+         },
+         "uri" : "http://eurovoc.europa.eu/100173"
+      },
+      {
+         "prefLabel" : {
+            "en" : "Navarre"
+         },
+         "uri" : "http://eurovoc.europa.eu/2038"
+      },
+      {
+         "uri" : "http://dewey.info/class/623/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1512",
+   "url" : "http://www.murallasdepamplona.com/glosario/"
+}

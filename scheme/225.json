@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "International Classification of Activities for Time-Use Statistics"
+      ],
+      "und" : [
+         "ICATUS"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/144904638"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "ICATUS"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "statistics"
+         },
+         "uri" : "http://eurovoc.europa.eu/4256"
+      },
+      {
+         "uri" : "http://dewey.info/class/310/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/225",
+   "url" : "http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=231&Lg=1"
+}

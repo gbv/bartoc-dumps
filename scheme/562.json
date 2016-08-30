@@ -1,0 +1,35 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Environment Ontology",
+         "EnvO"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "EnvO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "physical environment"
+         },
+         "uri" : "http://eurovoc.europa.eu/833"
+      },
+      {
+         "uri" : "http://dewey.info/class/550/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/577/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/562",
+   "url" : "http://www.environmentontology.org/"
+}

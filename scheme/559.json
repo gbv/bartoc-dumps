@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Dengue Ontology",
+         "IDODEN"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "IDODEN"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "infectious disease"
+         },
+         "uri" : "http://eurovoc.europa.eu/1759"
+      },
+      {
+         "uri" : "http://dewey.info/class/616/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/559",
+   "url" : "http://code.google.com/p/dengue-fever-ontology/"
+}

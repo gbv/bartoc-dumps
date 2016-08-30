@@ -1,0 +1,28 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Business Thesaurus"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "economy"
+         },
+         "uri" : "http://eurovoc.europa.eu/637"
+      },
+      {
+         "uri" : "http://dewey.info/class/330/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/381/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/307"
+}

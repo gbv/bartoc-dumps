@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://www.rdaregistry.info/"
+   ],
+   "prefLabel" : {
+      "en" : "RDA Registry"
+   },
+   "uri" : "http://bartoc.org/en/node/1923"
+}

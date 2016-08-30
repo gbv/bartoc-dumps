@@ -1,0 +1,10 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "identifier" : [
+      "http://plc.fis.utoronto.ca/resources/inforum/sas.htm"
+   ],
+   "prefLabel" : {
+      "en" : "Subject Analysis Systems (SAS) Collection"
+   },
+   "uri" : "http://bartoc.org/en/node/1731"
+}

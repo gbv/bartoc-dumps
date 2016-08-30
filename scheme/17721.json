@@ -1,0 +1,24 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en",
+      "es"
+   ],
+   "prefLabel" : {
+      "en" : "Glossary of Real Estate Terms in English with a Spanish Equivalent"
+   },
+   "subject" : [
+      {
+         "uri" : "http://bartoc.org/en/taxonomy/term/51169"
+      },
+      {
+         "uri" : "http://dewey.info/class/333/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/17721",
+   "url" : "http://guidetocostaricarealestate.com/christopher-howards-guide-to-real-estate-in-costa-rica/christopher-howards-guide-to-real-estate-in-costa-rica/chapter-18-reference-section/glossary-of-real-estate-terms-in-english-with-a-spanish-equivalent"
+}

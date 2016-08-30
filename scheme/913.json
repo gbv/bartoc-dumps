@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Fotografiska ontologin",
+         "The Finnish Ontology of Photography"
+      ],
+      "fi" : [
+         "Valokuvausalan ontologia"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/126520961"
+      }
+   ],
+   "languages" : [
+      "en",
+      "fi",
+      "sv"
+   ],
+   "notation" : [
+      "VALO"
+   ],
+   "prefLabel" : {
+      "en" : "The Finnish Ontology of Photography"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "visual arts"
+         },
+         "uri" : "http://eurovoc.europa.eu/4096"
+      },
+      {
+         "uri" : "http://dewey.info/class/770/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/913",
+   "url" : "http://finto.fi/valo/fi/"
+}

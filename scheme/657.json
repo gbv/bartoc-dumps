@@ -1,0 +1,26 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "COSMO Ontology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "computer systems"
+         },
+         "uri" : "http://eurovoc.europa.eu/1426"
+      },
+      {
+         "uri" : "http://dewey.info/class/004/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/657",
+   "url" : "http://www.micra.com/COSMO/"
+}

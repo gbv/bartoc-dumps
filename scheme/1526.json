@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/125180927"
+      }
+   ],
+   "languages" : [
+      "fr"
+   ],
+   "prefLabel" : {
+      "fr" : "Vocabulaire de l'Automobile"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "motor car"
+         },
+         "uri" : "http://eurovoc.europa.eu/4261"
+      },
+      {
+         "uri" : "http://dewey.info/class/620/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/1526",
+   "url" : "http://www.culturecommunication.gouv.fr/content/download/93732/841949/version/4/file/voca_2008_mots_autos_def.pdf"
+}

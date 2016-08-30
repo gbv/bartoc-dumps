@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "ar",
+      "bg",
+      "en",
+      "fi",
+      "fr",
+      "de",
+      "el",
+      "he",
+      "hu",
+      "it",
+      "la",
+      "es",
+      "tr"
+   ],
+   "prefLabel" : {
+      "und" : "EAGLE Vocabulary Material"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "petrology"
+         },
+         "uri" : "http://eurovoc.europa.eu/3294"
+      },
+      {
+         "uri" : "http://dewey.info/class/552/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#name_authority_list",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/1794",
+   "url" : "http://www.eagle-network.eu/voc/material.html"
+}

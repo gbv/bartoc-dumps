@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Sachsystematik der Rheinland-Pfälzischen Bibliographie"
+      ],
+      "und" : [
+         "RPB-Systematik"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/261468247"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "und" : "RPB-Systematik"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "document indexing"
+         },
+         "uri" : "http://eurovoc.europa.eu/1350"
+      },
+      {
+         "prefLabel" : {
+            "en" : "RhinelandPalatinate"
+         },
+         "uri" : "http://eurovoc.europa.eu/3713"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1990",
+   "url" : "http://www.rlb.de/rpb04/notation.html"
+}

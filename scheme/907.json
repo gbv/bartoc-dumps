@@ -1,0 +1,31 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133138690"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "Wildland Planning Glossary "
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "wooded area"
+         },
+         "uri" : "http://eurovoc.europa.eu/4336"
+      },
+      {
+         "uri" : "http://dewey.info/class/577/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#glossary"
+   ],
+   "uri" : "http://bartoc.org/en/node/907",
+   "url" : "http://www.treesearch.fs.fed.us/pubs/26935"
+}

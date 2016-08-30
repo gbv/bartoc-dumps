@@ -1,0 +1,39 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "A Women's Thesaurus",
+         "An Index of Language used to Describe and Locate Information by and about Women"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/127928135"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/130869039"
+      }
+   ],
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "An Index of Language used to Describe and Locate Information by and about Women"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "woman"
+         },
+         "uri" : "http://eurovoc.europa.eu/5280"
+      },
+      {
+         "uri" : "http://dewey.info/class/305/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/1760"
+}

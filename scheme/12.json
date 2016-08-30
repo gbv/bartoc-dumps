@@ -1,0 +1,36 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "en" : [
+         "Adult Community Learning Thesaurus",
+         "ACL Thesaurus",
+         "ACLearn"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "ACLearn"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "adult education"
+         },
+         "uri" : "http://eurovoc.europa.eu/674"
+      },
+      {
+         "uri" : "http://dewey.info/class/001/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/374/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/12",
+   "url" : "http://vocabularyserver.com/acl/"
+}

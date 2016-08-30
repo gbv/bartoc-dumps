@@ -1,0 +1,61 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "de" : [
+         "Fakultät für Philologie, Fachbereichsbibliothek Klassische Philologie Aufstellungssystematik",
+         "Systematik der Bibliothek des Seminars für Klassische Philologie "
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/133348453"
+      }
+   ],
+   "languages" : [
+      "de"
+   ],
+   "prefLabel" : {
+      "de" : "Systematik der Bibliothek des Seminars für Klassische Philologie"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "literature"
+         },
+         "uri" : "http://eurovoc.europa.eu/1680"
+      },
+      {
+         "prefLabel" : {
+            "en" : "linguistics"
+         },
+         "uri" : "http://eurovoc.europa.eu/1670"
+      },
+      {
+         "prefLabel" : {
+            "en" : "ancient history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5661"
+      },
+      {
+         "uri" : "http://dewey.info/class/470/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/480/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/870/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/880/e23/"
+      },
+      {
+         "uri" : "http://dewey.info/class/930/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema"
+   ],
+   "uri" : "http://bartoc.org/en/node/1220",
+   "url" : "http://www.ub.ruhr-uni-bochum.de/imperia/md/content/fachbib/philologie/systematik_klassphil.pdf"
+}

@@ -1,0 +1,40 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/135618969"
+      }
+   ],
+   "identifier" : [
+      "http://www.wikidata.org/entity/Q16948198"
+   ],
+   "languages" : [
+      "en",
+      "pt",
+      "es"
+   ],
+   "notation" : [
+      "ICECI"
+   ],
+   "prefLabel" : {
+      "en" : "International Classification of External Causes of Injury"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "trauma"
+         },
+         "uri" : "http://eurovoc.europa.eu/5939"
+      },
+      {
+         "uri" : "http://dewey.info/class/617/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#classification_schema",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/584",
+   "url" : "http://www.who.int/classifications/icd/adaptations/iceci/"
+}

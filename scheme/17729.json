@@ -1,0 +1,45 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/137918658"
+      }
+   ],
+   "languages" : [
+      "ar",
+      "zh",
+      "en",
+      "fr",
+      "de",
+      "ja",
+      "ko",
+      "pt",
+      "ru",
+      "es"
+   ],
+   "license" : [
+      {
+         "uri" : "http://creativecommons.org/licenses/by/3.0/"
+      }
+   ],
+   "prefLabel" : {
+      "pt" : "WIPO Pearl"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "patent"
+         },
+         "uri" : "http://eurovoc.europa.eu/5042"
+      },
+      {
+         "uri" : "http://dewey.info/class/600/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://bartoc.org/en/taxonomy/term/13696"
+   ],
+   "uri" : "http://bartoc.org/en/node/17729",
+   "url" : "http://www.wipo.int/reference/en/wipopearl"
+}

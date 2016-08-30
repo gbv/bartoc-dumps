@@ -1,0 +1,47 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "la" : [
+         "Thesaurus Professionum",
+         "THEPRO"
+      ]
+   },
+   "creator" : [
+      {
+         "uri" : "http://viaf.org/viaf/130877312"
+      },
+      {
+         "uri" : "http://viaf.org/viaf/130896172"
+      }
+   ],
+   "languages" : [
+      "de",
+      "la"
+   ],
+   "prefLabel" : {
+      "la" : "THEPRO"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "modern history"
+         },
+         "uri" : "http://eurovoc.europa.eu/5664"
+      },
+      {
+         "prefLabel" : {
+            "en" : "work"
+         },
+         "uri" : "http://eurovoc.europa.eu/4543"
+      },
+      {
+         "uri" : "http://dewey.info/class/929/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#thesaurus"
+   ],
+   "uri" : "http://bartoc.org/en/node/71",
+   "url" : "http://www.personalschriften.de/datenbanken/thepro.html"
+}

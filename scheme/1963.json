@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "altLabel" : {
+      "und" : [
+         "Admiralty Scale",
+         "NATO System"
+      ]
+   },
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "und" : "NATO System"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "data protection"
+         },
+         "uri" : "http://eurovoc.europa.eu/5181"
+      },
+      {
+         "uri" : "http://dewey.info/class/005/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#taxonomy"
+   ],
+   "uri" : "http://bartoc.org/en/node/1963",
+   "url" : "https://github.com/MISP/misp-taxonomies/tree/master/admiralty-scale"
+}

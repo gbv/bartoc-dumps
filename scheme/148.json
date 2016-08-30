@@ -1,0 +1,32 @@
+{
+   "@context" : "https://gbv.github.io/jskos/context.json",
+   "languages" : [
+      "en"
+   ],
+   "prefLabel" : {
+      "en" : "NIFSTD Ontology"
+   },
+   "subject" : [
+      {
+         "prefLabel" : {
+            "en" : "medicine"
+         },
+         "uri" : "http://eurovoc.europa.eu/1852"
+      },
+      {
+         "prefLabel" : {
+            "en" : "biology"
+         },
+         "uri" : "http://eurovoc.europa.eu/4921"
+      },
+      {
+         "uri" : "http://dewey.info/class/572/e23/"
+      }
+   ],
+   "type" : [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "http://w3id.org/nkos/nkostype#ontology"
+   ],
+   "uri" : "http://bartoc.org/en/node/148",
+   "url" : "https://confluence.crbs.ucsd.edu/display/NIF/Download+NIF+Ontologies"
+}
