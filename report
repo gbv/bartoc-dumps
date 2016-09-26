@@ -5,16 +5,16 @@ use List::Util;
 
 my %missing;
 foreach (qw(url license created extent creator scopeNote)) {
-    $missing{$_} = exporter('TSV', header => 0, file => "reports/no-$_.txt");
+    $missing{$_} = exporter('CSV', sep_char => "\t", header => 0, file => "reports/no-$_.txt");
 }
 
-my $labelReport = exporter('TSV', file => 'reports/labels.tsv',
+my $labelReport = exporter('CSV', sep_char => "\t",file => 'reports/labels.tsv',
     fields => 'uri,prefLabels,prefUnknown,altLabels,altLanguages,altUnknown,notations',
 );
-my $languageReport = exporter('TSV', file => 'reports/languages.tsv', fields => 'uri,language', header => 0);
+my $languageReport = exporter('CSV', sep_char => "\t", file => 'reports/languages.tsv', fields => 'uri,language', header => 0);
 
 foreach my $file (<scheme/*.json>) {
-  importer('JSON', file => $file)->each(sub {
+  importer('JSON', multiline => 1, file => $file)->each(sub {
     my $data = shift;
     my $uri = $data->{uri};
     

@@ -17,3 +17,5 @@ JKSO records from a JSKOS API, for instance:
     ./download http://localhost:8080/BARTOC.php registry < registry-ids
 
 Reports and statistics can be generated with `report` into directory `reports`.
+
+The scripts require at least Catmandu 0.9206 (libcatmandu-perl).
