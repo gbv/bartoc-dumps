@@ -1,5 +1,6 @@
 This repository contains JSKOS dumps and statistics of
-[BARTOC](http://bartoc.org/).
+[BARTOC](http://bartoc.org/) to be published at
+<https://coli-conc.gbv.de/publications/bartoc/>.
 
 The dumps are *not* based on the full downloads provided at
 <http://bartoc.org/de/download/> but on a mapping of RDFa output to JSKOS.
