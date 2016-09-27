@@ -1,0 +1,19 @@
+#!/usr/bin/env perl
+use v5.14;
+use Catmandu -all;
+
+my %combine = (
+    'registry/*.json' => 'registries.ndjson',
+    'scheme/*.json' => 'schemes.ndjson'
+);
+while (my ($glob, $file) = each %combine) {
+    my $exporter = exporter('JSON', 
+        multiline => 0, file => $file, line_delimited => 1
+    );
+    foreach (glob($glob)) {
+        $exporter->add_many(
+            importer('JSON', multiline => 1, file => $_)->to_array()
+        );    
+    }
+    say $file;
+}

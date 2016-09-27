@@ -63,10 +63,12 @@ $registryTime = min(array_map('filemtime', $registries));
     <li>
         <a href="scheme/">concept schemes in JSKOS</a>
         (<?php echo count($schemes).', last updated '.date ("Y-m-d H:i", $schemeTime); ?>)
+        <br><a href="schemes.ndjson">download all (NDJSON)</a>
     </li>
     <li>
         <a href="registry/">terminology registries in JSKOS</a>
         (<?php echo count($registries).', last updated '.date ("Y-m-d H:i", $registryTime); ?>)
+        <br><a href="registries.ndjson">download all (NDJSON)</a>
     </li>
     <li><a href="reports/">data quality reports of concept schemes in JSKOS</li>
 </ul>

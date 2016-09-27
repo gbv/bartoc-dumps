@@ -18,4 +18,18 @@ JKSO records from a JSKOS API, for instance:
 
 Reports and statistics can be generated with `report` into directory `reports`.
 
+The `combine` script combines scheme and registry files into two dumps
+(`schemes.json` and `registries.json`).
+
 The scripts require at least Catmandu 0.9206 (libcatmandu-perl).
+
+To regularly run update, create a shell script such as the following to be run
+via cronjob: 
+
+    cd $location
+    ./update
+    ./download $url scheme < scheme-ids
+    ./download $url registry < registry-ids
+    ./combine
+    ./report
+
