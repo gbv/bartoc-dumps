@@ -1,4 +1,4 @@
-This repository contains JSKOS dumps and statistics of
+This repository contains scripts to create JSKOS dumps and statistics of
 [BARTOC](http://bartoc.org/) to be published at
 <https://coli-conc.gbv.de/publications/bartoc/>.
 

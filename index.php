@@ -166,9 +166,9 @@ foreach ($ids as $id) {
 ?>
       </tbody>
     </table>
-</div>
-
 <?php } // if report ?>
+
+</div>
 
     <footer class="footer">
       <div class="container">
