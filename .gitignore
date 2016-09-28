@@ -1,1 +1,5 @@
+scheme/
+registry/
+reports/
+
 *.ndjson

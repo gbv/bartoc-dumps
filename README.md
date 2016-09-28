@@ -33,3 +33,10 @@ via cronjob:
     ./combine
     ./report
 
+To ensure proper Mime types for JSON and NDJSON files it makes sense to
+configure your Webserver, for instance like this:
+
+    AddDefaultCharset utf-8
+    AddType 'application/json; charset=UTF-8' .json
+    AddType 'application/x-ndjson; charset=UTF-8' .ndjson
+
