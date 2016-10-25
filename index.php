@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
 			<span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">coli-conc</a>
+          <a class="navbar-brand" href="../../">coli-conc</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -51,6 +51,8 @@
   <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC Zero</a>.
 </p>
 <?php
+
+$prefLang = @$_GET['lang'] or "en";
 
 $schemes = glob('scheme/*.json');
 $registries = glob('registry/*.json');
@@ -124,13 +126,13 @@ foreach ($ids as $id) {
     echo "<tr>";
     echo "<td><a href='http://bartoc.org/en/node/$id'>$id</a></td>";
     $json = json_decode(file_get_contents("scheme/$id.json"));
-    echo "<td>" . $json->notation[0] . "</td>";
+    echo "<td>" . (isset($json->notation) ? $json->notation[0] : ""). "</td>";
     echo "<td>";
-    $label = $json->prefLabel->en;
+    $label = isset($json->prefLabel->{$prefLang}) ? $json->prefLabel->{$prefLang} : null;
     if ($label) {
         echo htmlspecialchars($label);
     } else {
-        $label = $json->prefLabel->und;
+        $label = isset($json->prefLabel->und) ? $json->prefLabel->und : null;
         $lang = "und";
         if (!$label) {
             $lang = array_keys(get_object_vars($json->prefLabel))[0];
@@ -140,14 +142,14 @@ foreach ($ids as $id) {
             echo "<i>".htmlspecialchars($label)."</i>";
             if ($lang == "und") {
                 echo "<sup class='text-warning'> $lang</sup>";
-            } else if ($lang != 'en') {
+            } else if ($lang != $prefLang) {
                 echo "<sup> $lang</sup>";
             }
         }
     }
     echo "<td>" . $json->created . "</td>";
     echo "<td>";
-    if ($json->license && count($json->license)) {
+    if (isset($json->license) && count($json->license)) {
         $license = $json->license[0]->uri;
         echo "<a href='$license'>".$licenses[$license]."</a>";
     }
