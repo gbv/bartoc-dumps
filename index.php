@@ -88,9 +88,26 @@ $registryTime = min(array_map('filemtime', $registries));
       <a href="https://github.com/gbv/bartoc-dumps/issues">at this issue tracker</a>!
     </p>
 
-<?php if (@$_GET['report']) { ?>
+<?php if (@$_GET['report']) {
 
-    <h4>Concept schemes report <small><a href="./">hide</a></small></h4>
+# TODO: use service instead (client-side?)
+$json = json_decode(file_get_contents("licenses.json"));
+if ($json) {
+    $licenses = [];
+    foreach ($json->concepts as $concept) {
+        $licenses[$concept->uri] = $concept;
+    }
+}
+
+$show = [
+    'Concept schemes' => $schemes,
+    'Terminology registries' => $registries,
+];
+
+foreach ($show as $title => $list) {
+?>
+
+    <h4><?php echo $title; ?> report <small><a href="./">hide</a></small></h4>
     <table class="table">
       <thead>
         <tr>
@@ -105,21 +122,9 @@ $registryTime = min(array_map('filemtime', $registries));
       <tbody>
 <?php
 
-$licenses = [
-  'http://creativecommons.org/publicdomain/zero/1.0/' => 'CC0',
-  'http://creativecommons.org/licenses/by/3.0/' => 'CC BY',
-  'http://creativecommons.org/licenses/by-sa/3.0/' => 'CC BY-SA',
-  'http://creativecommons.org/licenses/by-nd/3.0/' => 'CC BY-ND',
-  'http://creativecommons.org/licenses/by-nc/3.0/' => 'CC BY-NC',
-  'http://creativecommons.org/licenses/by-nc-sa/3.0/' => 'CC BY-NC-SA',
-  'http://creativecommons.org/licenses/by-nc-nd/3.0/' => 'CC BY-ND',
-  'http://www.opendatacommons.org/licenses/odbl/' => 'ODbL',
-  'http://www.opendatacommons.org/licenses/by/1.0/' => 'ODC-By',
-  'http://www.opendatacommons.org/licenses/pddl/' => 'PDDL',
-];
 $ids = array_map(
     function ($s) { return preg_replace('/[^0-9]/','', $s); }, 
-    $schemes
+    $list
 );
 sort($ids, SORT_NUMERIC);
 foreach ($ids as $id) {
@@ -129,8 +134,13 @@ foreach ($ids as $id) {
     echo "<td>" . (isset($json->notation) ? $json->notation[0] : ""). "</td>";
     echo "<td>";
     $label = isset($json->prefLabel->{$prefLang}) ? $json->prefLabel->{$prefLang} : null;
+    $url = $json->url;
     if ($label) {
-        echo htmlspecialchars($label);
+        if ($url) {
+            echo "<a href='$url'>".htmlspecialchars($label)."</a>";
+        } else {
+            echo htmlspecialchars($label);
+        }
     } else {
         $label = isset($json->prefLabel->und) ? $json->prefLabel->und : null;
         $lang = "und";
@@ -139,7 +149,11 @@ foreach ($ids as $id) {
             $label = $json->prefLabel->{$lang};
         } 
         if ($label) {
-            echo "<i>".htmlspecialchars($label)."</i>";
+            if ($url) {
+                echo "<i><a href='$url'>".htmlspecialchars($label)."</a></i>";
+            } else {
+                echo "<i>".htmlspecialchars($label)."</i>";
+            }
             if ($lang == "und") {
                 echo "<sup class='text-warning'> $lang</sup>";
             } else if ($lang != $prefLang) {
@@ -151,7 +165,11 @@ foreach ($ids as $id) {
     echo "<td>";
     if (isset($json->license) && count($json->license)) {
         $license = $json->license[0]->uri;
-        echo "<a href='$license'>".$licenses[$license]."</a>";
+        $name = $license;
+        if ($licenses[$license] && !empty($licenses[$license]->uri)) {
+            $name = $licenses[$license]->notation[0];
+        }
+        echo "<a href='$license'>$name</a>";
     }
     echo "</td>";
     echo "<td>";
@@ -168,8 +186,12 @@ foreach ($ids as $id) {
 ?>
       </tbody>
     </table>
+<?php } // foreach ?>
 <?php } // if report ?>
 
+
+      </tbody>
+    </table>
 </div>
 
     <footer class="footer">
