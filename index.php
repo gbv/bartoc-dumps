@@ -54,24 +54,26 @@
 
 $prefLang = @$_GET['lang'] or "en";
 
-$schemes = glob('scheme/*.json');
-$registries = glob('registry/*.json');
 
-$schemeTime = min(array_map('filemtime', $schemes));
-$registryTime = min(array_map('filemtime', $registries));
+foreach (['schemes','registries'] as $what) {
+    $list[$what] = [
+        'concepts' => array_map('json_decode', explode("\n",file_get_contents("$what.ndjson"))),
+        'MTIME' => filemtime("$what.ndjson"),
+    ];
+}
 
 ?>
 <ul>
     <li>
         <a href="scheme/">concept schemes in JSKOS</a>
-        (<?php echo count($schemes).', last updated '.date ("Y-m-d H:i", $schemeTime); ?>)
+        (<?php echo count($list['schemes']['concepts']).', last updated '.date ("Y-m-d H:i", $list['schemes']['MTIME']); ?>)
         <br>
         <span class="glyphicon glyphicon-arrow-right"></span>
         <a href="schemes.ndjson">download all (NDJSON)</a>
     </li>
     <li>
         <a href="registry/">terminology registries in JSKOS</a>
-        (<?php echo count($registries).', last updated '.date ("Y-m-d H:i", $registryTime); ?>)
+        (<?php echo count($list['registries']['concepts']).', last updated '.date ("Y-m-d H:i", $list['registries']['MTIME']); ?>)
         <br>
         <span class="glyphicon glyphicon-arrow-right"></span>
         <a href="registries.ndjson">download all (NDJSON)</a>
@@ -99,15 +101,18 @@ if ($json) {
     }
 }
 
-$show = [
-    'Concept schemes' => $schemes,
-    'Terminology registries' => $registries,
-];
+foreach ($list as $type => $data) {
+    $concepts = $data['concepts'];
+    usort($concepts, function ($a, $b) { 
+        $a = preg_replace('/[^0-9]/','', $a->uri);
+        $b = preg_replace('/[^0-9]/','', $b->uri);
+        return ($a < $b) ? -1 : 1;
 
-foreach ($show as $title => $list) {
+    });
+ 
 ?>
 
-    <h4><?php echo $title; ?> report <small><a href="./">hide</a></small></h4>
+    <h4><?php echo ucfirst($type); ?> report <small><a href="./">hide</a></small></h4>
     <table class="table">
       <thead>
         <tr>
@@ -122,19 +127,14 @@ foreach ($show as $title => $list) {
       <tbody>
 <?php
 
-$ids = array_map(
-    function ($s) { return preg_replace('/[^0-9]/','', $s); }, 
-    $list
-);
-sort($ids, SORT_NUMERIC);
-foreach ($ids as $id) {
+foreach ($concepts as $jskos) {
+    $id = preg_replace('/[^0-9]/','', $jskos->uri);
     echo "<tr>";
     echo "<td><a href='http://bartoc.org/en/node/$id'>$id</a></td>";
-    $json = json_decode(file_get_contents("scheme/$id.json"));
-    echo "<td>" . (isset($json->notation) ? $json->notation[0] : ""). "</td>";
+    echo "<td>" . (isset($jskos->notation) ? $jskos->notation[0] : ""). "</td>";
     echo "<td>";
-    $label = isset($json->prefLabel->{$prefLang}) ? $json->prefLabel->{$prefLang} : null;
-    $url = $json->url;
+    $label = isset($jskos->prefLabel->{$prefLang}) ? $jskos->prefLabel->{$prefLang} : null;
+    $url = $jskos->url;
     if ($label) {
         if ($url) {
             echo "<a href='$url'>".htmlspecialchars($label)."</a>";
@@ -142,11 +142,11 @@ foreach ($ids as $id) {
             echo htmlspecialchars($label);
         }
     } else {
-        $label = isset($json->prefLabel->und) ? $json->prefLabel->und : null;
+        $label = isset($jskos->prefLabel->und) ? $jskos->prefLabel->und : null;
         $lang = "und";
         if (!$label) {
-            $lang = array_keys(get_object_vars($json->prefLabel))[0];
-            $label = $json->prefLabel->{$lang};
+            $lang = array_keys(get_object_vars($jskos->prefLabel))[0];
+            $label = $jskos->prefLabel->{$lang};
         } 
         if ($label) {
             if ($url) {
@@ -161,10 +161,10 @@ foreach ($ids as $id) {
             }
         }
     }
-    echo "<td>" . $json->created . "</td>";
+    echo "<td>" . $jskos->created . "</td>";
     echo "<td>";
-    if (isset($json->license) && count($json->license)) {
-        $license = $json->license[0]->uri;
+    if (isset($jskos->license) && count($jskos->license)) {
+        $license = $jskos->license[0]->uri;
         $name = $license;
         if ($licenses[$license] && !empty($licenses[$license]->uri)) {
             $name = $licenses[$license]->notation[0];
@@ -173,7 +173,7 @@ foreach ($ids as $id) {
     }
     echo "</td>";
     echo "<td>";
-    $wikidata = preg_grep('/^http:\/\/www.wikidata.org\/entity/',$json->identifier);
+    $wikidata = preg_grep('/^http:\/\/www.wikidata.org\/entity/',$jskos->identifier);
     if ($wikidata) {
         echo "<a href='".$wikidata[0]."'>";
         echo preg_replace('/^.+(Q[0-9]+)/','\1',$wikidata[0]);
