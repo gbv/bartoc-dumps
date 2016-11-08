@@ -11,10 +11,13 @@ The dumps are *not* based on the full downloads provided at
 * **registries/\*.json** - BARTOC registry records in JSKOS
 
 The `update` script looks for changes. The `download` script is used to collect
-JKSO records from a JSKOS API, for instance:
+JSKOS records from a JSKOS API, for instance:
 
     ./download http://localhost:8080/BARTOC.php scheme < scheme-ids
     ./download http://localhost:8080/BARTOC.php registry < registry-ids
+
+See <https://github.com/gbv/jskos-php-examples> for an implementation of a JSKOS
+API wrapping BARTOC RDFa Linked Open Data.
 
 Reports and statistics can be generated with `report` into directory `reports`.
 
