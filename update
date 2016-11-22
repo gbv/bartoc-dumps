@@ -13,6 +13,6 @@ mv all-scheme-ids scheme-ids
 
 # fetch BARTOC registries
 curl --silent http://bartoc.org/en/terminology-registries 2>&1 \
-    | grep -oP '/en/node/\d+' | sed 's/[^0-9]//g' \
+    | grep -oP '<article id="node-\d+"' | sed 's/[^0-9]//g' \
     | sort -n | uniq > registry-ids
 
