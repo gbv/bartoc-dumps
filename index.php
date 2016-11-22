@@ -44,10 +44,10 @@
       <h2>Publications</h2>
 <h3>BARTOC database dumps and reports <small><img src="cc-zero.svg"></small></h3>
 <p>
-  This page contains database dumps of 
+  This page contains database dumps of
   <a href="http://bartoc.org/">BARTOC.org</a> converted to
   <a href="https://gbv.github.io/jskos/">JSKOS format</a>.
-  All data is made available under 
+  All data is made available under
   <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC Zero</a>.
 </p>
 <?php
@@ -74,6 +74,7 @@ foreach (['schemes','registries'] as $what) {
     <li>
         <a href="registry/">terminology registries in JSKOS</a>
         (<?php echo count($list['registries']['concepts']).', last updated '.date ("Y-m-d H:i", $list['registries']['MTIME']); ?>)
+        <?php if (@$_GET['report']) echo '<a href="#registries">see table below</a>'; ?>
         <br>
         <span class="glyphicon glyphicon-arrow-right"></span>
         <a href="registries.ndjson">download all (NDJSON)</a>
@@ -84,9 +85,9 @@ foreach (['schemes','registries'] as $what) {
     </li>
 </ul>
     <p>
-      Please report error in BARTOC to the 
+      Please report error in BARTOC to the
       <a href="http://bartoc.org/en/node/1948">BARTOC editors</a> and errors in
-      the database dumps 
+      the database dumps
       <a href="https://github.com/gbv/bartoc-dumps/issues">at this issue tracker</a>!
     </p>
 
@@ -103,24 +104,29 @@ if ($json) {
 
 foreach ($list as $type => $data) {
     $concepts = $data['concepts'];
-    usort($concepts, function ($a, $b) { 
+    usort($concepts, function ($a, $b) {
         $a = preg_replace('/[^0-9]/','', $a->uri);
         $b = preg_replace('/[^0-9]/','', $b->uri);
         return ($a < $b) ? -1 : 1;
 
     });
- 
+
 ?>
 
-    <h4><?php echo ucfirst($type); ?> report <small><a href="./">hide</a></small></h4>
+    <h4 id="<?php echo $type; ?>"><?php echo ucfirst($type); ?> report <small><a href="./">hide</a></small></h4>
     <table class="table">
       <thead>
         <tr>
           <th>id</th>
           <th>notation</th>
           <th>name</th>
+<?php if ($type == "schemes") { ?>
           <th>created</th>
           <th>license</th>
+<?php } else { ?>
+          <th>type</th>
+          <th>API</th>
+<?php } ?>
           <th>Wikidata</th>
         </tr>
       </thead>
@@ -128,6 +134,8 @@ foreach ($list as $type => $data) {
 <?php
 
 foreach ($concepts as $jskos) {
+    if (empty($jskos)) continue;
+
     $id = preg_replace('/[^0-9]/','', $jskos->uri);
     echo "<tr>";
     echo "<td><a href='http://bartoc.org/en/node/$id'>$id</a></td>";
@@ -147,7 +155,7 @@ foreach ($concepts as $jskos) {
         if (!$label) {
             $lang = array_keys(get_object_vars($jskos->prefLabel))[0];
             $label = $jskos->prefLabel->{$lang};
-        } 
+        }
         if ($label) {
             if ($url) {
                 echo "<i><a href='$url'>".htmlspecialchars($label)."</a></i>";
@@ -161,17 +169,27 @@ foreach ($concepts as $jskos) {
             }
         }
     }
-    echo "<td>" . $jskos->created . "</td>";
-    echo "<td>";
-    if (isset($jskos->license) && count($jskos->license)) {
-        $license = $jskos->license[0]->uri;
-        $name = $license;
-        if ($licenses[$license] && !empty($licenses[$license]->uri)) {
-            $name = $licenses[$license]->notation[0];
+    if ($type == "schemes") {
+        echo "<td>" . $jskos->created . "</td>";
+        echo "<td>";
+        if (isset($jskos->license) && count($jskos->license)) {
+            $license = $jskos->license[0]->uri;
+            $name = $license;
+            if ($licenses[$license] && !empty($licenses[$license]->uri)) {
+                $name = $licenses[$license]->notation[0];
+            }
+            echo "<a href='$license'>$name</a>";
         }
-        echo "<a href='$license'>$name</a>";
+        echo "</td>";
+    } else {
+        $api = count($jskos->API) ? $jskos->API[0]->url : '';
+        $t = in_array("http://bartoc.org/en/taxonomy/term/51230", $jskos->type)
+            ? 'repository' : ($api ? 'service' : 'register');
+        echo "<td>$t</td>";
+        echo "<td>";
+        if ($api) echo "<a href='$api'>API</a>";
+        echo "</td>";
     }
-    echo "</td>";
     echo "<td>";
     $wikidata = preg_grep('/^http:\/\/www.wikidata.org\/entity/',$jskos->identifier);
     if ($wikidata) {
@@ -180,7 +198,6 @@ foreach ($concepts as $jskos) {
         echo "</a>";
     }
     echo "</td>";
-
     echo "</tr>\n";
 }
 ?>
