@@ -3,8 +3,8 @@ use v5.14;
 use Catmandu -all;
 
 my %combine = (
-    'registry/*.json' => 'registries.ndjson',
-    'scheme/*.json' => 'schemes.ndjson'
+    'registries/*.json' => 'registries.ndjson',
+    'schemes/*.json' => 'schemes.ndjson'
 );
 while (my ($glob, $file) = each %combine) {
     my $exporter = exporter('JSON', 

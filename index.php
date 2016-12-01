@@ -65,14 +65,14 @@ foreach (['schemes','registries'] as $what) {
 ?>
 <ul>
     <li>
-        <a href="scheme/">concept schemes in JSKOS</a>
+        <a href="schemes/">concept schemes in JSKOS</a>
         (<?php echo count($list['schemes']['concepts']).', last updated '.date ("Y-m-d H:i", $list['schemes']['MTIME']); ?>)
         <br>
         <span class="glyphicon glyphicon-arrow-right"></span>
         <a href="schemes.ndjson">download all (NDJSON)</a>
     </li>
     <li>
-        <a href="registry/">terminology registries in JSKOS</a>
+        <a href="registries/">terminology registries in JSKOS</a>
         (<?php echo count($list['registries']['concepts']).', last updated '.date ("Y-m-d H:i", $list['registries']['MTIME']); ?>)
         <?php if (@$_GET['report']) echo '<a href="#registries">see table below</a>'; ?>
         <br>

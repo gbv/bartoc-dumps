@@ -1,7 +1,0 @@
-{
-   "@context" : "https://gbv.github.io/jskos/context.json",
-   "prefLabel" : {
-      "en" : "About"
-   },
-   "uri" : "http://bartoc.org/en/node/614"
-}

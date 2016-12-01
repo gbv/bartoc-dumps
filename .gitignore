@@ -1,5 +1,5 @@
-scheme/
-registry/
+schemes/*.json
+registries/*.json
 reports/
 
 *.ndjson

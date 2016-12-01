@@ -13,8 +13,8 @@ The dumps are *not* based on the full downloads provided at
 The `update` script looks for changes. The `download` script is used to collect
 JSKOS records from a JSKOS API, for instance:
 
-    ./download http://localhost:8080/BARTOC.php scheme < scheme-ids
-    ./download http://localhost:8080/BARTOC.php registry < registry-ids
+    ./download http://localhost:8080/BARTOC.php schemes < scheme-ids
+    ./download http://localhost:8080/BARTOC.php registries < registry-ids
 
 See <https://github.com/gbv/jskos-php-examples> for an implementation of a JSKOS
 API wrapping BARTOC RDFa Linked Open Data.
@@ -22,7 +22,7 @@ API wrapping BARTOC RDFa Linked Open Data.
 Reports and statistics can be generated with `report` into directory `reports`.
 
 The `combine` script combines scheme and registry files into two dumps
-(`schemes.json` and `registries.json`).
+(`schemes.ndjson` and `registries.ndjson`).
 
 The scripts require at least Catmandu 0.9206 (libcatmandu-perl).
 
@@ -31,8 +31,8 @@ via cronjob:
 
     cd $location
     ./update
-    ./download $url scheme < scheme-ids
-    ./download $url registry < registry-ids
+    ./download $url schemes < scheme-ids
+    ./download $url registries < registry-ids
     ./combine
     ./report
 
