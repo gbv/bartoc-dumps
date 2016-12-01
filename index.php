@@ -26,29 +26,44 @@ $registryTime  = date ("Y-m-d H:i", filemtime("registries.ndjson"));
   (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC Zero</a>).
 </p>
 <p>
-<ul>
-    <li>
-        <a href="schemes/"><?=$schemeCount?> concept schemes</a>
-        (<?=$schemeTime?>)
-        <br>
-        <span class="glyphicon glyphicon-arrow-right"></span>
-        <a href="schemes.ndjson">download all (NDJSON)</a>
-    </li>
-    <li>
-    <a href="registries/"><?=$registryCount?> terminology registries</a>
-        (<?=$registryTime?>)
-        <br>
-        <span class="glyphicon glyphicon-arrow-right"></span>
-        <a href="registries.ndjson">download all (NDJSON)</a>
-    </li>
-    <li>
-        <a href="reports/">data quality reports</a> of concept schemes in JSKOS
-    </li>
-</ul>
-<p>
   Please report error in BARTOC to the
   <a href="http://bartoc.org/en/node/1948">BARTOC editors</a> and errors in
   the JSKOS downloads
   <a href="https://github.com/gbv/bartoc-dumps/issues">at this issue tracker</a>!
 </p>
+
+<h3><a href="schemes/"><?=$schemeCount?> concept schemes</a></h3>
+<p>Last update: <?=$schemeTime?></p>
+<p>
+<ul>
+    <li>
+        <span class="glyphicon glyphicon-arrow-right"></span>
+        <a href="schemes.ndjson">download all (JSKOS / NDJSON)</a>
+    </li>
+    <?php
+        if(file_exists("schemes.nt")) { 
+            echo '<li><span class="glyphicon glyphicon-arrow-right"></span> ';
+            echo "<a href='schemes.nt'>download all (RDF / NTriples)</a></li>";
+        }
+    ?>
+    <li>
+        <a href="reports/">data quality reports</a> of concept schemes in JSKOS
+    </li>
+</ul>
+
+<h3><a href="registries/"><?=$registryCount?> terminology registries</a></h3>
+<p>Last update: <?=$registryTime?></p>
+<ul>
+    <li>
+        <span class="glyphicon glyphicon-arrow-right"></span>
+        <a href="registries.ndjson">download all (JSKOS in NDJSON)</a>
+    </li>
+    <?php
+        if(file_exists("registries.nt")) {
+            echo '<li><span class="glyphicon glyphicon-arrow-right"></span> ';
+            echo "<a href='registries.nt'>download all (RDF / NTriples)</a></li>";
+        }
+    ?>
+</ul>
+
 <?php include 'footer.php'; ?>

@@ -3,3 +3,4 @@ registries/*.json
 reports/
 
 *.ndjson
+vendor/
