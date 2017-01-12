@@ -65,5 +65,9 @@ $registryTime  = date ("Y-m-d H:i", filemtime("registries.ndjson"));
         }
     ?>
 </ul>
+<p>
+  See <a href="https://doi.org/10.5281/zenodo.166717">https://doi.org/10.5281/zenodo.166717</a>
+  for a survey of terminology registries and services based on this data.
+</p>
 
 <?php include 'footer.php'; ?>
