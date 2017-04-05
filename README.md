@@ -25,9 +25,6 @@ API wrapping BARTOC RDFa Linked Open Data.
 
 Reports and statistics can be generated with `report` into directory `reports`.
 
-The `combine` script combines scheme and registry files into two dumps
-(`schemes.ndjson` and `registries.ndjson`).
-
 ## Installation
 
 First install requirements:
@@ -41,7 +38,6 @@ via cronjob:
     ./update
     php download.php schemes < scheme-ids
     php download.php registries < registry-ids
-    ./combine
     ./report
 
 To ensure proper Mime types for JSON and NDJSON files it makes sense to
