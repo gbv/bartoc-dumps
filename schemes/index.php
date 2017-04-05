@@ -78,7 +78,7 @@ foreach ($schemes as $jskos) {
         }
     }
 
-    echo "<td>" . $jskos->created . "</td>";
+    echo "<td>" . $jskos->startDate . "</td>";
     echo "<td>";
     if (isset($jskos->license) && count($jskos->license)) {
         $license = $jskos->license[0]->uri;
