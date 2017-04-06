@@ -6,9 +6,7 @@
     }
   ],
   "require": {
-    "gbv/jskos-rdf": "0.1.1",
-    "pear/Text_LanguageDetect": "dev-master",
     "ml/json-ld": "1.*",
-    "gbv/bartoc-jskos": "0.1.x"
+    "gbv/bartoc-jskos": ">= 0.1.1"
   }
 }

@@ -35,8 +35,9 @@ include '../header.php';
       <th>notation</th>
       <th>name</th>
       <th>created</th>
+      <th>creator (VIAF)</th>
       <th>license</th>
-      <th>Wikidata</th>
+      <th>extent &amp; languages</th>
     </tr>
   </thead>
   <tbody>
@@ -46,7 +47,14 @@ foreach ($schemes as $jskos) {
     $id = preg_replace('/[^0-9]/','', $jskos->uri);
     echo "<tr>";
     echo "<td><a href='?uri=http://bartoc.org/en/node/$id'>*</a></td>";
-    echo "<td><a href='http://bartoc.org/en/node/$id'>$id</a></td>";
+    echo "<td><a href='http://bartoc.org/en/node/$id'>$id</a>";
+    $wikidata = preg_grep('/^http:\/\/www.wikidata.org\/entity/',$jskos->identifier ?? []);
+    if ($wikidata) {
+        echo "<br><a href='".$wikidata[0]."'>";
+        echo preg_replace('/^.+(Q[0-9]+)/','\1',$wikidata[0]);
+        echo "</a>";
+    }
+    echo "</td>";
     echo "<td>" . (isset($jskos->notation) ? $jskos->notation[0] : ""). "</td>";
     echo "<td>";
     $label = isset($jskos->prefLabel->{$prefLang}) ? $jskos->prefLabel->{$prefLang} : null;
@@ -78,12 +86,19 @@ foreach ($schemes as $jskos) {
         }
     }
 
-    echo "<td>" . $jskos->startDate . "</td>";
+    echo "<td>". ($jskos->startDate ?? '') . "</td>";
+
     echo "<td>";
-    if (isset($jskos->license) && count($jskos->license)) {
+    echo implode(", ", array_map(function($c) {
+        $id = explode('http://viaf.org/viaf/',$c->uri)[1];
+        if ($id) return "<a href='http://viaf.org/viaf/$id'>$id</a>";
+    }, $jskos->creator ?? []));
+    echo "</td>";
+    echo "<td>";
+    if (count($jskos->license ?? [])) {
         $license = $jskos->license[0]->uri;
         $name = $license;
-        if ($licenses[$license] && !empty($licenses[$license]->uri)) {
+        if (isset($licenses[$license]) && !empty($licenses[$license]->uri)) {
             $name = $licenses[$license]->notation[0];
         }
         echo "<a href='$license'>$name</a>";
@@ -100,14 +115,16 @@ foreach ($schemes as $jskos) {
         echo "</td>";
         }
  */        
+
     echo "<td>";
-    $wikidata = preg_grep('/^http:\/\/www.wikidata.org\/entity/',$jskos->identifier);
-    if ($wikidata) {
-        echo "<a href='".$wikidata[0]."'>";
-        echo preg_replace('/^.+(Q[0-9]+)/','\1',$wikidata[0]);
-        echo "</a>";
-    }
+    $languages = implode(' ', $jskos->languages ?? []);
+    if ($languages) $languages = "<i>$languages</i>";
+    echo implode('<br>', array_filter([
+        htmlspecialchars($jskos->extent ?? ''),
+        $languages,
+    ]));
     echo "</td>";
+
     echo "</tr>\n";
 }
 ?>

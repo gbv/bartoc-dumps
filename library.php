@@ -15,7 +15,7 @@ function read_ndjson_file($file) {
 
 # TODO: use service instead (client-side?)
 function get_licenses($file) {
-    $json = json_decode(file_get_contents);
+    $json = json_decode(file_get_contents($file));
     $licenses = [];
     foreach ($json->concepts as $concept) {
         $licenses[$concept->uri] = $concept;
