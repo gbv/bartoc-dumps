@@ -3,7 +3,7 @@
 set -e
 
 # fetch BARTOC recent changes and extract KOS IDs
-curl --silent http://bartoc.org/en/tracker 2>&1 \
+curl --silent https://bartoc.org/en/tracker 2>&1 \
     | grep -oP '/en/node/\d+' | sed 's/[^0-9]//g' \
     | sort -n | uniq > tracked-scheme-ids
 
@@ -12,7 +12,7 @@ cat scheme-ids tracked-scheme-ids | sort -n | uniq > all-scheme-ids
 mv all-scheme-ids scheme-ids
 
 # fetch BARTOC registries
-curl --silent http://bartoc.org/en/terminology-registries 2>&1 \
+curl --silent https://bartoc.org/en/terminology-registries 2>&1 \
     | grep -oP '<article id="node-\d+"' | sed 's/[^0-9]//g' \
     | sort -n | uniq > registry-ids
 
