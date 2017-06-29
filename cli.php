@@ -1,5 +1,11 @@
-<?php // Utility functions
+<?php
 
+// make sure the script is run from command line
+if (php_sapi_name() != "cli") exit;
+
+require __DIR__.'/vendor/autoload.php';
+
+// Utility functions
 function read_ndjson_file($file) {
     $ndjson = rtrim(file_get_contents($file));
     $items = array_map('json_decode', explode("\n", $ndjson));

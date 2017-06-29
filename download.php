@@ -1,10 +1,14 @@
 <?php
 
-require __DIR__.'/vendor/autoload.php';
+include 'cli.php';
 
-$dir = $argv[1] ?? '';
+if (!preg_match('/^([a-z]+)\.ndjson$/', $argv[1] ?? '', $match)) {
+    exit(1);
+}
+$dir = $match[1];
+
 if (!is_dir($dir)) {
-    die("please provide an existing target directory!\n");
+    mkdir($dir, 0777, true);
 }
 
 $ndjson = fopen("$dir.ndjson","w");
@@ -16,12 +20,14 @@ $service = new \BARTOC\JSKOS\Service();
 
 $count=0;
 
-# read BARTOC IDs from STDIN
+// read BARTOC IDs from STDIN
 while ($line = fgets(STDIN)) {
     $id = rtrim($line);
+    if (!preg_match('/^[0-9]+$/', $id)) continue;
     $uri = "http://bartoc.org/en/node/$id";
     $file = "$dir/$id.json";
 
+    // get BARTOC record via RDFa in JSKOS
     $jskos = $service->queryURI($uri);
     if ($jskos) {
         file_put_contents($file, $jskos->json());
