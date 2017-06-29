@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>coli-conc: BARTOC dumps</title>
+    <title>coli-conc<?= $TITLE ? ": $TITLE" : "" ?></title>
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?=$BASE?>/css/bootstrap-vzg.css">
@@ -34,7 +34,7 @@
             <li><a href="<?=$BASE?>/concordances/">Concordances</a></li>
             <li><a href="<?=$BASE?>/cocoda/">Cocoda prototype</a></li>
             <li class="active"><a href="../">Publications</a></li>
-			<li><a href="<?=$BASE?>/contact/">Contact</a></li>
+	        <li><a href="<?=$BASE?>/contact/">Contact</a></li>
           </ul>
         </div>
       </div>

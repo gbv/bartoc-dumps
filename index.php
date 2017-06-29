@@ -2,8 +2,8 @@
 
 include_once 'library.php';
 
+$TITLE = 'BARTOC dumps';
 $BASE = '../..';
-$MENU = 'publications';
 $SOURCES = 'https://github.com/gbv/bartoc-dumps';
 $LICENSE = '<img src="cc-zero.svg">';
 
