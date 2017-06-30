@@ -1,6 +1,6 @@
 <?php 
 
-include_once '../library.php';
+include_once '../libs.php';
 $registries = read_ndjson_file("../registries.ndjson");
 emit_jskos_if_requested($registries);
 
@@ -13,7 +13,6 @@ include '../header.php';
 
 $registryTime = date ("Y-m-d H:i", filemtime("../registries.ndjson"));
 $prefLang   = @$_GET['lang'] or "en";
-$licenses   = get_licenses("../licenses.json");
 
 ?>
 <h2><a href="../../">Publications</a></h2>

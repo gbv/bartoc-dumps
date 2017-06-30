@@ -1,6 +1,9 @@
 <?php
 
-include 'cli.php';
+// make sure the script is run from command line
+if (php_sapi_name() != "cli") exit;
+
+include 'libs.php';
 
 use \ML\JsonLD\JsonLD;
 use \ML\JsonLD\NQuads;

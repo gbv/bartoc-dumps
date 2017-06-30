@@ -1,6 +1,9 @@
 <?php
 
-include 'cli.php';
+// make sure the script is run from command line
+if (php_sapi_name() != "cli") exit;
+
+include 'libs.php';
 
 if (!preg_match('/^([a-z]+)\.ndjson$/', $argv[1] ?? '', $match)) {
     exit(1);

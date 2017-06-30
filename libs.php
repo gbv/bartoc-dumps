@@ -1,8 +1,5 @@
 <?php
 
-// make sure the script is run from command line
-if (php_sapi_name() != "cli") exit;
-
 require __DIR__.'/vendor/autoload.php';
 
 // Utility functions

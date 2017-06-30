@@ -1,6 +1,6 @@
 <?php 
 
-include_once 'library.php';
+include_once 'libs.php';
 
 $TITLE = 'BARTOC dumps';
 $BASE = '../..';

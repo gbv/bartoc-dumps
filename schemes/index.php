@@ -1,6 +1,6 @@
 <?php 
 
-include_once '../library.php';
+include_once '../libs.php';
 
 $schemes = read_ndjson_file("../schemes.ndjson");
 emit_jskos_if_requested($schemes);
