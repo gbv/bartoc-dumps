@@ -7,6 +7,6 @@
   ],
   "require": {
     "ml/json-ld": "1.*",
-    "gbv/bartoc-jskos": ">= 0.2.0"
+    "gbv/bartoc-jskos": "^0.2.1"
   }
 }

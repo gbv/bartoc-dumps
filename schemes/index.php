@@ -27,7 +27,7 @@ include '../header.php';
   <a href="http://bartoc.org/">BARTOC.org</a> until <?=$schemeTime?> and converted to JSKOS format.
 </p>
 
-<table class="table">
+<table class="table sortable">
   <thead>
     <tr>
       <th></th>

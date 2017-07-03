@@ -29,5 +29,9 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="<?=$BASE?>/js/jquery.min.js"></script>
     <script src="<?=$BASE?>/js/bootstrap.min.js"></script>
+    <script src="<?=$BASE?>/concordances/lib/tablesorter/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript">
+      $(function(){ $(".table.sortable").tablesorter({'theme':'gbv'}); });
+    </script>
   </body>
 </html>

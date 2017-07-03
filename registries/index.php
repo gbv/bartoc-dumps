@@ -27,7 +27,7 @@ $prefLang   = @$_GET['lang'] or "en";
    until <?=$registryTime?> and converted to JSKOS format.
 </p>
 
-<table class="table">
+<table class="table sortable">
   <thead>
     <tr>
       <th></th>
@@ -43,6 +43,8 @@ $prefLang   = @$_GET['lang'] or "en";
   <tbody>
 
 <?php
+
+$types = [];
 
 foreach ($registries as $jskos) {
     $id = preg_replace('/[^0-9]/','', $jskos->uri);
@@ -79,10 +81,14 @@ foreach ($registries as $jskos) {
             }
         }
     }
-
-    $api = count($jskos->API) ? $jskos->API[0]->url : '';
-    $t = in_array("http://bartoc.org/en/taxonomy/term/51230", $jskos->type)
-        ? 'repository' : ($api ? 'service' : 'register');
+    
+    $api = count($jskos->subjectOf) ? $jskos->subjectOf[0]->uri : '';
+    if (in_array("http://purl.org/dc/dcmitype/Collection", $jskos->type)) {
+        $t = $api ? 'service' : 'repository';
+    } else {
+        $t = 'registry';
+    }
+    $types[$t]++;
     echo "<td>$t</td>";
 
     $date = $jskos->startDate . '-' . $jskos->endDate;
@@ -106,5 +112,17 @@ foreach ($registries as $jskos) {
 
   </tbody>
 </table>
+
+<p>
+Summary (see also <a href="https://doi.org/10.5281/zenodo.166717">https://doi.org/10.5281/zenodo.166717</a>):
+
+<ul>
+<li><?=$types['registry']?> simple terminology registries</li>
+<li><?=$types['repository']?> full terminology repositories</li>
+<li><?=$types['service']?> terminology services</li>
+</ul>
+</p>
+<p>
+</p>
 
 <?php include '../footer.php'; ?>
