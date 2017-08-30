@@ -7,6 +7,7 @@
   ],
   "require": {
     "ml/json-ld": "1.*",
-    "gbv/bartoc-jskos": "^0.2.1"
+    "gbv/bartoc-jskos": "^0.2.2",
+    "php-http/curl-client": "^1.7"
   }
 }
