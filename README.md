@@ -1,5 +1,7 @@
 # BARTOC dumps
 
+> This repository is deprecated and will not be used anymore. See http://bartoc.org/stats instead!
+
 This repository contains scripts to create JSKOS/RDF dumps and statistics of
 [BARTOC](http://bartoc.org/) to be published at
 <https://coli-conc.gbv.de/publications/bartoc/>.
